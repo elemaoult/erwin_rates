@@ -10,9 +10,86 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2021_10_21_190247) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "expertises", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "industries", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "origins", force: :cascade do |t|
+    t.datetime "date"
+    t.string "data_origin"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "people", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "location"
+    t.text "job_description"
+    t.string "mission_duration_sought"
+    t.string "experience"
+    t.integer "nb_of_previous_mission"
+    t.decimal "rating"
+    t.boolean "remote"
+    t.integer "daily_rate"
+    t.string "currency"
+    t.bigint "origin_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["origin_id"], name: "index_people_on_origin_id"
+  end
+
+  create_table "person_expertises", force: :cascade do |t|
+    t.bigint "expertise_id", null: false
+    t.bigint "person_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["expertise_id"], name: "index_person_expertises_on_expertise_id"
+    t.index ["person_id"], name: "index_person_expertises_on_person_id"
+  end
+
+  create_table "person_industries", force: :cascade do |t|
+    t.bigint "industry_id", null: false
+    t.bigint "person_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["industry_id"], name: "index_person_industries_on_industry_id"
+    t.index ["person_id"], name: "index_person_industries_on_person_id"
+  end
+
+  create_table "person_technologies", force: :cascade do |t|
+    t.bigint "technology_id", null: false
+    t.bigint "person_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["person_id"], name: "index_person_technologies_on_person_id"
+    t.index ["technology_id"], name: "index_person_technologies_on_technology_id"
+  end
+
+  create_table "technologies", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  add_foreign_key "people", "origins"
+  add_foreign_key "person_expertises", "expertises"
+  add_foreign_key "person_expertises", "people"
+  add_foreign_key "person_industries", "industries"
+  add_foreign_key "person_industries", "people"
+  add_foreign_key "person_technologies", "people"
+  add_foreign_key "person_technologies", "technologies"
 end
