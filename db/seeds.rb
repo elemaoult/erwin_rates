@@ -8,25 +8,29 @@
 
 require 'faker'
 
+Freelancer.all.each do |f|
+    f.destroy unless f.source.seed_valid?
+end
+
 puts 'Parsing time, please wait...'
-origin_seed = Origin.create(
+sources_seed = Source.create!(
     date: Time.now,
-    data_origin: ("Faker"),
+    data_source: ("Faker"),
     seed_valid: false
 )
 
-if People.origin.seed_valid = false
-    People.destroy
-end
+# Freelancer.from_seed.destroy_all
+
+
 puts 'Done!'
 
 puts 'Creating 50 fake persons...'
 50.times do
-  persons_feeding = People.create(
+  $freelancers_feeding = Freelancer.create!(
     first_name:     Faker::Name.first_name,
     last_name:      Faker::Name.last_name,
     location:       Faker::Address.city,
-    job_desciption: Faker::Job.title,
+    job_description: Faker::Job.title,
     mission_duration_sought: Faker::Job.employment_type,
     experience:     Faker::Job.seniority,
     nb_of_previous_mission: rand(10..99),
@@ -34,42 +38,41 @@ puts 'Creating 50 fake persons...'
     remote:         [true, false].sample,
     daily_rate:     rand(300..900),
     currency:       ["EUR", "USD", "GBP", "SEK", "CHF", "DKK"].sample,
-    origin_id:      origin_seed.id
+    source_id:      sources_seed.id
   )
 end
 puts 'Done!'
 
 puts 'Database strengthen processes...'
-expertises_feeding = Expertises.create(
-    name:           Faker::Job.field,
-    category:       Faker::Job.position
-)
+expertises_feeding = Expertise.create!(
+    name:           Faker::Job.field
+    )
 
-industries_feeding = Industries.create(
+industries_feeding = Industry.create!(
     name:           Faker::IndustrySegments.sector
 )
 
-technologies_feeding = Technologies.create(
+technologies_feeding = Technology.create(
     name:           Faker::Computer.stack
 )
 
-persons_exp_feeding = Persons_Expertise.create(
-    person_id: persons_feeding.id,
+persons_exp_feeding = FreelancerExpertise.create(
+    freelancer_id: $freelancers_feeding.id,
     expertise_id: expertises_feeding.id
 )
 
-persons_ind_feeding = Persons_industries.create(
-    person_id: persons_feeding.id,
+persons_ind_feeding = FreelancerIndustry.create(
+    freelancer_id: $freelancers_feeding.id,
     industry_id: industries_feeding.id
 )
 
-persons_tec_feeding = Persons_technologies.create(
-    person_id: persons_feeding.id,
+persons_tec_feeding = FreelancerTechnology.create(
+    freelancer_id: $freelancers_feeding.id,
     technology_id: technologies_feeding.id
 )
 puts 'Success!'
 
-  persons = Persons.all.sample
-  persons.save!
+#   freelancers = Freelancer.all.sample
+#   freelancers.save!
 
 puts 'Finished! Enjoy your data(TM)!'
