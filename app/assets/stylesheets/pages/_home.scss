@@ -1,1 +1,11 @@
 // Specific CSS for your home-page
+
+body {
+  background-color: black;
+  color: white !important;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+}
