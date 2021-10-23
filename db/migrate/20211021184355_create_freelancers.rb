@@ -1,6 +1,6 @@
-class CreatePeople < ActiveRecord::Migration[6.0]
+class CreateFreelancers < ActiveRecord::Migration[6.0]
   def change
-    create_table :people do |t|
+    create_table :freelancers do |t|
       t.string :first_name
       t.string :last_name
       t.string :location
@@ -12,7 +12,7 @@ class CreatePeople < ActiveRecord::Migration[6.0]
       t.boolean :remote
       t.integer :daily_rate
       t.string :currency
-      t.references :origin, null: false, foreign_key: true
+      t.references :source, null: false, foreign_key: true
 
       t.timestamps
     end
