@@ -5,7 +5,46 @@ body {
   color: white !important;
 }
 
+.main-container {
+  margin:20px;
+}
+
 .top-info {
   display: flex;
   justify-content: space-between;
+  width: auto;
+}
+
+.main-image {
+  width:  50%;
+  height: auto;
+  object-fit: contain;
+  // background-size: cover;
+  // background-position: center;
+}
+
+.main-description {
+  width:  50%;
+  height: auto;
+}
+
+.middle-info {
+
+}
+
+.results-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-area {
+
+}
+
+.numeric-results {
+
+}
+
+.buttons-area {
+
 }
