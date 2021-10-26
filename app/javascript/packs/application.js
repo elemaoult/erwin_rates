@@ -26,7 +26,6 @@ require("channels")
 import "bootstrap";
 
 // script.js
-import "nes.css/css/nes.min.css";
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
