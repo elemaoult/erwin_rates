@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
     root to: 'pages#home'
 
-    get "politiquedeconfidentialite", to: 'pages#persospecs', as: 'persospecs'
+    get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
     get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
-    get "conditionsdutilisation", to: 'pages#cgu', as: 'cguspecs'
+    get "cgu", to: 'pages#cgu', as: 'cgu'
 
     #get "gestiondescookies", to: 'pages#cookiesspecs', as: 'cookiesspecs'
 
