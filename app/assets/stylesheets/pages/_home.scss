@@ -19,8 +19,6 @@ body {
   width:  50%;
   height: auto;
   object-fit: contain;
-  // background-size: cover;
-  // background-position: center;
 }
 
 .main-description {
@@ -29,7 +27,9 @@ body {
 }
 
 .middle-info {
-
+  display:flex;
+  justify-content: space-between;
+  width: auto;
 }
 
 .results-area {
@@ -42,9 +42,14 @@ body {
 }
 
 .numeric-results {
-
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
 }
 
 .buttons-area {
-
+  display:flex;
+  justify-content: space-between;
+  width: auto;
 }
