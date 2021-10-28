@@ -7,72 +7,96 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
+require 'nokogiri'
+require 'pry-byebug'
 
-Freelancer.all.each do |f|
-    f.destroy unless f.source.seed_valid?
-end
+# Freelancer.all.each do |f|
+#     f.destroy unless f.source.seed_valid?
+# end
 
-puts 'Parsing time, please wait...'
-sources_seed = Source.create!(
-    date: Time.now,
-    data_source: ("Faker"),
-    seed_valid: false
-)
+# puts 'Parsing time, please wait...'
+# sources_seed = Source.create!(
+#     date: Time.now,
+#     data_source: ("Malt"),
+#     seed_valid: true
+# )
 
-# Freelancer.from_seed.destroy_all
+# Scraping script
+url = '../public/page1_back_senior.html'
+file = File.open(url)
+doc = Nokogiri::HTML(file)
 
+tech_array = []
 
-puts 'Done!'
+doc.search('.freelance-linkable').each do |element|
+  seniority = "Senior"
+  expertise = "Backend"
+  first_name = element.search('.profile-card-header__full-name').text.strip.gsub(/\s\w+/,'')
+  location = element.search('.c-tooltip_target').first.text.strip.gsub(/Localisé\(e\) à /, '')
+  day_rate = element.search('.profile-card-price__rate').text.strip.gsub(/€\/jour/, '').to_i
+  job_title = element.search('.profile-card-body__header').text.strip
+  remote_base = element.css('.c-tooltip')[0].attributes.select{|h| h["data-js"]}["data-js"].value
+    if remote_base.include? "distance"
+      remote = true
+    else
+      remote = false
+    end
+  technologies = element.search('.m-tag_small').each do |technology|
+    tech_array << technology.text.strip
+  end
+  binding.pry
 
-puts 'Creating 50 fake persons...'
-50.times do
-  $freelancers_feeding = Freelancer.create!(
-    first_name:     Faker::Name.first_name,
-    last_name:      Faker::Name.last_name,
-    location:       Faker::Address.city,
-    job_description: Faker::Job.title,
-    mission_duration_sought: Faker::Job.employment_type,
-    experience:     Faker::Job.seniority,
-    nb_of_previous_mission: rand(10..99),
-    rating:         rand(1..5),
-    remote:         [true, false].sample,
-    daily_rate:     rand(300..900),
-    currency:       ["EUR", "USD", "GBP", "SEK", "CHF", "DKK"].sample,
-    source_id:      sources_seed.id
-  )
-end
-puts 'Done!'
+  puts 'Done!'
 
-puts 'Database strengthen processes...'
-expertises_feeding = Expertise.create!(
-    name:           Faker::Job.field
+  puts 'Creating Freelancer'
+    $freelancers_feeding = Freelancer.create!(
+      first_name:     first_name,
+      last_name:      "Anonymous",
+      location:       location,
+      job_description: job_title,
+      # mission_duration_sought: 10, #Not now
+      experience:     seniority,
+      # nb_of_previous_mission: 10, #Not now
+      # rating:         5, #Not now
+      remote:         remote,
+      daily_rate:     day_rate,
+      currency:       "EUR",
+      source_id:      sources_seed.id
     )
+  puts 'Done!'
 
-industries_feeding = Industry.create!(
-    name:           Faker::IndustrySegments.sector
-)
+  puts 'Database strengthen processes...'
+  expertises_feeding = Expertise.create!(
+      name:           expertise
+      )
 
-technologies_feeding = Technology.create(
-    name:           Faker::Computer.stack
-)
+  # industries_feeding = Industry.create!(
+  #     name:           Faker::IndustrySegments.sector #To check
+  # )
 
-persons_exp_feeding = FreelancerExpertise.create(
-    freelancer_id: $freelancers_feeding.id,
-    expertise_id: expertises_feeding.id
-)
+  technologies_feeding = Technology.create(
+      name:           tech_array #To check how to play with the array
+  )
 
-persons_ind_feeding = FreelancerIndustry.create(
-    freelancer_id: $freelancers_feeding.id,
-    industry_id: industries_feeding.id
-)
+  persons_exp_feeding = FreelancerExpertise.create(
+      freelancer_id: $freelancers_feeding.id,
+      expertise_id: expertises_feeding.id
+  )
 
-persons_tec_feeding = FreelancerTechnology.create(
-    freelancer_id: $freelancers_feeding.id,
-    technology_id: technologies_feeding.id
-)
-puts 'Success!'
+  # persons_ind_feeding = FreelancerIndustry.create(
+  #     freelancer_id: $freelancers_feeding.id,
+  #     industry_id: industries_feeding.id
+  # )
+
+  persons_tec_feeding = FreelancerTechnology.create(
+      freelancer_id: $freelancers_feeding.id,
+      technology_id: technologies_feeding.id
+  )
+  puts 'Success!'
+end
 
 #   freelancers = Freelancer.all.sample
 #   freelancers.save!
 
 puts 'Finished! Enjoy your data(TM)!'
+
