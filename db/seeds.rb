@@ -19,10 +19,10 @@ sources_seed = Source.create!(
     seed_valid: true
 )
 
-my_array = ['../public/page8_back_senior.html', '../public/page9_back_senior.html',
-        '../public/page10_back_senior.html', '../public/page11_back_senior.html', '../public/page12_back_senior.html', '../public/page13_back_senior.html',
-        '../public/page14_back_senior.html', '../public/page15_back_senior.html', '../public/page16_back_senior.html', '../public/page17_back_senior.html',
-        '../public/page18_back_senior.html']
+my_array = ['../public/Backend_intermediaire_page1.html', '../public/Backend_intermediaire_page2.html', '../public/Backend_intermediaire_page3.html', '../public/Backend_intermediaire_page4.html', '../public/Backend_intermediaire_page5.html',
+        '../public/Backend_intermediaire_page6.html', '../public/Backend_intermediaire_page7.html', '../public/Backend_intermediaire_page8.html', '../public/Backend_intermediaire_page9.html', '../public/Backend_intermediaire_page10.html',
+        '../public/Backend_intermediaire_page11.html', '../public/Backend_intermediaire_page12.html', '../public/Backend_intermediaire_page13.html', '../public/Backend_intermediaire_page14.html', '../public/Backend_intermediaire_page15.html', 
+        '../public/Backend_intermediaire_page16.html', '../public/Backend_intermediaire_page17.html', '../public/Backend_intermediaire_page18.html', '../public/Backend_intermediaire_page19.html', '../public/Backend_intermediaire_page20.html', '../public/Backend_intermediaire_page21.html']
 
 my_array.each do |my_url|
 # Scraping script
@@ -33,7 +33,7 @@ my_array.each do |my_url|
     tech_array = []
 
     doc.search('.freelance-linkable').each do |element|
-    seniority = "Senior"
+    seniority = "Intermédiaire"
     expertise = "Backend"
     first_name = element.search('.profile-card-header__full-name').text.strip.gsub(/\s\w+/,'')
     location = element.search('.c-tooltip_target').first.text.strip.gsub(/Localisé\(e\) à /, '')
@@ -118,6 +118,7 @@ my_array.each do |my_url|
 
     puts 'Success!'
     end
+    puts 'Page Done!'
 end
 #   freelancers = Freelancer.all.sample
 #   freelancers.save!
