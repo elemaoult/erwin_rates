@@ -1,4 +1,14 @@
 <div class='main-container'>
+ <style>
+        body { background-color: #30303d; color: #fff; }
+          .chartdiv {
+            width: 50%;
+            height: 500px;
+        }
+      </style>
+    <div class='chartdiv'>
+        <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
+    </div>
 
   <div class='background-div top-info'>
 
@@ -59,11 +69,6 @@
           <a class="btn btn-gradient btn-yellow" href="#">Seems Right?</a>
         </div>
       </div>
-
-      <div class='background-div buttons-area'>
-        <img src="https://docs.oracle.com/cd/E23943_01/bi.1111/b32122/img/curvedline_graph.gif" />
-      </div>
-
     </div>
 
     <div class='background-div filter-area'>
@@ -101,8 +106,5 @@
 
         </div>
     </div>
-
-
-  </div>
-
+ </div>
 </div> 
