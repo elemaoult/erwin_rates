@@ -1,14 +1,29 @@
 <div class='main-container'>
 
-  <div class='top-info'>
+  <div class='background-div top-info'>
 
     <div class='background-div main-description'>
-      <h1>Because I worth it</h1>
+      <h1  style="margin-bottom: 40px">Because I worth it</h1>
       <a class="btn btn-gradient btn-blue" href="#">Want to find out ?</a>
     </div>
 
     <div class='background-div main-image'>
       <img src="https://cdn8.openculture.com/2019/05/01214221/schrodinger-e1556772151207.png" />
+      <div>
+
+        <div class="background-technology">
+        </div>
+
+
+        <div class="background-expertise">
+        </div>
+
+
+        <div class="background-location">
+        
+        </div>
+
+      </div>
     </div>
 
   </div>
@@ -18,54 +33,73 @@
     <div class='background-div results-area'>
 
       <div class='background-div numeric-results'>
-        <p>Placeholder for numeric-results</p>
+        <div class='background-div nb-freelancers'>
+          <p>Number of freelancers</p>
+          <p>35 047</p>
+        </div>
+
+        <div class='background-div avg-day-rate'>
+          <p>Average Day Rate</p>
+          <p>653€</p>
+        </div>
+        
+        <div class='background-div avg-seniority'>
+          <p>Average Seniority</p>
+          <p>4 years</p>
+        </div>
       </div>
 
       <div class='background-div buttons-area'>
-        <div>
+
+        <div class='background-div'>
           <a class="btn btn-gradient btn-green" href="#">Export</a>
         </div>
 
-        <div>
+        <div class='background-div'>
           <a class="btn btn-gradient btn-yellow" href="#">Seems Right?</a>
         </div>
       </div>
 
       <div class='background-div buttons-area'>
         <img src="https://docs.oracle.com/cd/E23943_01/bi.1111/b32122/img/curvedline_graph.gif" />
-     </div>
+      </div>
 
     </div>
 
-
     <div class='background-divbackground-div filter-area'>
       <p>Placeholder for filter-area</p>
-      <%= form_tag filter_path do %>
-        <div class="col mb-3">
-          <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
-          class: "form-control") %>
-        </div>
+      <div class='background-div filter-area'>
+        <div class='background-div filter-element'>
+          <h2>Placeholder for filter-area</h2>
+          <%= form_tag filter_path do %>
+            <div class="col mb-3">
+              <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
+              class: "form-control") %>
+            </div>
 
-        <div class="col mb-3">
-          <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
-          class: "form-control") %>
-        </div>
-        
-        <div class="col mb-3">
-          <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
-          class: "form-control") %>
-        </div>
+            <div class="col mb-3">
+              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
+              class: "form-control") %>
+            </div>
 
-        <div class="col mb-3">
-          <%= text_field_tag :location,
-              params[:location],
-        class: "form-control ui-autocomplete-input",
-        placeholder: "Where?",
-        class: "btn btn-success" %>
+            <div class="col mb-3">
+              <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
+              class: "form-control") %>
+            </div>
+
+            <div class="col mb-3">
+              <%= text_field_tag :location,
+                  params[:location],
+            class: "form-control ui-autocomplete-input",
+            placeholder: "Where?",
+            class: "btn btn-success" %>
+            </div>
+
+          <%= submit_tag "become someone now!", class: "btn btn-success" %>
+          <% end %>
+
+
         </div>
-      
-      <%= submit_tag "become someone now!", class: "btn btn-success" %>
-      <% end %>
     </div>
 
 

@@ -1,0 +1,4 @@
+<%= link_to "Delete #{@freelancer.name}",
+            freelancer_path(@freelancer),
+            method: :delete,
+            data: { confirm: "Are you sure?" } %>
