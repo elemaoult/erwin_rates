@@ -37,9 +37,37 @@
 
     </div>
 
+
     <div class='background-divbackground-div filter-area'>
       <p>Placeholder for filter-area</p>
+      <%= form_tag filter_path do %>
+        <div class="col mb-3">
+          <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
+          class: "form-control") %>
+        </div>
+
+        <div class="col mb-3">
+          <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
+          class: "form-control") %>
+        </div>
+        
+        <div class="col mb-3">
+          <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
+          class: "form-control") %>
+        </div>
+
+        <div class="col mb-3">
+          <%= text_field_tag :location,
+              params[:location],
+        class: "form-control ui-autocomplete-input",
+        placeholder: "Where?",
+        class: "btn btn-success" %>
+        </div>
+      
+      <%= submit_tag "become someone now!", class: "btn btn-success" %>
+      <% end %>
     </div>
+
 
   </div>
 

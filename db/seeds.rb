@@ -95,8 +95,5 @@ doc.search('.freelance-linkable').each do |element|
   puts 'Success!'
 end
 
-#   freelancers = Freelancer.all.sample
-#   freelancers.save!
-
 puts 'Finished! Enjoy your data(TM)!'
 

@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   resources :freelancer_technologies, only: [:new, :create]
   resources :freelancer_expertises,   only: [:new, :create]
   resources :freelancer_industries,   only: [:new, :create]
+
+  post 'filter', to: 'freelancers#filter'
 end
