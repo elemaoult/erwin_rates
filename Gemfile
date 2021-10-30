@@ -38,6 +38,9 @@ gem "parity"
 gem 'pundit'
 gem 'devise'
 
+gem 'rails_admin', '~> 2.0'
+gem 'blazer'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
