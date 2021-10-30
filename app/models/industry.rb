@@ -1,3 +1,3 @@
 class Industry < ApplicationRecord
-  has_many :person_industries
+  has_many :freelancer_industries
 end

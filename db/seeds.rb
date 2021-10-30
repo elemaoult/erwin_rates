@@ -154,4 +154,5 @@ my_array.each do |my_url|
     end
     puts 'Page Done!'
 end
+
 puts 'Finished! Enjoy your data(TM)!'
