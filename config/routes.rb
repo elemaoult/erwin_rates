@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
   # get 'freelancer_industries/freelancer_technologies'
   # get 'freelancer_industries/freelancer_expertises'
@@ -19,4 +20,8 @@ Rails.application.routes.draw do
   resources :freelancer_industries,   only: [:new, :create]
 
   post 'filter', to: 'freelancers#filter'
+
+  #adding special routes to use blazer - no admin privilege require
+  mount Blazer::Engine, at: "blazer"
+
 end
