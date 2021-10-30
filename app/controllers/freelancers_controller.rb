@@ -1,4 +1,5 @@
 class FreelancersController < ApplicationController
+
   def new
     @freelancer = Freelancer.new
   end
@@ -19,4 +20,7 @@ class FreelancersController < ApplicationController
     params.require(:freelancer).permit(:first_name, :last_name, :location, :job_description, :experience, :daily_rate)
   end
 
+  def filter
+  end
+  
 end

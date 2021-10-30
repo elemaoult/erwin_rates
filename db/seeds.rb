@@ -111,17 +111,5 @@ my_array.each do |my_url|
     )
     end
 
-    # persons_ind_feeding = FreelancerIndustry.create(
-    #     freelancer_id: $freelancers_feeding.id,
-    #     industry_id: industries_feeding.id
-    # )
-
-    puts 'Success!'
-    end
-    puts 'Page Done!'
-end
-#   freelancers = Freelancer.all.sample
-#   freelancers.save!
-
 puts 'Finished! Enjoy your data(TM)!'
 
