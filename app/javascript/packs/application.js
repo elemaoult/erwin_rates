@@ -24,9 +24,11 @@ require("channels")
 
 // External imports
 import "bootstrap";
+import "@amcharts/amcharts4/core";
+import "@amcharts/amcharts4/charts";
 
 // script.js
-
+let chart = am4core.create("filter-area", am4charts.PieChart);
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
 
