@@ -24,3 +24,71 @@
 .footer .fa-heart {
   color: #D23333;
 }
+
+#menu {
+  display: inline-block;
+  vertical-align: top;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 5px 5px;
+  padding-top: 5px;
+  margin: 10px auto;
+  text-decoration: none;
+}
+
+.list-inline a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer-body {
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+.footer-navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.row {
+  align-items: center;
+  justify-content: space-around;
+  margin: 5 px auto;
+}
+
+.footer-navbar {
+  align-items: center;
+  justify-content: space-around;
+  padding: 5 px auto;
+}
+
+#footer-item {
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#footer-info {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
