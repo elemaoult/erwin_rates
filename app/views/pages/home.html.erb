@@ -49,7 +49,6 @@
 
     <div class='filter-area'>
         <div class='filter-element'>
-          <h2>Placeholder for filter-area</h2>
           <%= form_tag filter_path do %>
             <div class="col mb-3">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
