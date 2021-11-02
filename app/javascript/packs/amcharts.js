@@ -4,8 +4,6 @@ import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_dark from "@amcharts/amcharts4/themes/dark";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 
-console.log("coucou")
-
 /* Chart code */
 // Themes begin
 am4core.useTheme(am4themes_dark);
@@ -17,7 +15,7 @@ let chart = am4core.create("chartdiv", am4charts.XYChart);
 chart.scrollbarX = new am4core.Scrollbar();
 
 
-fetch("http://localhost:3000/freelancer_expertises_data", {method: 'POST'})
+fetch("/freelancer_expertises_data", {method: 'POST'})
 .then(response => response.text())
 .then((data) => {
   const resultArray = Array.from(JSON.parse(data)["result"])
