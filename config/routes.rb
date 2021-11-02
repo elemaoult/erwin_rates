@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # get 'freelancer_industries/freelancer_expertises'
 
     root to: 'pages#home'
+    post "freelancer_expertises_data", to: "pages#freelancer_expertises_data"
 
     get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
     get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
