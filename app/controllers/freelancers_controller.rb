@@ -1,5 +1,13 @@
 class FreelancersController < ApplicationController
 
+  def index
+    @freelancer = Freelancer.all
+    query = "SELECT FREELANCERS.ID, FLOOR(FREELANCERS.DAILY_RATE/100)*100 AS TJM FROM FREELANCERS ORDER BY TJM ASC"
+
+    result = ActiveRecord::Base.connection.execute(query)
+    @result = result.values.map{|res| {daily_rate: res[1], count: res[0]}}
+  end
+
   def new
     @freelancer = Freelancer.new
   end
@@ -20,7 +28,28 @@ class FreelancersController < ApplicationController
     params.require(:freelancer).permit(:first_name, :last_name, :location, :job_description, :experience, :daily_rate)
   end
 
-  def filter
+  def remote_filter
+    query = "SELECT FREELANCERS.ID, FLOOR(FREELANCERS.DAILY_RATE/100)*100 AS TJM FROM FREELANCERS 
+    WHERE FREELANCERS.REMOTE = #{@REMOTE} ORDER BY TJM ASC"
+    
+    result = ActiveRecord::Base.connection.execute(query)
+    @result = result.values.map{|res| {freelancer: res[1], count: res[0]}}
+  end
+
+  def filter_expertise
+    query = "SELECT FREELANCERS.ID, FLOOR(FREELANCERS.DAILY_RATE/100)*100 AS TJM FROM FREELANCERS, FREELANCER_EXPERTISES
+    INNER JOIN expertises ON freelancer_expertises.expertise_id = expertises.id
+    WHERE FREELANCERS.EXPERTISE_ID = #{@expertise} ORDER BY TJM ASC"
+
+    result = ActiveRecord::Base.connection.execute(query)
+    @result = result.values.map{|res| {expertise: res[1], count: res[0]}}
   end
   
+  def filter_technologies
+  end
+
+  def filter_seniority
+
+  end
+
 end
