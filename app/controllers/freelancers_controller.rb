@@ -2,7 +2,7 @@ class FreelancersController < ApplicationController
 
   def index
     @freelancer = Freelancer.all
-    query = "SELECT FREELANCERS.ID, FLOOR(FREELANCERS.DAILY_RATE/100)*100 AS TJM FROM FREELANCERS ORDER BY TJM ASC"
+    query = "SELECT freelancers.id, FLOOR(freelancers.daily_rate/100)*100 AS TJM FROM FREELANCERS ORDER BY TJM ASC"
 
     result = ActiveRecord::Base.connection.execute(query)
     @result = result.values.map{|res| {daily_rate: res[1], count: res[0]}}
@@ -29,17 +29,21 @@ class FreelancersController < ApplicationController
   end
 
   def remote_filter
-    query = "SELECT FREELANCERS.ID, FLOOR(FREELANCERS.DAILY_RATE/100)*100 AS TJM FROM FREELANCERS 
-    WHERE FREELANCERS.REMOTE = #{@REMOTE} ORDER BY TJM ASC"
+    query = "SELECT freelancers.id, FLOOR(freelancers.daily_rate/100)*100 AS TJM 
+    FROM freelancers 
+    WHERE freelancers.remote = #{@remote} 
+    ORDER BY TJM ASC"
     
     result = ActiveRecord::Base.connection.execute(query)
     @result = result.values.map{|res| {freelancer: res[1], count: res[0]}}
   end
 
   def filter_expertise
-    query = "SELECT FREELANCERS.ID, FLOOR(FREELANCERS.DAILY_RATE/100)*100 AS TJM FROM FREELANCERS, FREELANCER_EXPERTISES
+    query = "SELECT freelancers.id, FLOOR(freelancers.daily_rate/100)*100 AS TJM 
+    FROM freelancers, freelancer_expertises
     INNER JOIN expertises ON freelancer_expertises.expertise_id = expertises.id
-    WHERE FREELANCERS.EXPERTISE_ID = #{@expertise} ORDER BY TJM ASC"
+    WHERE freelancers.expertise_id = #{@expertise} 
+    ORDER BY TJM ASC"
 
     result = ActiveRecord::Base.connection.execute(query)
     @result = result.values.map{|res| {expertise: res[1], count: res[0]}}
