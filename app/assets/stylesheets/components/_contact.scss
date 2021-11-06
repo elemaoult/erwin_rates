@@ -9,7 +9,7 @@
     margin-bottom: 20px;
   }
   #contact .info {
-    color: #333333;
+    // color: #333333;
   }
   #contact .info i {
     font-size: 32px;
@@ -31,7 +31,7 @@
   }
   #contact .social-links a {
     font-size: 18px;
-    background: #333;
+    background: #2dc997;
     color: #fff;
     line-height: 1;
     border-radius: 50%;
@@ -47,8 +47,8 @@
     line-height: 0;
   }
   #contact .social-links a:hover {
-    background: #2dc997;
-    color: #fff;
+    background: #fff;
+    color: #2dc997;
   }
   #contact .php-email-form .error-message {
     display: none;
