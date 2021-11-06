@@ -1,7 +1,6 @@
 /* Services Section
 --------------------------------*/
 #services {
-    background: #fff;
     background-size: cover;
     padding: 80px 0 60px 0;
   }
@@ -12,7 +11,6 @@
     border: 1px solid #e6e6e6;
     height: 200px;
     position: relative;
-    background: #fafafa;
   }
   #services .icon {
     position: absolute;
@@ -55,7 +53,7 @@
     text-transform: uppercase;
   }
   #services .title a {
-    color: #111;
+    color: #FFF;
   }
   #services .description {
     font-size: 14px;
