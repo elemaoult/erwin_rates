@@ -88,12 +88,12 @@ my_array.each do |my_url|
             tech_array << technology.text.strip
         end
 
-        puts 'Done!'
+        # puts 'Done!'
 
         free = Freelancer.find_by(first_name: first_name, job_description: job_title)
         if free
             break
-            puts "free already exists"
+            # puts "free already exists"
         else
             puts 'Creating Freelancer'
                 $freelancers_feeding = Freelancer.create!(
@@ -110,9 +110,9 @@ my_array.each do |my_url|
                 currency:       "EUR",
                 source_id:      sources_seed.id
                 )
-            puts 'Done!'
+            # puts 'Done!'
 
-            puts 'Database strengthen processes...'
+            # puts 'Database strengthen processes...'
 
             tech_array.each do |technology|
                 techno = Technology.find_by(name: technology)
@@ -148,11 +148,17 @@ my_array.each do |my_url|
                 expertise_id: exp.id
             )
             end
-            puts 'Success!'
+            # puts 'Success!'
         end
 
     end
-    puts 'Page Done!'
+    # puts 'Page Done!'
 end
+
+# def add_daily_rate_interval_to_data
+#     Freelancer.all.each do |freelancer|
+#       freelancer.daily_rate_interval = freelancer.daily_rate.div(50)
+#     end
+# end
 
 puts 'Finished! Enjoy your data(TM)!'
