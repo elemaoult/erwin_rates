@@ -1,12 +1,16 @@
 class FreelancersController < ApplicationController
 
-  def index
-    @freelancer = Freelancer.all
-    query = "SELECT freelancers.id, FLOOR(freelancers.daily_rate/100)*100 AS TJM FROM FREELANCERS ORDER BY TJM ASC"
+  skip_before_action :authenticate_user!, only: [:freelancer_expertises_data]
+  skip_before_action :verify_authenticity_token, only: :freelancer_expertises_data
 
-    result = ActiveRecord::Base.connection.execute(query)
-    @result = result.values.map{|res| {daily_rate: res[1], count: res[0]}}
-  end
+  
+  # def index
+  #   # @freelancer = Freelancer.all
+  #   # # query = "SELECT freelancers.id, FLOOR(freelancers.daily_rate/100)*100 AS TJM FROM FREELANCERS ORDER BY TJM ASC"
+
+  #   # # result = ActiveRecord::Base.connection.execute(query)
+  #   # # @result = result.values.map{|res| {daily_rate: res[1], count: res[0]}}
+  # end
 
   def new
     @freelancer = Freelancer.new
@@ -39,24 +43,20 @@ class FreelancersController < ApplicationController
     @result = result.values.map{|res| {freelancer: res[1], count: res[0]}}
   end
 
-
-  def filter
-
-    filtered_freelancers = Freelancer.all
+  def filtered_freelancers(filter_expertise, filter_technology, filter_experience)
+    
+    res = Freelancer.all
 
 #  Get all occurences of params
     all_expertises = Expertise.pluck(:name)
     all_technologies = Technology.pluck(:name)
     all_experiences = ["Junior", "Intermédiaire", "Senior"]
     
-#   Get params from form
-    filter_expertise = params[:expertise].blank? ? all_expertises : params[:expertise]
-    filter_technology = params[:technology].blank? ? all_technologies : params[:technology]
-    filter_experience = params[:experience].blank? ? all_experiences : params[:experience]  
-
-    filtered_freelancers.select do |freelance| 
+    res = filtered_freelancers.select do |freelance| 
       filter_condition?(freelance, filter_expertise, filter_technology, filter_experience)
     end
+
+    return res
     
   end
 
@@ -77,5 +77,47 @@ class FreelancersController < ApplicationController
     end
     ary.empty? ? false : true
   end
+
+  def get_conditions
+  
+    #   Get params from form
+    # filter_expertise = params[:expertise].blank? ? all_expertises : params[:expertise]
+    # filter_technology = params[:technology].blank? ? all_technologies : params[:technology]
+    # filter_experience = params[:experience].blank? ? all_experiences : params[:experience]  
+
+    filter_expertise = ["Backend", "Frontend"]
+    filter_technology = ["JavaScript", "CSS"]
+    filter_experience = ["Senior"]  
+
+    return [filter_expertise,filter_technology, filter_experience]
+
+  end
+
+  def freelancer_expertises_data
+
+    ary = get_conditions
+    filter_expertise = ary[0]
+    filter_technology = ary[1]
+    filter_experience = ary[2]
+
+    binding.pry
+
+    ary = filtered_freelancers(filter_expertise, filter_technology, filter_experience)
+
+    @result = ary.group_by { |freelancer| freelancer.daily_rate_interval }
+    
+    # query = "SELECT COUNT(*) 
+    # FROM #{filtered_freelancers} 
+    # GROUP BY daily_rate_interval"
+
+    # result = ActiveRecord::Base.connection.execute(query)
+    # @result = result.values.map{|res| {expertise: res[1], count: res[0]}}
+
+    respond_to do |format|
+      format.all {render json: {result: @result}}
+    end
+    
+  end
+
 
 end

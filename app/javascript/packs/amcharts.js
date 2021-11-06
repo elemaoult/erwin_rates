@@ -18,6 +18,8 @@ chart.scrollbarX = new am4core.Scrollbar();
 fetch("/freelancer_expertises_data", {method: 'POST'})
 .then(response => response.text())
 .then((data) => {
+  console.log(data);
+  window.lol = data;
   const resultArray = Array.from(JSON.parse(data)["result"])
   chart.data = resultArray;
 })

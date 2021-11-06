@@ -49,7 +49,7 @@
 
     <div class='filter-area'>
         <div class='filter-element'>
-          <%= form_tag filter_path do %>
+          <%= form_tag freelancer_expertises_data_path, id: "filter-form"  do %>
             <div class="col mb-3">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
               class: "form-control") %>

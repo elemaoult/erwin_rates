@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # get 'freelancer_industries/freelancer_expertises'
 
     root to: 'pages#home'
-    post "freelancer_expertises_data", to: "pages#freelancer_expertises_data"
+    post "freelancer_expertises_data", to: "freelancers#freelancer_expertises_data"
 
     get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
     get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   resources :freelancer_expertises,   only: [:new, :create]
   resources :freelancer_industries,   only: [:new, :create]
 
-  post 'filter', to: 'freelancers#filter'
+  # post 'filter', to: 'freelancers#filter'
 
   #adding special routes to use blazer - no admin privilege require
   mount Blazer::Engine, at: "blazer"
