@@ -1,0 +1,76 @@
+<div class='landing'>
+  <div class='container'>
+    <div class='main-description'>
+      <h1 class='m-0 p-0'>Trouvez le TJM freelance qui vous ressemble</h1> 
+      <a class="btn btn-primary" href="#">Chercher un TJM freelance</a>
+    </div>
+  </div>
+</div>
+
+<div class='container'>
+  <div class='home-grid'>
+  
+    <div class='results-area'>
+
+      <div class='numeric-results'>
+        <div class='total-nb-freelancers'>
+          <p>Number of freelancers</p>
+          <p>35 047</p>
+        </div>
+
+        <div class='avg-day-rate'>
+          <p>Average Day Rate</p>
+          <p>653€</p>
+        </div>
+        
+        <div class='avg-seniority'>
+          <p>Average Seniority</p>
+          <p>4 years</p>
+        </div>
+      </div>
+      
+      <div class=' buttons-area'>
+        <a class="btn btn-success" href="#">Export</a>
+        <a class="btn btn-info" href="#">Seems Right?</a>
+      </div>
+      
+      <div class='chartdiv'>
+        <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
+      </div>
+
+    </div>
+
+    <div class='filter-area'>
+        <div class='filter-element'>
+          <%= form_tag filter_path do %>
+            <div class="col mb-3">
+              <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
+              class: "form-control") %>
+            </div>
+
+            <div class="col mb-3">
+              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
+              class: "form-control") %>
+            </div>
+
+            <div class="col mb-3">
+              <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
+              class: "form-control") %>
+            </div>
+
+            <div class="col mb-3">
+              <%= text_field_tag :location,
+                  params[:location],
+                  class: "form-control ui-autocomplete-input",
+                  placeholder: "Where?",
+                  class: "btn btn-success" %>
+            </div>
+            <div class="col mb-3">
+              <%= submit_tag "become someone now!", class: "btn btn-success" %>
+            </div>
+          <% end %>
+
+        </div>
+    </div>
+ </div>
+</div> 
