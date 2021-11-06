@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Donations</h1>
+    <% @donations.each do |donation| %>
+      <div class="d-flex flex-row">
+        <p class="card-text ml-5 px-1 py-0">Donation par <%= donation.user.email %></p>
+        <p class="card-text px-1 py-0">Donation faite le <%= donation.created_at.strftime('%m/%d/%Y') %></p>
+        <p class="card-text px-1 py-0">Montant : <%= donation.amount %></p>
+        <p class="card-text px-1 py-0">Statut : <%= donation.state %></p>
+      </div>
+    <% end %> 
+</div>

@@ -7,9 +7,10 @@ Rails.application.routes.draw do
     root to: 'pages#home'
     post "freelancer_expertises_data", to: "pages#freelancer_expertises_data"
 
-    get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
-    get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
-    get "cgu", to: 'pages#cgu', as: 'cgu'
+    get "confidentialite", to: 'pages#persospecs',                as: 'persospecs'
+    get "mentionslegales", to: 'pages#legalspecs',                as: 'legalspecs'
+    get "cgu",             to: 'pages#cgu',                       as: 'cgu'
+    get "request",         to: 'pages#request',                   as: 'request'
 
     #get "gestiondescookies", to: 'pages#cookiesspecs', as: 'cookiesspecs'
 
@@ -18,10 +19,24 @@ Rails.application.routes.draw do
   resources :freelancer_technologies, only: [:new, :create]
   resources :freelancer_expertises,   only: [:new, :create]
   resources :freelancer_industries,   only: [:new, :create]
+  resources :users do
+    resources :reviews, only: [:new, :create, :show]
+  end
+
+  resources :donations, only: [:new, :index, :show, :create] do
+    resources :payments, only: :new
+  end
+
+    #root to: 'pages#users'
+    #get '/users/:id',      to: 'users#show',                       as: 'user'
+
+    #get "donations", to: './donations/new', as: 'donation'
+
+    #post "request",        to: 'pages#users/user_id/donations/new',   as: 'donation'
 
   post 'filter', to: 'freelancers#filter'
 
   #adding special routes to use blazer - no admin privilege require
   mount Blazer::Engine, at: "blazer"
-
+  mount StripeEvent::Engine, at: '/stripe-webhooks'
 end

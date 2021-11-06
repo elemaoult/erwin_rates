@@ -1,0 +1,54 @@
+<div class="request-page">
+  <!-- This file lives in .... -->
+  <div class="container request-page-container">
+    <div class="row">
+      <div class="col-xs-6"
+        <div class="request-page-inner">
+          <div class ="request-page-header">
+            <h1 id="suggestion" class="request-page-title"> Envoyer des suggestions </h1>
+            <div class="request-page-intro text-formatted">
+              <p> Vous souhaitez nous envoyer des retours, des suggestions sur la plateforme ?
+              Vous êtes au bon endroit ! Notre équipe répondra à votre message le plus rapidement possible.
+              Remplissez le formulaire ci dessous. Nous vous remercions par avance. </p>
+
+                 <%# <%= simple_form_for @review do |f| %>  %>
+                  <%# <div class="formulaire-box"> %>
+                    <%# <div class="formulaire-item"> %>
+                      <%# <h3>Description</h3> %>
+                      <%# <%= f.input :email, include_blank: false %> %>
+                      <%# <%= f.input :description, include_blank: false %> %>
+                      <%# <%= f.button :submit, "Envoyez" %> %>
+                    <%# </div> %>
+                  <%# </div> %>
+                 <%# <% end %> %>
+                
+              <p> Vous adorez la plateforme et vous voulez nous soutenir, c'est par 
+                <a href="">ici</a>
+                <%# <a target="_blank"><%= link_to "Donation", donations_path %>
+              </p>
+            
+            <div class="request-page-cover">
+              <button type="button" class="fr-btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/QH2-TGU1wu4" data-target="#myModal">
+              <strong>Cliquer ici</strong></button>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="fr-link--close fr-link" data-dismiss="modal" aria-label="Close">
+                          Fermer
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                          </iframe>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div>
+  </div>
+</div>

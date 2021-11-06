@@ -40,6 +40,9 @@ gem 'devise'
 
 gem 'rails_admin', '~> 2.0'
 gem 'blazer'
+gem 'stripe'
+gem 'money-rails'
+gem 'stripe_event'
 
 group :development, :test do
   gem 'pry-byebug'
