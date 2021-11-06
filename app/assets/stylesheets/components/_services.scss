@@ -18,7 +18,7 @@
     left: calc(50% - 36px);
     transition: 0.2s;
     border-radius: 50%;
-    border: 6px solid #fff;
+    border: 6px solid #F6F8FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,12 +32,12 @@
     display: inline-block;
   }
   #services .icon i {
-    color: #fff;
+    color: #F6F8FA;
     font-size: 24px;
     line-height: 0;
   }
   #services .box:hover .icon {
-    background: #fff;
+    background: #F6F8FA;
     border: 2px solid #2dc997;
   }
   #services .box:hover .icon i {
@@ -53,7 +53,7 @@
     text-transform: uppercase;
   }
   #services .title a {
-    color: #FFF;
+    color: #F6F8FA;
   }
   #services .description {
     font-size: 14px;
