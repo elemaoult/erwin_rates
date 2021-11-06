@@ -54,9 +54,9 @@ class FreelancersController < ApplicationController
     filter_technology = params[:technology].blank? ? all_technologies : params[:technology]
     filter_experience = params[:experience].blank? ? all_experiences : params[:experience]  
 
-    filtered_freelancers.select { |freelance| filter_condition(freelance, filter_expertise, filter_technology, filter_experience) }
-
-    puts filtered_freelancers
+    filtered_freelancers.select do |freelance| 
+      filter_condition?(freelance, filter_expertise, filter_technology, filter_experience)
+    end
     
   end
 
