@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row py-4">
-      <h1>Checkout summary</h1>
-      <p><strong>Purchase of donation</strong> for <strong><%= humanized_money_with_symbol @donation.amount %></strong></p>
-      <button id="pay" class="btn btn-primary">Pay</button>
+      <h1>Résumé</h1>
+        <p><strong>Confirmation du don pour <strong><%= @donation.amount %>€ ?</strong></p>
+        <button id="OUI" class="btn btn-primary">OUI</button>
       <script src="https://js.stripe.com/v3/"></script>
       <script>
-        const paymentButton = document.getElementById('pay');
+        const paymentButton = document.getElementById('OUI');
         paymentButton.addEventListener('click', () => {
           const stripe = Stripe('<%= ENV['STRIPE_PUBLISHABLE_KEY'] %>');
           stripe.redirectToCheckout({
