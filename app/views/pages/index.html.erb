@@ -1,8 +1,0 @@
-<h1>Hi guys, you can see all freelancers there !</h1>
-
-<ul>
-  <% @freelancers.each do |freelancer| %>
-    <li><%= link_to freelancer.last_name, freelancer_path(freelancer) %></li>
-    <li><%= link_to freelancer.location, freelancer_path(freelancer) %></li>
-  <% end %>
-</ul>
