@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     root to: 'pages#home'
     post "freelancer_expertises_data", to: "pages#freelancer_expertises_data"
 
+    get "search", to: 'pages#search', as: "search"
     get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
     get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
     get "cgu", to: 'pages#cgu', as: 'cgu'

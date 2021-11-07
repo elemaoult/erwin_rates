@@ -1,117 +1,39 @@
-<div class="main-footer">
+<footer id="footer">
   <div class="container">
-
-    <div class="footer-body">
-      <div class="container-footer-body">
-        <div class="row">
-          <div class="col-xs-4">
-            <div>
-              <h4>
-                <span>Notre QG</span>
-              </h4>
-              
-            </div>
-            <div>Erwin Rates</div>
-            <div>16 villa gaudelet</div>
-            <div>75011 Paris</div>
-          </div>
-
-          <div class="col-xs-4">
-            <div>
-              <h4>
-                <span>Erwin Rates</span>
-              </h4>
-            </div>
-            <div>
-              <ul id="menu">
-                <li><a href="#">Qui sommes-nous?</a></li>
-                <li><a href="#">Centre d'aide</a></li>
-                <li><a href="#">Nous rencontrer</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-xs-4">
-            <div>
-              <h4>
-                <span>Etre impliqué</span>
-              </h4>
-            </div>
-            <div>
-              <ul id="menu">
-                <li><a href="#">Devenir membre</a></li>
-                <li><a href="#">Devenir parrain</a></li>
-                <li><a href="#">Faire un don</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="footer-navbar">
-      <div class="container-footer-navbar">
-        <div class="footer-navbar-section">
-          <div class="row">
-
-            <div class="col-xs-12">
-              <ul id="footer-item" class="list-inline">
-
-                <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link"><%= link_to "Mentions légales", legalspecs_path %></a>
-                </li>
-
-                <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link"><%= link_to "Politique de confidentialité", persospecs_path %></a>
-                </li>
-
-                <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link"><%= link_to "CGU", cgu_path %></a>
-                </li>
-
-                <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link" href="#">Gestion des cookies</a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="footer-top">
+        <ul class="d-flex list-inline">
+          <li><a href="#">Devenir membre</a></li>
+          <li><a href="#">Devenir parrain</a></li>
+          <li><a href="#">Faire un don</a></li>
+        </ul>
     </div>
 
-    <div class="footer-bottom">
-      <div class="container-footer-bottom">
+    <div class="legal">
+      <ul class="d-flex list-inline">
+        <li>
+          <a class="fr-footer__bottom-link"><%= link_to "Mentions légales", legalspecs_path %></a>
+        </li>
+        <li>
+          <a class="fr-footer__bottom-link"><%= link_to "Politique de confidentialité", persospecs_path %></a>
+        </li>
+        <li>
+          <a class="fr-footer__bottom-link"><%= link_to "CGU", cgu_path %></a>
+        </li>
+        <li>
+          <a class="fr-footer__bottom-link" href="#">Gestion des cookies</a>
+        </li>
+      </ul>
+    </div>
 
-        <div class="row">
-          <div clas="col-xs-12">
-            <ul class="list-inline">
-              <li>
-                <a class="fab fa-github" href="#"></a>
-              </li>
-              <li>
-                <a class="fab fa-instagram" href="#"></a>
-              </li>
-              <li>
-                <a class="fab fa-facebook" href="#"></a>
-              </li>
-              <li>
-                <a class="fab fa-twitter" href="#"></a>
-              </li>
-              <li>
-                <a class="fab fa-linkedin" href="#"></a>
-              </li>
-            </ul>
-          </div>
+    <div class="copyright">
+      &copy;  Erwin Rates ® 2021 | Tous droits réservés
+    </div>
 
-        </div>
-
-        <div id="footer-info">
-          Erwin Rates ® 2021 | Tous droits réservés | Créé avec amour avec <i class="fas fa-heart"></i>
-            <a href="https://www.lewagon.com/fr" target="_blank">Le Wagon</a>
-          
-        </div>
-        <br>
-      </div>
+    <div class="credits">
+      Créé avec amour avec <i class="fas fa-heart"></i>
+      <a href="https://www.lewagon.com/fr" target="_blank">Le Wagon</a>
     </div>
   </div>
-</div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
