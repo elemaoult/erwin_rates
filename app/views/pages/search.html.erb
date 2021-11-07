@@ -4,40 +4,40 @@
       <h3 class="section-title">Erwin Search</h3>
       <p class="section-description">Sélectionnez le profil type (Expérience, Expertise, Spécialités, Localisation)</p>
     </div>
+    <div class="row-counters d-flex">
+      <div class="col-lg-4 col-12 text-center">
+        <div class="box p-2 mb-4">
+          <p>Nombre de freelancers total</a></p>
+          <span data-purecounter-start="0" data-purecounter-end="10529" data-purecounter-duration="1" class="purecounter"></span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 text-center">
+        <div class="box p-2 mb-4">
+            <p>Taux Journalier Moyen</a></p>
+            <span data-purecounter-start="0" data-purecounter-end="653" data-purecounter-duration="1" class="purecounter"></span>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 text-center">
+        <div class="box p-2 mb-4">
+          <p>Taux Journalier Médian</a></p>
+          <span data-purecounter-start="0" data-purecounter-end="425" data-purecounter-duration="1" class="purecounter"></span>
+        </div>
+      </div>
+    </div>
 
     <div class="row landing-container">
       <div class="col-lg-6 content order-lg-1 order-2">
-        <div class="row counters">
-          <div class="col-lg-4 col-12 text-center">
-            <div class="box p-2 m-3">
-              <p>Nombre de freelancers total</a></p>
-              <span data-purecounter-start="0" data-purecounter-end="10529" data-purecounter-duration="1" class="purecounter"></span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-12 text-center">
-            <div class="box p-2 m-3">
-               <p>Taux Journalier Moyen</a></p>
-               <span data-purecounter-start="0" data-purecounter-end="653" data-purecounter-duration="1" class="purecounter"></span>
-            </div>
-          </div>
-          <div class="col-lg-4 col-12 text-center">
-            <div class="box p-2 m-3">
-              <p>Taux Journalier Médian</a></p>
-             <span data-purecounter-start="0" data-purecounter-end="425" data-purecounter-duration="1" class="purecounter"></span>
-            </div>
-          </div>
+        <div class='chartdiv'>
+          <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
         </div>
         <div class='buttons-area'>
           <a href="#" class="btn-get-started p-2 m-3 text-center">Export</a>
           <a href="#" class="btn-get-started p-2 m-3 text-center">Seems Right?</a>
         </div>
-        <div class='chartdiv'>
-          <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
-        </div>
       </div>
 
       <div class="col-lg-6 background order-lg-2 order-1">
-        <div class='row-counters'>
+        <div class='row-counters p-2 m-3'>
           <%= form_tag filter_path do %>
             <div class="col-lg-3 col-6 text-center">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,

@@ -1,12 +1,12 @@
 // Specific CSS for your home-page
 body {
   background: #03090D;
-  color: #FFF;
+  color: #F6F8FA;
   font-family: "Poppins", sans-serif;
 }
 
 a {
-  color: #FFF;
+  color: #F6F8FA;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ section {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #FFF;
+  color: #F6F8FA;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -47,5 +47,5 @@ section {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: rgb(153, 153, 153);
 }

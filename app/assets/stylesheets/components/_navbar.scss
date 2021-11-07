@@ -14,7 +14,7 @@
   text-transform: uppercase;
 }
 #header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
+  color: #F6F8FA;
 }
 #header #logo img {
   padding: 0;
@@ -54,7 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: #F6F8FA;
   font-size: 14px;
   padding: 0 4px;
   white-space: nowrap;
@@ -85,7 +85,7 @@
   transform: scaleX(1);
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #F6F8FA;
 }
 .navbar .dropdown ul {
   display: block;
@@ -97,7 +97,7 @@
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #F6F8FA;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -145,7 +145,7 @@
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #F6F8FA;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -186,7 +186,7 @@
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: #F6F8FA;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -215,7 +215,7 @@
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #F6F8FA;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {
