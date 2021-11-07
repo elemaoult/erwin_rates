@@ -14,48 +14,24 @@ am4core.useTheme(am4themes_animated);
 let chart = am4core.create("chartdiv", am4charts.XYChart);
 chart.scrollbarX = new am4core.Scrollbar();
 
+
+fetch("/freelancer_expertises_data", {method: 'POST'})
+.then(response => response.text())
+.then((data) => {
+  const resultArray = Array.from(JSON.parse(data)["result"])
+  chart.data = resultArray;
+})
+
+
+
+//const res = document.querySelector(".chartdiv").dataset.result
+//const my_data = JSON.parse(res)
+//console.log(my_data)
 // Add data
-chart.data = [{
-  "country": "USA",
-  "visits": 3025
-}, {
-  "country": "China",
-  "visits": 1882
-}, {
-  "country": "Japan",
-  "visits": 1809
-}, {
-  "country": "Germany",
-  "visits": 1322
-}, {
-  "country": "UK",
-  "visits": 1122
-}, {
-  "country": "France",
-  "visits": 1114
-}, {
-  "country": "India",
-  "visits": 984
-}, {
-  "country": "Spain",
-  "visits": 711
-}, {
-  "country": "Netherlands",
-  "visits": 665
-}, {
-  "country": "Russia",
-  "visits": 580
-}, {
-  "country": "South Korea",
-  "visits": 443
-}, {
-  "country": "Canada",
-  "visits": 441
-}];
 
 // Create axes
 let categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
-categoryAxis.dataFields.category = "country";
+categoryAxis.dataFields.category = "expertise";
 categoryAxis.renderer.grid.template.location = 0;
 categoryAxis.renderer.minGridDistance = 30;
 categoryAxis.renderer.labels.template.horizontalCenter = "right";
@@ -70,8 +46,8 @@ valueAxis.renderer.minWidth = 50;
 // Create series
 let series = chart.series.push(new am4charts.ColumnSeries());
 series.sequencedInterpolation = true;
-series.dataFields.valueY = "visits";
-series.dataFields.categoryX = "country";
+series.dataFields.valueY = "count";
+series.dataFields.categoryX = "expertise";
 series.tooltipText = "[{categoryX}: bold]{valueY}[/]";
 series.columns.template.strokeWidth = 0;
 
