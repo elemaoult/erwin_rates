@@ -1,6 +1,7 @@
 // *--------------------------------------------------------------
 // # Hero Section
 // --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -13,6 +14,16 @@
     background-attachment: fixed;
   }
 }
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 
 .home_video {
     width: 100vw;
