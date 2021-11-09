@@ -39,7 +39,7 @@
       <div class="col-lg-6 background order-lg-2 order-1">
         <div class='row-counters p-2 m-3'>
           <%= form_tag freelancer_expertises_data_path, id: "filter-form"  do %>
-            <div class="col mb-3">
+            <div class="col-lg-3 col-6 text-center">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
               class: "form-control") %>
             </div>
