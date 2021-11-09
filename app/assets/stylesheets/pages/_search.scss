@@ -25,3 +25,199 @@
     border: 1px solid #021E50;
     border-radius: 30px;
 }
+
+
+//popup bouton assets
+
+/* Ressources */
+html,body{
+	display:block;
+	width:100%;
+	height:100%;
+	-webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  font-family:"Quicksand","Open Sans",sans-serif;
+}
+html{
+	background:url(app/assets/images/review.png) no-repeat;
+	background-size:cover;
+}
+
+/* Bouton feedBack */
+#feedback{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+}
+#feedback img{ width:100%; }
+
+
+/* Popup FeedBack */
+#ppFeedback{
+	position:absolute;
+	right:10px;
+	bottom:15px;
+	margin:50px auto;
+	padding:10px 5px 7px 5px;
+	width:300px;
+	background:#F3F3F3;
+	box-shadow: 0 0 10px 0 #141414;
+	border-radius: 4px;
+}
+#ppFeedback:after {
+	top: 100%;
+	right:15px;
+	margin-left: -6px;
+	border:6px solid transparent;
+	border-top-color: #F3F3F3;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+}
+
+
+/* Liste des notes */
+#note{
+	text-align:center;
+	position:relative;
+}
+#note span{
+  font-size: 12px;
+  color: #919090;
+  line-height: 20px;
+  font-family:'Quicksand',sans-serif;
+  font-weight: 400;
+}
+#listeNote{
+  list-style:none;
+  margin:8px 0 0;
+  padding:0;
+  min-height:31px
+}
+#listeNote li{
+	display:inline-block;
+	width:15px;
+	font-size:11px;
+	margin:0 3px 0 3px;
+	min-height:31px;
+	vertical-align:top;
+}
+#listeNote span{
+	display:block;
+	height:12px;
+	width:12px;
+	border-radius:50%;
+	margin:3px auto 3px auto;
+	background:#d2d1d1;
+}
+#listeNote li:hover span{
+	background:orange;
+	cursor:pointer;
+	box-shadow: 0 0 5px -1px #141414;
+}
+hr{ 
+	border:0;
+	height:1px;
+	background:#333;
+	margin:-11px 20px 22px 20px;
+	background-image:-webkit-linear-gradient(left,#e4e2e2,#d0cece,#e4e2e2);
+	background-image:   -moz-linear-gradient(left,#e4e2e2,#d0cece,#e4e2e2);
+	background-image:    -ms-linear-gradient(left,#e4e2e2,#d0cece,#e4e2e2);
+	background-image:     -o-linear-gradient(left,#e4e2e2,#d0cece,#e4e2e2);
+	background-image:     	 linear-gradient(left,#e4e2e2,#d0cece,#e4e2e2);
+}
+
+
+/* Message Feedback - titre + area */
+#txtFeedBack{
+	width:100%;
+	display:block;
+}
+#titreFb{
+  display:block;
+	text-align:center;
+  font-size:15px;
+	letter-spacing:-1px;
+  color: #383838;
+  line-height: 20px;
+  font-family:'Quicksand',sans-serif;
+  font-weight: 400;
+	margin-bottom:5px;
+}
+#txtFeedBack textarea {
+	display:block;
+	height:60px;
+	width:270px !important;
+	margin:0 auto;
+	padding:10px 10px 0px 10px;
+	background:#d2d1d1;
+	border-radius:5px;
+	color: #383838;
+	border:0;
+  box-shadow: inset 0 1px 30px -10px rgba(0,0,0,.24);
+}
+textarea:focus { outline:none; }
+
+
+/* Bouton ne plus afficher */
+#txtFeedBack #closePpFb{
+  font-size:10px;
+	margin:5px 0 0 5px;
+	position:relative;
+	top:14px;
+  color:#b3b3b3;
+  font-family:'Quicksand';
+  font-weight: 400;
+  cursor:pointer
+}
+
+/* Button styles */
+.btnFb {
+	float:right;
+	margin:7px 5px 0 0;
+	border-radius:4px;
+	text-align:center;
+  position: relative;
+  width: 100px;
+  height: 25px;
+  border: 2px solid #bebdbd;
+  transition: 0.8s ease-in-out;
+  overflow: hidden;
+}
+.btnFbTxt {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  transition: 0.6s ease-in-out;
+  text-align:center;
+  line-height:25px;
+  position:relative;
+background:none;
+	border:0;
+	padding:0;
+	width:100%;
+	cursor:pointer;
+}
+.btnFbTxt:focus{outline:none}
+.btnFbBg {
+  width:0;
+  padding-top:0;
+  border-radius: 100%;
+  opacity:0;
+  background: #6f6e6e;
+  transition: 0.6s ease-in-out;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btnFb:hover .btnFbBg {
+    width:150%;
+    padding-top:150%;
+    opacity:1;
+}
+.btnFb:hover .btnFbTxt{color:#FFF !important;}
