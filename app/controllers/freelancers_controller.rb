@@ -1,6 +1,6 @@
 class FreelancersController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:freelancer_expertises_data]
-  skip_before_action :verify_authenticity_token, only: :freelancer_expertises_data
+  # skip_before_action :authenticate_user!, only: [:freelancer_expertises_data]
+  # skip_before_action :verify_authenticity_token, only: :freelancer_expertises_data
 
   # def index
   #   # @freelancer = Freelancer.all

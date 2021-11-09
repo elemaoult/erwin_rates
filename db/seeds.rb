@@ -85,8 +85,10 @@ my_array.each do |my_url|
             end
         # Technologies of the freelancer (in array)
         technologies = element.search('.m-tag_small').each do |technology|
-            tech_array << technology.text.strip
+            tech_array << technology.text.strip.upcase!
         end
+
+        tech_array = tech_array.uniq
 
         # puts 'Done!'
 
@@ -116,11 +118,17 @@ my_array.each do |my_url|
 
             tech_array.each do |technology|
                 techno = Technology.find_by(name: technology)
-                if techno
-                    persons_tech_feeding = FreelancerTechnology.create(
+
+                if techno 
+                    techno_freelancer = FreelancerTechnology.where(freelancer_id: $freelancers_feeding.id, technology_id: techno.id)
+                    if techno_freelancer.exists? # Si techno existe mais pas obkect
+                        
+                    else
+                        persons_tech_feeding = FreelancerTechnology.create(
                         freelancer_id: $freelancers_feeding.id,
                         technology_id: techno.id
                     )
+                    end
                 else 
                     techno = Technology.new(
                         name:           technology #To check how to play with the array
