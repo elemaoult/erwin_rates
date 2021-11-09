@@ -19,10 +19,9 @@ fetch("/freelancer_expertises_data", {method: 'POST'})
 .then(response => response.text())
 .then((data) => {
   const resultArray = Array.from(JSON.parse(data)["result"])
+  console.log(resultArray);
   chart.data = resultArray;
 })
-
-
 
 //const res = document.querySelector(".chartdiv").dataset.result
 //const my_data = JSON.parse(res)
@@ -31,7 +30,7 @@ fetch("/freelancer_expertises_data", {method: 'POST'})
 
 // Create axes
 let categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
-categoryAxis.dataFields.category = "expertise";
+categoryAxis.dataFields.category = "daily_rate";
 categoryAxis.renderer.grid.template.location = 0;
 categoryAxis.renderer.minGridDistance = 30;
 categoryAxis.renderer.labels.template.horizontalCenter = "right";
@@ -47,7 +46,7 @@ valueAxis.renderer.minWidth = 50;
 let series = chart.series.push(new am4charts.ColumnSeries());
 series.sequencedInterpolation = true;
 series.dataFields.valueY = "count";
-series.dataFields.categoryX = "expertise";
+series.dataFields.categoryX = "daily_rate";
 series.tooltipText = "[{categoryX}: bold]{valueY}[/]";
 series.columns.template.strokeWidth = 0;
 

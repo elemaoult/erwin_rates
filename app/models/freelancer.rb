@@ -2,13 +2,14 @@ class Freelancer < ApplicationRecord
   has_many  :freelancer_technologies
   has_many  :freelancer_expertises
   has_many  :freelancer_industries
-
+  
   has_many :technologies, through: :freelancer_technologies
   has_many :expertises, through: :freelancer_expertises
   has_many :industries, through: :freelancer_industries
-
+  
   belongs_to :source
-
+  
+  before_commit :round_50, only: %i[create update]
   # scope :from_seed, -> { joins(:source).where('source.seed_valid = ?', false) }
 
   def get_technology(freelancer)
@@ -35,4 +36,9 @@ class Freelancer < ApplicationRecord
     return res
   end
 
+  private
+
+  def round_50
+    update_column(:daily_rate_interval, daily_rate.div(50)*50)
+  end
 end
