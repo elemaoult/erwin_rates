@@ -104,10 +104,13 @@
 .arrow-container {
   display: block;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  bottom: 10%;
   transform: translate(-50%, -50%) rotateZ(0deg);
 }
+
 .arrow-container:hover {
   cursor: pointer;
 }
