@@ -1,6 +1,11 @@
 class ApplicationController < ActionController::Base
+<<<<<<< HEAD
   before_action :authenticate_user!
   #before_action :configure_permitted_parameters, if: :devise_controller?
+=======
+  # before_action :authenticate_user!
+  before_action :configure_permitted_parameters, if: :devise_controller?
+>>>>>>> d16124d1ffa89b138cc750467aa9ddab12eed7c7
   include Pundit
 
   # Pundit: white-list approach.
@@ -13,7 +18,14 @@ class ApplicationController < ActionController::Base
   #   flash[:alert] = "You are not authorized to perform this action."
   #   redirect_to(root_path)
   # end
+<<<<<<< HEAD
   #def configure_permitted_parameters
+=======
+
+
+  
+  def configure_permitted_parameters
+>>>>>>> d16124d1ffa89b138cc750467aa9ddab12eed7c7
     # For additional fields in app/views/devise/registrations/new.html.erb
   #  devise_parameter_sanitizer.permit(:sign_up, keys: [:nickname])
 
@@ -24,7 +36,7 @@ class ApplicationController < ActionController::Base
   private
 
   def skip_pundit?
-    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/
+    devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)|(^freelancers$)/
   end
 
 end

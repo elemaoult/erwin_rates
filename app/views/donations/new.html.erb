@@ -1,14 +1,19 @@
 <div class="container">
-  <div class="row mt-4 pt-4">
-    <div class="col-4 col-md-4">
-      <h2><strong>Vous croyez en notre projet, soutenez-nous 
-      <br>pour l'améliorer ❤️ !</strong></h2>
-      <div>
-        <%= simple_form_for @donation do |f| %>
-          <%= f.input :amount %>
-          <%= submit_tag 'Don', class: 'btn btn-primary' %>
-        <% end %>
-      </div>
+  <div class="">
+    <div class="w-1/2 mx-auto">
+      <h2 class="mb-2 text-2xl text-center"><strong>Vous croyez en notre projet,
+      <br> soutenez-nous pour l'améliorer ❤️ !</strong></h2>
+      <br>
+      <br>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <%= simple_form_for @donation do |f| %>
+              <%= f.input :amount %>
+              <%= submit_tag 'Don', class: 'btn btn-primary' %>
+            <% end %>
+          </div>
+        </div>
+      <br>
     </div>
   </div>
 </div>  

@@ -85,15 +85,17 @@ my_array.each do |my_url|
             end
         # Technologies of the freelancer (in array)
         technologies = element.search('.m-tag_small').each do |technology|
-            tech_array << technology.text.strip
+            tech_array << technology.text.strip.upcase!
         end
 
-        puts 'Done!'
+        tech_array = tech_array.uniq
+
+        # puts 'Done!'
 
         free = Freelancer.find_by(first_name: first_name, job_description: job_title)
         if free
             break
-            puts "free already exists"
+            # puts "free already exists"
         else
             puts 'Creating Freelancer'
                 $freelancers_feeding = Freelancer.create!(
@@ -110,17 +112,23 @@ my_array.each do |my_url|
                 currency:       "EUR",
                 source_id:      sources_seed.id
                 )
-            puts 'Done!'
+            # puts 'Done!'
 
-            puts 'Database strengthen processes...'
+            # puts 'Database strengthen processes...'
 
             tech_array.each do |technology|
                 techno = Technology.find_by(name: technology)
-                if techno
-                    persons_tech_feeding = FreelancerTechnology.create(
+
+                if techno 
+                    techno_freelancer = FreelancerTechnology.where(freelancer_id: $freelancers_feeding.id, technology_id: techno.id)
+                    if techno_freelancer.exists? # Si techno existe mais pas obkect
+                        
+                    else
+                        persons_tech_feeding = FreelancerTechnology.create(
                         freelancer_id: $freelancers_feeding.id,
                         technology_id: techno.id
                     )
+                    end
                 else 
                     techno = Technology.new(
                         name:           technology #To check how to play with the array
@@ -148,11 +156,17 @@ my_array.each do |my_url|
                 expertise_id: exp.id
             )
             end
-            puts 'Success!'
+            # puts 'Success!'
         end
 
     end
-    puts 'Page Done!'
+    # puts 'Page Done!'
 end
+
+# def add_daily_rate_interval_to_data
+#     Freelancer.all.each do |freelancer|
+#       freelancer.daily_rate_interval = freelancer.daily_rate.div(50)
+#     end
+# end
 
 puts 'Finished! Enjoy your data(TM)!'

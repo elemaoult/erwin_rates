@@ -1,83 +1,291 @@
-<div class='container'>
-<%# first grid %>
-  <div class='home-grid'>
+<%= video_tag "network.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
 
-    <div class='main-description'>
-      <h1 class='m-0 p-0'>Trouvez le TJM freelance qui vous ressemble</h1> 
-      <a class="btn btn-primary" href="#">Chercher un TJM freelance</a>
+ <section id="hero">
+  <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+  <%# <div id="particles"></div> %>
+    <h1>Erwin Rates</h1>
+    <h2>Trouvez le TJM freelance qui vous ressemble</h2>
+    <a href="#about" class="btn-get-started">En savoir plus</a>
+    <a href="#about" class="btn-get-started">Chercher un TJM freelance</a>
+  </div>
+</section>
+
+<!-- ======= Facts Section ======= -->
+<section id="facts">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h3 class="section-title">L'état du marché du freelancing</h3>
+      <p class="section-description">Le marché du freelancing explose, et les acteurs ne manquent pas :</p>
     </div>
 
-    <div class='main-image'>
-      <%= image_tag "the_cat.jpg" %>
+    <div class="row counters">
+      <div class="col-lg-3 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="930000" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Nombre de freelances <br>en France</p>
+      </div>
+      <div class="col-lg-3 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="7000000" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Nombre de missions démarrées <br>par an</p>
+      </div>
+      <div class="col-lg-3 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Part des entreprises prêtes <br>à travailler avec des freelances (%)</p>
+      </div>
     </div>
 
-  </div >
+    <div class="section-header">
+      <p class="section-description">Et pourtant, personne n’arrive à faire ce qu’il est la base d’un marché : en comprendre les prix.</p>
+    </div>
 
-<%# Second grid %>
+    <div class="row counters">
+      <div class="col-lg-3 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Part de freelances déclarant <br>avoir du mal à définir un TJM (%)</p>
+      </div>
+      <div class="col-lg-3 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Part des commerciaux déclarant <br> avoir du mal à expliquer un TJM à un client (%)</p>
+      </div>
+      <div class="col-lg-3 col-6 text-center">
+        <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Part des acheteurs déclarant <br> cerner un TJM freelance (%)</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Facts Section -->
 
-  <div class='home-grid'>
-  
-    <div class='results-area'>
+<!-- ======= About Section ======= -->
+<section id="about">
+  <div class="container" data-aos="fade-up">
+    <div class="row about-container">
 
-      <div class='numeric-results'>
-        <div class='nb-freelancers'>
-          <p>Number of freelancers</p>
-          <p>35 047</p>
+      <div class="col-lg-6 content order-lg-1 order-2">
+        <h2 class="title">Erwin Rates vous permet de trouvez le TJM idéal en analysant votre marché</h2>
+        <p>
+          Nous avons à coeur de mettre à disposition de tous une transparence complète sur le marché du freelancing.
+          <br>
+          Tous les ans, nous répertorions avec nos partenaires les TJMs freelances du marché pour vous permettre de prendre des meilleurs décisions.
+        </p>
+
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon"><i class="far fa-user"></i></div>
+          <h4 class="title"><a href="">Sélectionnez une expertise</a></h4>
+          <p class="description">DevOps, UX Designer, Data Engineer...</p>
         </div>
 
-        <div class='avg-day-rate'>
-          <p>Average Day Rate</p>
-          <p>653€</p>
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon"><i class="fas fa-dumbbell"></i></i></div>
+          <h4 class="title"><a href="">Choisissez les technologies principales</a></h4>
+          <p class="description">Kubernetes, Docker, Terraform...</p>
         </div>
-        
-        <div class='avg-seniority'>
-          <p>Average Seniority</p>
-          <p>4 years</p>
+
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon"><i class="fas fa-signal"></i></div>
+          <h4 class="title"><a href="">Sélectionnez le niveau de seniorité</a></h4>
+          <p class="description">Junior, Intermédaire, Senior...</p>
+        </div>
+
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          <h4 class="title"><a href="">Choisissez une localisation ou la possibilité de remote</a></h4>
+          <p class="description">Paris, Nantes, Bordeaux, ...</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100">
+        <%= image_tag "video-demo.png" %> 
+        <%# , style: 'height:50vw;width:100vw;margin-bottom:20px;' %>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End About Section -->
+
+<!-- ======= Services Section ======= -->
+<section id="services">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h3 class="section-title">Services</h3>
+      <p class="section-description">Que vous soyez freelance, entreprise, ou simplement curieux,
+      nos différents services vous permettent d'avoir une meilleur compréhension de notre marché. 
+      Simple. Transparent. A jour.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+        <div class="box">
+          <div class="icon"><a href=""><i class="far fa-chart-bar"></i></a></div>
+          <h4 class="title"><a href="">Erwin Search</a></h4>
+          <p class="description">Cherchez un TJM en flitrant par localisation, expertise, technologie, séniorité</p>
         </div>
       </div>
-      
-      <div class=' buttons-area'>
-        <a class="btn btn-success" href="#">Export</a>
-        <a class="btn btn-info" href="#">Seems Right?</a>
-      </div>
-      
-      <div class='chartdiv'>
-        <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
-      </div>
 
+      <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+        <div class="box">
+          <div class="icon"><a href=""><i class="fas fa-th-list"></i></i></a></div>
+          <h4 class="title"><a href="">Erwin Grid</a></h4>
+          <p class="description">Département achats ou RH? Téléchargez vos grilles tarifaires (globale ou filtrés)</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+        <div class="box">
+          <div class="icon"><a href=""><i class="fas fa-binoculars"></i></a></div>
+          <h4 class="title"><a href="">Erwin Earth</a></h4>
+          <p class="description">Checkez notre outil d'observation global sur le freelancing. C'est comme Google Earth, mais du freelancing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Services Section -->
+
+
+<!-- ======= Call To Action Section ======= -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row" data-aos="zoom-in">
+      <div class="col-lg-9 text-center text-lg-start">
+        <h3 class="cta-title">Essayez Erwin Rates !</h3>
+        <p class="cta-text">Enfin, un moyen de prendre des décisions data-driven pour vos missions freelances.<br>PS: c'est gratuit 😉</p>
+      </div>
+      <div class="col-lg-3 cta-btn-container text-center">
+        <a class="cta-btn align-middle" href="#">Chercher un TJM</a>
+      </div>
     </div>
 
-    <div class='filter-area'>
-        <div class='filter-element'>
-          <%= form_tag filter_path do %>
-            <div class="col mb-3">
-              <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
-              class: "form-control") %>
+  </div>
+</section><!-- End Call To Action Section -->
+
+<!-- ======= Team Section ======= -->
+<section id="team">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h3 class="section-title">L'équipe</h3>
+      <p class="section-description">Talentueux, rocambolesques et pugnaces.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="pic"><%= image_tag "emilie_lemaoult.jpeg" %></div>
+          <h4>Emilie LeMaoult</h4>
+          <span>Swiss army knife</span>
+          <div class="social">
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="pic"><%= image_tag "cyril_aulagnon.jpeg" %></div>
+          <h4>Cyril Aulagnon</h4>
+          <span>Swiss army knife</span>
+          <div class="social">
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="pic"><%= image_tag "ly_quach.png" %></div>
+          <h4>Ly Quach</h4>
+          <span>Swiss army knife</span>
+          <div class="social">
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="member" data-aos="fade-up" data-aos-delay="400">
+          <div class="pic"><%= image_tag "julien_dabert.jpeg" %></div>
+          <h4>Julien Dabert</h4>
+          <span>Swiss army knife</span>
+          <div class="social">
+            <a href=""><i class="fab fa-github"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Contact</h3>
+          <p class="section-description">On adore boire des cafés, discuter et recevoir des feedbacks. Contactez nous!</p>
+        </div>
+      </div>
+
+      <!-- Uncomment below if you wan to use dynamic maps -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6556902532743!2d2.3775741511398993!3d48.86477567918654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66df011aabfd9%3A0x396de3548b4cfc4b!2s16%20Vla%20Gaudelet%2C%2075011%20Paris!5e0!3m2!1sfr!2sfr!4v1636199297650!5m2!1sfr!2sfr" width="100%" height="380" style="border:0;" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-3 col-md-4">
+
+            <div class="info">
+              <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>16 Villa Gaudelet<br>75011 Paris</p>
+              </div>
+
+              <div>
+                <i class="far fa-envelope"></i>
+                <p>hello@erwin-rates.com</p>
+              </div>
+
+              <div>
+                <i class="fas fa-phone"></i>
+                <p>+33 6 77 77 77 77</p>
+              </div>
             </div>
 
-            <div class="col mb-3">
-              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
-              class: "form-control") %>
+            <div class="social-links">
+              <a href="#" class="github"><i class="fab fa-github"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
             </div>
 
-            <div class="col mb-3">
-              <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
-              class: "form-control") %>
-            </div>
+          </div>
 
-            <div class="col mb-3">
-              <%= text_field_tag :location,
-                  params[:location],
-                  class: "form-control ui-autocomplete-input",
-                  placeholder: "Where?",
-                  class: "btn btn-success" %>
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
             </div>
-            <div class="col mb-3">
-              <%= submit_tag "become someone now!", class: "btn btn-success" %>
-            </div>
-          <% end %>
+          </div>
 
         </div>
-    </div>
- </div>
-</div> 
+
+      </div>
+    </section><!-- End Contact Section -->

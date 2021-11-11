@@ -5,12 +5,12 @@ Rails.application.routes.draw do
   # get 'freelancer_industries/freelancer_expertises'
 
     root to: 'pages#home'
-    post "freelancer_expertises_data", to: "pages#freelancer_expertises_data"
-
-    get "confidentialite", to: 'pages#persospecs',                as: 'persospecs'
-    get "mentionslegales", to: 'pages#legalspecs',                as: 'legalspecs'
-    get "cgu",             to: 'pages#cgu',                       as: 'cgu'
+    post "freelancer_expertises_data", to: "freelancers#freelancer_expertises_data"
     get "request",         to: 'pages#request',                   as: 'request'
+    get "search", to: 'pages#search', as: "search"
+    get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
+    get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
+    get "cgu", to: 'pages#cgu', as: 'cgu'
 
     #get "gestiondescookies", to: 'pages#cookiesspecs', as: 'cookiesspecs'
 
@@ -34,7 +34,7 @@ Rails.application.routes.draw do
 
     #post "request",        to: 'pages#users/user_id/donations/new',   as: 'donation'
 
-  post 'filter', to: 'freelancers#filter'
+  # post 'filter', to: 'freelancers#filter'
 
   #adding special routes to use blazer - no admin privilege require
   mount Blazer::Engine, at: "blazer"

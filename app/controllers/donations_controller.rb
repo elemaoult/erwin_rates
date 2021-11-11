@@ -19,7 +19,7 @@ class DonationsController < ApplicationController
     session = Stripe::Checkout::Session.create(
       payment_method_types: ['card'],
       line_items: [{
-        name: "donation-#{donation.id}",
+        name: "donation-#{donation.id}-#{donation.user.email}",
         amount: donation.amount_cents,
         currency: 'eur',
         quantity: 1

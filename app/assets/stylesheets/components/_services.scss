@@ -1,0 +1,61 @@
+/* Services Section
+--------------------------------*/
+#services {
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }
+  #services .box {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    height: 200px;
+    position: relative;
+  }
+  #services .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #F6F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #2dc997;
+  }
+  #services .icon a {
+    display: inline-block;
+  }
+  #services .icon i {
+    color: #F6F8FA;
+    font-size: 24px;
+    line-height: 0;
+  }
+  #services .box:hover .icon {
+    background: #F6F8FA;
+    border: 2px solid #2dc997;
+  }
+  #services .box:hover .icon i {
+    color: #2dc997;
+  }
+  #services .box:hover .icon a {
+    color: #2dc997;
+  }
+  #services .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  #services .title a {
+    color: #F6F8FA;
+  }
+  #services .description {
+    font-size: 14px;
+    line-height: 24px;
+  }
