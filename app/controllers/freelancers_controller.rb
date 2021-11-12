@@ -23,10 +23,6 @@ class FreelancersController < ApplicationController
     redirect_to freelancers_path
   end
 
-  def freelancer_params
-    params.require(:freelancer).permit(:first_name, :last_name, :location, :job_description, :experience, :daily_rate)
-  end
-
   def remote_filter
     query = "SELECT freelancers.id, FLOOR(freelancers.daily_rate/100)*100 AS TJM 
     FROM freelancers 
@@ -53,14 +49,14 @@ class FreelancersController < ApplicationController
     ary = freelance.expertises.select do |expertise|
       @filter_expertise.include?(expertise.name)
     end
-    ary.empty? ? false : true
+    !ary.empty?
   end
 
   def condition_technology?(freelance)
     ary = freelance.technologies.select do |technology|
       @filter_technology.include?(technology.name)
     end
-    ary.empty? ? false : true
+    !ary.empty?
   end
 
   def get_conditions
@@ -78,7 +74,6 @@ class FreelancersController < ApplicationController
   end
 
   def freelancer_expertises_data
-
     ary = filtered_freelancers
     
     # [{:daily_rate_interval => "400", :count=>25},{:daily_rate_interval => "500", :count=>50}]
@@ -91,7 +86,8 @@ class FreelancersController < ApplicationController
     chart_data.sort_by! { |hsh| hsh[:daily_rate_interval] }
 
     respond_to do |format|
-      format.all {render json: {result: chart_data}}
+      format.html
+      format.json { render json: { result: chart_data } }
     end
 
   end
@@ -104,6 +100,13 @@ class FreelancersController < ApplicationController
         freelancer.save
       end
     end
+  end
+
+  private
+  # TODO => put private methods under there (private methods are methods that are called only from within the class they exist in, and shouldn't be exposed unnecessarily)
+
+  def freelancer_params
+    params.require(:freelancer).permit(:first_name, :last_name, :location, :job_description, :experience, :daily_rate)
   end
 
 end
