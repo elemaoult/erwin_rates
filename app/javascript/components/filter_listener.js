@@ -1,12 +1,12 @@
 import Rails from "@rails/ujs"
 
 const greatListener = () => {
+  const form = document.getElementById("filter-form");
   const expertisesForm = document.getElementById("Expertises");
   const technologiesForm = document.getElementById("Technologies");
   const seniorityForm = document.getElementById("Seniority");
-  const form = document.getElementById("filter-form");
 
-  if (expertisesForm) {
+  if (form) {
 
     expertisesForm.addEventListener('change', (event) => {
       // event.preventDefault();
@@ -29,9 +29,11 @@ const greatListener = () => {
       Rails.ajax({
         url: form.action,
         type: "post",
+        dataType:"json",
         data: formData,
         success: function(data) {
-          console.log(data)
+          // TODO ??? => document.querySelector('.chartdiv').data = Array.from(data["result"])
+          console.log(`data from ${form.action}`, data)
         },
         error: function(data) {
           console.log(data)

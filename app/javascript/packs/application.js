@@ -14,6 +14,7 @@ import { greatListener } from '../components/filter_listener';
 import { initPureCounter } from '../components/pure_counter';
 import { initValidate } from '../components/validate';
 import { initWtf } from '../components/what_is_this';
+import { initAmCharts } from './amcharts';
 
 document.addEventListener('turbolinks:load', () => {
   initAos()
@@ -21,5 +22,6 @@ document.addEventListener('turbolinks:load', () => {
   initPureCounter()
   initValidate()
   initWtf()
+  initAmCharts()
 });
 
