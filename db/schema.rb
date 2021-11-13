@@ -128,6 +128,7 @@ ActiveRecord::Schema.define(version: 2021_11_13_104920) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "daily_rate_interval"
+    t.boolean "included_in_analysis", default: true
     t.index ["source_id"], name: "index_freelancers_on_source_id"
   end
 
