@@ -1,5 +1,4 @@
 class FreelancersController < ApplicationController
-  # skip_before_action :authenticate_user!, only: [:freelancer_expertises_data]
   skip_before_action :verify_authenticity_token, only: :freelancer_expertises_data
   before_action :get_conditions
   # before_action :add_daily_rate_interval_to_data
