@@ -1,66 +1,12 @@
-require("@rails/ujs").start()
-require("turbolinks").start()
-require("@rails/activestorage").start()
-require("channels")
+import AOS from 'aos';
+// import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-require("particles.js")
-// Uncomment to copy all static images under ../images to the output folder and reference
-// them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
-// or the `imagePath` JavaScript helper below.
-//
-// const images = require.context('../images', true)
-// const imagePath = (name) => images(name, true)
+const initAos = () => {
+  AOS.init();
+}
 
-
-
-
-// ----------------------------------------------------
-// Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
-// WRITE YOUR OWN JS STARTING FROM HERE 👇
-// ----------------------------------------------------
-
-// External imports
-import "bootstrap";
-import 'glightbox';
-
-import { initAos } from '../components/aos';
-import { greatListener } from '../components/filter_listener';
-
-import { Application } from "stimulus"
-import ScrollTo from "stimulus-scroll-to"
-
-const application = Application.start()
-application.register("scroll-to", ScrollTo)
-
-
-// Internal imports, e.g:
-import { initSelect2 } from '../components/init_select2';
-import { greatListener } from '../components/filter_listener';
-
-
-document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  initSelect2();
-  greatListener();
-});
-
-import { initPureCounter } from '../components/pure_counter';
-import { initValidate } from '../components/validate';
-import { initWtf } from '../components/what_is_this';
-import { initAmCharts } from './amcharts';
-
-
-document.addEventListener('turbolinks:load', () => {
-  initAos()
-  greatListener()
-  initPureCounter()
-  initValidate()
-  initWtf()
-  initAmCharts()
-});
-
-
-(function() {
+const initWtf = () => {
   "use strict";
 
   /**
@@ -90,21 +36,65 @@ document.addEventListener('turbolinks:load', () => {
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
   /**
+   * Navbar links active state on scroll
+   */
+  let navbarlinks = select('.scrollto', true)
+  const navbarlinksActive = () => {
+    let position = window.scrollY + 200
+    navbarlinks.forEach(navbarlink => {
+      if (!navbarlink.hash) return
+      let section = select(navbarlink.hash)
+      if (!section) return
+      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+        navbarlink.classList.add('active')
+      } else {
+        navbarlink.classList.remove('active')
+      }
+    })
+  }
+  window.addEventListener('load', navbarlinksActive)
+  onscroll(document, navbarlinksActive)
+
+  /**
    * Scrolls to an element with header offset
    */
- 
-  let elementPos = select(el).offsetTop
+  const scrollto = (el) => {
+    let header = select('#header')
+    let offset = header.offsetHeight
+
+    if (!header.classList.contains('header-scrolled')) {
+      offset -= 20
+    }
+
+    let elementPos = select(el).offsetTop
     window.scrollTo({
       top: elementPos - offset,
       behavior: 'smooth'
     })
+  }
+
+  /**
+   * Toggle .header-scrolled class to #header when page is scrolled
+   */
+  let selectHeader = select('#header')
+  if (selectHeader) {
+    const headerScrolled = () => {
+      if (window.scrollY > 100) {
+        selectHeader.classList.add('header-scrolled')
+      } else {
+        selectHeader.classList.remove('header-scrolled')
+      }
+    }
+    window.addEventListener('load', headerScrolled)
+    onscroll(document, headerScrolled)
+  }
 
   /**
    * Back to top button
@@ -182,5 +172,6 @@ document.addEventListener('turbolinks:load', () => {
     })
   });
 
-})()
+}
 
+export { initWtf }
