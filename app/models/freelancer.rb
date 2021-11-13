@@ -2,15 +2,13 @@ class Freelancer < ApplicationRecord
 
   has_many  :freelancer_technologies, dependent: :destroy
   has_many  :freelancer_expertises, dependent: :destroy
-  has_many  :freelancer_industries, dependent: :destroy
 
   has_many :technologies, through: :freelancer_technologies
   has_many :expertises, through: :freelancer_expertises
-  has_many :industries, through: :freelancer_industries
 
   belongs_to :source
   
-  before_commit :round_50, only: %i[create update]
+  before_save :round_50 
   # scope :from_seed, -> { joins(:source).where('source.seed_valid = ?', false) }
 
   private
