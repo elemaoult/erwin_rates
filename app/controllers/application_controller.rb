@@ -13,8 +13,6 @@ class ApplicationController < ActionController::Base
   #   flash[:alert] = "You are not authorized to perform this action."
   #   redirect_to(root_path)
   # end
-
-
   
   def configure_permitted_parameters
     # For additional fields in app/views/devise/registrations/new.html.erb
