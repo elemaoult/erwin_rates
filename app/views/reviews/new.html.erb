@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row py-4">
+    <div class="col-md-3">
+      <%= simple_form_for [current_user, @review] do |f| %>
+        <%= f.input :email, label: "Ecrivez votre email ici" %>
+        <%= f.input :content, label: "Ecrivez votre message ici." %>
+        <%= f.submit "Envoyer", class: "btn btn-primary" %>
+      <% end %>
+    </div>
+  </div>
+</div>
