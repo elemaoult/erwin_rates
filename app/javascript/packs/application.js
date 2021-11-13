@@ -23,35 +23,29 @@ require("particles.js")
 import "bootstrap";
 import 'glightbox';
 
-import { initAos } from '../components/aos';
-import { greatListener } from '../components/filter_listener';
 
-import { Application } from "stimulus"
-import ScrollTo from "stimulus-scroll-to"
 
-const application = Application.start()
-application.register("scroll-to", ScrollTo)
+// import { Application } from "stimulus"
+// import ScrollTo from "stimulus-scroll-to"
+
+// const application = Application.start()
+// application.register("scroll-to", ScrollTo)
 
 
 // Internal imports, e.g:
-import { initSelect2 } from '../components/init_select2';
-import { greatListener } from '../components/filter_listener';
-
-
-document.addEventListener('turbolinks:load', () => {
-  // Call your functions here, e.g:
-  initSelect2();
-  greatListener();
-});
 
 import { initPureCounter } from '../components/pure_counter';
 import { initValidate } from '../components/validate';
 import { initWtf } from '../components/what_is_this';
 import { initAmCharts } from './amcharts';
+import { initSelect2 } from '../components/init_select2';
+import { greatListener } from '../components/filter_listener';
+import { initAos } from '../components/aos';
 
 
 document.addEventListener('turbolinks:load', () => {
   initAos()
+  initSelect2();
   greatListener()
   initPureCounter()
   initValidate()
