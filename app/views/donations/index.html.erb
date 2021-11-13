@@ -4,7 +4,6 @@
       <% @donations.each do |donation| %>
         <div class="d-flex flex-row">
           <ul class="">
-            <li class="card-text ml-5 px-1 py-0">Donation par <strong><%= donation.user.email %></strong></li>
             <li class="card-text px-1 py-0">Donation faite le <strong><%= donation.created_at.strftime('%m/%d/%Y') %></strong></li>
             <li class="card-text px-1 py-0">Montant : <%= donation.amount %></li>
             <li class="card-text px-1 py-0">Statut : <%= donation.state %></li>

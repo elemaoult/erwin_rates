@@ -14,12 +14,12 @@ class DonationsController < ApplicationController
   end
 
   def create
-    donation = Donation.create!(amount: params[:donation][:amount], user: current_user, state: 'en attente')
+    donation = Donation.create!(amount: params[:donation][:amount], state: 'en attente')
 
     session = Stripe::Checkout::Session.create(
       payment_method_types: ['card'],
       line_items: [{
-        name: "donation-#{donation.id}-#{donation.user.email}",
+        name: "donation-#{donation.id}",
         amount: donation.amount_cents,
         currency: 'eur',
         quantity: 1
