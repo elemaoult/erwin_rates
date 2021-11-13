@@ -1,11 +1,8 @@
 class PagesController < ApplicationController
-<<<<<<< HEAD
-  skip_before_action :authenticate_user!, only: [:home, :freelancer_expertises_data, :cgu, :legalspecs, :persospecs]
+  
   skip_before_action :verify_authenticity_token, only: :freelancer_expertises_data
   
-=======
 
->>>>>>> d16124d1ffa89b138cc750467aa9ddab12eed7c7
   def home
     @expertises = []
     FreelancerExpertise

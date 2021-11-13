@@ -32,7 +32,7 @@ Rails.application.routes.draw do
 
     #get "donations", to: './donations/new', as: 'donation'
 
-    #post "request",        to: 'pages#users/user_id/donations/new',   as: 'donation'
+    
 
   # post 'filter', to: 'freelancers#filter'
 
