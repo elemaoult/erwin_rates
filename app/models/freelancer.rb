@@ -13,30 +13,6 @@ class Freelancer < ApplicationRecord
   before_commit :round_50, only: %i[create update]
   # scope :from_seed, -> { joins(:source).where('source.seed_valid = ?', false) }
 
-  # def get_technology(freelancer)
-  #   res = []
-  #   freelancer.technologies.each do |technology|
-  #     res << technology.name
-  #   end
-  #   return res
-  # end
-
-  # def get_expertise(freelancer)
-  #   res = []
-  #   freelancer.expertises.each do |expertise|
-  #     res << expertise.name
-  #   end
-  #   return res
-  # end
-
-  # def get_industry(freelancer)
-  #   res = []
-  #   freelancer.industries.each do |industry|
-  #     res << industry.name
-  #   end
-  #   return res
-  # end
-
   private
 
   def round_50

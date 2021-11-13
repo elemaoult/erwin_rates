@@ -19,12 +19,12 @@ const initAmCharts = () => {
       type: "post",
       dataType:"json",
       success: function(data) {
-        console.log(`data from`, data)
+        // console.log(`data from`, data)
         const resultArray = Array.from(data["result"])
         chart.data = resultArray;
       },
       error: function(data) {
-        console.log(data)
+        // console.log(data)
       }
     })
   }
@@ -72,6 +72,7 @@ const initAmCharts = () => {
   // Cursor
   chart.cursor = new am4charts.XYCursor();
 
+  return chart; 
 }
 
 export { initAmCharts }

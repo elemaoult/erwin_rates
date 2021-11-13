@@ -1,6 +1,6 @@
 import Rails from "@rails/ujs"
 
-const greatListener = () => {
+const greatListener = (chart) => {
   const form = document.getElementById("filter-form");
   const expertisesForm = document.getElementById("Expertises");
   const technologiesForm = document.getElementById("Technologies");
@@ -34,6 +34,8 @@ const greatListener = () => {
         success: function(data) {
           // TODO ??? => document.querySelector('.chartdiv').data = Array.from(data["result"])
           console.log(`data from ${form.action}`, data)
+          const resultArray = Array.from(data["result"])
+          chart.data = resultArray;
         },
         error: function(data) {
           console.log(data)

@@ -33,39 +33,46 @@ class FreelancersController < ApplicationController
     @result = result.values.map{|res| {freelancer: res[1], count: res[0]}}
   end
 
-  def filtered_freelancers
-#  Get all occurences of params
+#   def filtered_freelancers
+# #  Get all occurences of params
 
-    Freelancer.all.select do |freelance| 
-      filter_condition?(freelance)
-    end
-  end
+#     Freelancer.all.select do |freelance| 
+#       filter_condition?(freelance)
+#     end
+#   end
 
-  def filter_condition?(freelance)
-    @filter_experience.include?(freelance.experience) && condition_expertise?(freelance) && condition_technology?(freelance)
-  end
+#   def filter_condition?(freelance)
+#     condition_expertise?(freelance) && condition_technology?(freelance) && condition_experience?(freelance)
+#   end
 
-  def condition_expertise?(freelance)
-    # ary = freelance.expertises.select do |expertise|
-    #   @filter_expertise.include?(expertise.name)
-    # end
-    # !ary.empty?
-    ary = freelance.expertises.map do |expertise|
-      expertise.name
-    end
-    !(@filter_expertise - ary).empty? 
-  end
+#   def condition_expertise?(freelance)
+#     return true if @filter_expertise == @all_expertises
+#     # ary = freelance.expertises.select do |expertise|
+#     #   @filter_expertise.include?(expertise.name)
+#     # end
+#     # !ary.empty?
+#     ary = freelance.expertises.map do |expertise|
+#       expertise.name
+#     end
+#     !(@filter_expertise - ary).empty? 
+#   end
 
-  def condition_technology?(freelance)
-    # ary = freelance.technologies.select do |technology|
-    #   @filter_technology.include?(technology.name)
-    # end
-    # !ary.empty?
-    ary = freelance.technologies.map do |technology|
-      technology.name
-    end
-    !(@filter_technology - ary).empty? 
-  end
+#   def condition_technology?(freelance)
+#     return true if @filter_technology == @all_technologies
+#     # ary = freelance.technologies.select do |technology|
+#     #   @filter_technology.include?(technology.name)
+#     # end
+#     # !ary.empty?
+#     ary = freelance.technologies.map do |technology|
+#       technology.name
+#     end
+#     !(@filter_technology - ary).empty? 
+#   end
+
+  # def condition_experience?(freelance)
+  #   return true if @filter_experience == @all_experiences
+  #   @filter_experience.include?(freelance.experience) 
+  # end
 
   def get_conditions
 
@@ -78,19 +85,19 @@ class FreelancersController < ApplicationController
     @filter_expertise = params["Expertises"].blank? ? @all_expertises : [params["Expertises"]]
     @filter_technology = params["Technologies"].blank? ? @all_technologies : [params["Technologies"]]
     @filter_experience = params["Seniority"].blank? ? @all_experiences : [params["Seniority"]]
-
   end
 
   def freelancer_expertises_data
-    ary = filtered_freelancers
+    # ary = filtered_freelancers
     
+    hsh = Freelancer.joins(:technologies, :expertises).where(technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }, experience: @filter_experience).group(:daily_rate_interval).count
     # [{:daily_rate_interval => "400", :count=>25},{:daily_rate_interval => "500", :count=>50}]
-    result = ary.group_by { |freelancer| freelancer.daily_rate_interval }
-
-    chart_data = result.map do |freelance_group|
-      {:daily_rate_interval => freelance_group[0], :count=>freelance_group[1].count }
+    # {0=>3, 150=>1, 200=>1, 300=>7, 350=>19, 400=>12, 450=>12, 500=>10, 550=>14, 600=>14, 650=>4, 700=>7, 750=>6, 800=>3, 850=>2, 900=>4}
+  
+    chart_data = []
+    hsh.each do |interval, number_of_freelancers|
+      chart_data << {:daily_rate_interval => interval, :count=>number_of_freelancers }
     end
-
     chart_data.sort_by! { |hsh| hsh[:daily_rate_interval] }
 
     respond_to do |format|

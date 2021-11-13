@@ -26,11 +26,11 @@ import { initAmCharts } from './amcharts';
 
 document.addEventListener('turbolinks:load', () => {
   initAos()
-  greatListener()
   initPureCounter()
   initValidate()
   initWtf()
-  initAmCharts()
+  const initializedChart = initAmCharts();
+  greatListener(initializedChart);
 });
 
 
@@ -74,11 +74,11 @@ document.addEventListener('turbolinks:load', () => {
    * Scrolls to an element with header offset
    */
  
-  let elementPos = select(el).offsetTop
-    window.scrollTo({
-      top: elementPos - offset,
-      behavior: 'smooth'
-    })
+  // let elementPos = select(el).offsetTop
+  //   window.scrollTo({
+  //     top: elementPos - offset,
+  //     behavior: 'smooth'
+  //   })
 
   /**
    * Back to top button
@@ -147,14 +147,14 @@ document.addEventListener('turbolinks:load', () => {
   /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+  // window.addEventListener('load', () => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     easing: 'ease-in-out',
+  //     once: true,
+  //     mirror: false
+  //   })
+  // });
 
 })()
 
