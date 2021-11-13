@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+  
+  skip_before_action :verify_authenticity_token, only: :freelancer_expertises_data
+  
 
   def home
     @expertises = []
