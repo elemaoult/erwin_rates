@@ -1,3 +1,3 @@
 class Industry < ApplicationRecord
-  has_many :freelancer_industries
+  has_many :freelancer_industries, dependent: :destroy
 end

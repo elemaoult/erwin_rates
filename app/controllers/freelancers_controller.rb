@@ -46,17 +46,25 @@ class FreelancersController < ApplicationController
   end
 
   def condition_expertise?(freelance)
-    ary = freelance.expertises.select do |expertise|
-      @filter_expertise.include?(expertise.name)
+    # ary = freelance.expertises.select do |expertise|
+    #   @filter_expertise.include?(expertise.name)
+    # end
+    # !ary.empty?
+    ary = freelance.expertises.map do |expertise|
+      expertise.name
     end
-    !ary.empty?
+    !(@filter_expertise - ary).empty? 
   end
 
   def condition_technology?(freelance)
-    ary = freelance.technologies.select do |technology|
-      @filter_technology.include?(technology.name)
+    # ary = freelance.technologies.select do |technology|
+    #   @filter_technology.include?(technology.name)
+    # end
+    # !ary.empty?
+    ary = freelance.technologies.map do |technology|
+      technology.name
     end
-    !ary.empty?
+    !(@filter_technology - ary).empty? 
   end
 
   def get_conditions

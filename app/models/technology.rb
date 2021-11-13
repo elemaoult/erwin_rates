@@ -1,3 +1,3 @@
 class Technology < ApplicationRecord
-  has_many :person_technologies
+  has_many :freelancer_technologies, dependent: :destroy
 end
