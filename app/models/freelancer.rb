@@ -1,7 +1,7 @@
 class Freelancer < ApplicationRecord
-  has_many  :freelancer_technologies
-  has_many  :freelancer_expertises
-  has_many  :freelancer_industries
+  has_many  :freelancer_technologies, dependent: :destroy
+  has_many  :freelancer_expertises, dependent: :destroy
+  has_many  :freelancer_industries, dependent: :destroy
   
   has_many :technologies, through: :freelancer_technologies
   has_many :expertises, through: :freelancer_expertises
