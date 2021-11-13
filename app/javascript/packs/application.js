@@ -12,11 +12,11 @@ import 'glightbox';
 import { initAos } from '../components/aos';
 import { greatListener } from '../components/filter_listener';
 
-import { Application } from "stimulus"
-import ScrollTo from "stimulus-scroll-to"
+// import { Application } from "stimulus"
+// import ScrollTo from "stimulus-scroll-to"
 
-const application = Application.start()
-application.register("scroll-to", ScrollTo)
+// const application = Application.start()
+// application.register("scroll-to", ScrollTo)
 
 import { initPureCounter } from '../components/pure_counter';
 import { initValidate } from '../components/validate';
