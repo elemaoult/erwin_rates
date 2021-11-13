@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_13_104920) do
+ActiveRecord::Schema.define(version: 2021_11_13_104156) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -128,6 +128,7 @@ ActiveRecord::Schema.define(version: 2021_11_13_104920) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "daily_rate_interval"
+    t.boolean "included_in_analysis", default: true
     t.index ["source_id"], name: "index_freelancers_on_source_id"
   end
 
