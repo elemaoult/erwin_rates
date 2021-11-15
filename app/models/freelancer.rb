@@ -8,7 +8,7 @@ class Freelancer < ApplicationRecord
 
   belongs_to :source
   
-  before_save :round_50 
+  before_update :round_50 
   # scope :from_seed, -> { joins(:source).where('source.seed_valid = ?', false) }
 
   private
