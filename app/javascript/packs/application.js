@@ -2,15 +2,30 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-
 require("particles.js")
+// Uncomment to copy all static images under ../images to the output folder and reference
+// them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
+// or the `imagePath` JavaScript helper below.
+//
+// const images = require.context('../images', true)
+// const imagePath = (name) => images(name, true)
+
+
+
+
+// ----------------------------------------------------
+// Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
+// WRITE YOUR OWN JS STARTING FROM HERE 👇
+// ----------------------------------------------------
 
 // External imports
 import "bootstrap";
 import 'glightbox';
 
-import { initAos } from '../components/aos';
-import { greatListener } from '../components/filter_listener';
+
+
+
+// Internal imports, e.g:
 
 // import { Application } from "stimulus"
 // import ScrollTo from "stimulus-scroll-to"
@@ -22,10 +37,14 @@ import { initPureCounter } from '../components/pure_counter';
 import { initValidate } from '../components/validate';
 import { initWtf } from '../components/what_is_this';
 import { initAmCharts } from './amcharts';
+import { initSelect2 } from '../components/init_select2';
+import { greatListener } from '../components/filter_listener';
+import { initAos } from '../components/aos';
 
 
 document.addEventListener('turbolinks:load', () => {
   initAos()
+  initSelect2();
   initPureCounter()
   initValidate()
   initWtf()
