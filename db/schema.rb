@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_06_105738) do
+ActiveRecord::Schema.define(version: 2021_11_13_170305) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -71,6 +71,14 @@ ActiveRecord::Schema.define(version: 2021_11_06_105738) do
     t.index ["creator_id"], name: "index_blazer_queries_on_creator_id"
   end
 
+  create_table "donations", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "amount_cents", default: 0, null: false
+    t.string "state"
+    t.string "checkout_session_id"
+  end
+
   create_table "expertises", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
@@ -120,6 +128,7 @@ ActiveRecord::Schema.define(version: 2021_11_06_105738) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "daily_rate_interval"
+    t.boolean "included_in_analysis", default: true
     t.index ["source_id"], name: "index_freelancers_on_source_id"
   end
 
@@ -127,6 +136,15 @@ ActiveRecord::Schema.define(version: 2021_11_06_105738) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.string "email"
+    t.text "content"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_reviews_on_user_id"
   end
 
   create_table "sources", force: :cascade do |t|
@@ -141,6 +159,8 @@ ActiveRecord::Schema.define(version: 2021_11_06_105738) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "group_name"
+    t.boolean "inserted_in_analysis", default: true
   end
 
   create_table "users", force: :cascade do |t|
@@ -164,4 +184,5 @@ ActiveRecord::Schema.define(version: 2021_11_06_105738) do
   add_foreign_key "freelancer_technologies", "freelancers"
   add_foreign_key "freelancer_technologies", "technologies"
   add_foreign_key "freelancers", "sources"
+  add_foreign_key "reviews", "users"
 end
