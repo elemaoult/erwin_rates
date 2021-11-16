@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import Rails from "@rails/ujs"
 
 const greatListener = (chart) => {
@@ -6,24 +7,31 @@ const greatListener = (chart) => {
   const technologiesForm = document.getElementById("Technologies");
   const seniorityForm = document.getElementById("Seniority");
 
+  // console.log(form)
+
   if (form) {
+    // console.log(expertisesForm)
 
-    expertisesForm.addEventListener('change', (event) => {
+    $("#Expertises").on('change', (event) => {
+      // event.preventDefault();
+
+      submitAjaxForm();
+    });
+
+    // expertisesForm.addEventListener
+
+    $("#Technologies").on('change', (event) => {
       // event.preventDefault();
       submitAjaxForm();
     });
 
-    technologiesForm.addEventListener('change', (event) => {
-      // event.preventDefault();
-      submitAjaxForm();
-    });
-
-    seniorityForm.addEventListener('change', (event) => {
+    $("#Seniority").on('change', (event) => {
       // event.preventDefault();
       submitAjaxForm();
     });
 
     const submitAjaxForm = () => {
+      console.log("coucou", expertisesForm)
       let formData = new FormData(form)
       // Rails ajax corresponding to fetch
       Rails.ajax({
