@@ -1,8 +1,8 @@
 <section id="landing">
   <div class="container" data-aos="fade-up">
-    <div class="section-header">
+    <div class="section-header search-header">
       <h3 class="section-title">Erwin Search</h3>
-      <p class="section-description">Sélectionnez le profil type (Expérience, Expertise, Spécialités, Localisation)</p>
+      <p class="section-description search-description">Sélectionnez le profil type (Expérience, Expertise, Spécialités, Localisation)</p>
     </div>
     <div class="row-counters d-flex">
       <div class="col-lg-4 col-12 text-center">
@@ -26,42 +26,42 @@
     </div>
 
     <div class="row landing-container">
-      <div class="col-lg-6 content order-lg-1 order-2">
+      <div class="col-lg-8 content order-lg-1 order-2">
         <div class='chartdiv'>
           <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
         </div>
-        <div class='buttons-area'>
+        <%# <div class='buttons-area'>
           <a href="#" class="btn-get-started p-2 m-3 text-center">Export</a>
           <a href="#" class="btn-get-started p-2 m-3 text-center">Seems Right?</a>
-        </div>
+        </div> %>
       </div>
-      <div class="col-lg-6 background order-lg-2 order-1">
-        <div class='row-counters p-2 m-3'>
+      <div class="col-lg-4 background order-lg-2 order-1">
+        <div class='row-counters mt-3'>
           <%= form_tag freelancer_expertises_data_path, id: "filter-form"  do %>
-            <div class="col-lg-2 col-6 text-center">
+            <div class="col-lg-12 col-6 text-center my-3">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
-              id: "Expertises", multiple: "multiple") %>
+              class: "Expertises form-control", multiple: "multiple", style:"color:") %>
             </div>
 
-            <div class="col-lg-2 col-6 text-center">
+            <div class="col-lg-12 col-6 text-center my-3">
               <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
-              id: "Technologies", multiple: "multiple") %>
+              class: "Technologies form-control ", multiple: "multiple", style:"width: 100%") %>
             </div>
 
-            <div class="col-lg-2 col-6 text-center">
+            <div class="col-lg-12 col-6 text-center my-3">
               <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
-              id: "Seniority") %>
+              class: "Seniority form-control ") %>
             </div>
-
-            <div class="col-lg-2 col-6 text-center">
+<%# 
+            <div class="col-lg-12 col-6 text-center">
               <%= select_tag("Location", options_for_select(Freelancer.pluck(:location).uniq), include_blank: true,
               class: 'select2-location') %>
 
-            </div>
-            <div class="col-lg-2 col-6 text-center">
+            <%# </div>
+            <div class="col-lg-12 col-6 text-center">
               <%= select_tag("Remote", options_for_select(Freelancer.pluck(:remote).uniq), include_blank: true,
                 class: 'select2-remote') %>
-            </div>
+            <%# </div> %>
           <% end %>
       </div>
     </div>
