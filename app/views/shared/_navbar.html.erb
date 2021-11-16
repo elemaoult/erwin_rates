@@ -1,11 +1,12 @@
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-  <div class="container d-flex justify-content-between align-items-center">
+  <%# <div class="container d-flex justify-content-between align-items-center"> %>
 
     <div id="logo">
-      <h1><%= link_to "Erwin Rates", root_path %></h1>
+      <%# <h1><%= link_to "Erwin Rates", root_path %>
+      <%= image_tag "erwin_logo.png" %> 
       <%# <a href="index.html"><img src="https://ad4group.com/wp-content/uploads/2015/08/6Dollar-Shirts-Schrodingers-Cat-1.png" alt=""></a>
       <!-- Uncomment below if you prefer to use a text logo -->
-      <!--<h1><a href="index.html">Regna</a></h1>--> %>
+      <!--<h1><a href="index.html">Regna</a></h1>--> , root_path %>
     </div>
 
     <nav id="navbar" class="navbar">
@@ -19,27 +20,6 @@
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i> %>
     </nav><!-- .navbar -->
-  </div>
+  <%# </div> %>
 
 </header>
-
-
-        <%# <li class="dropdown"><a href="#">
-          <span>
-            <% if user_signed_in? %>
-                  <%# <li><a class="nav-link scrollto">
-                    <%= link_to "Se connecter", new_user_session_path, class: "fr-link fr-fi-lock-line" %>
-                  <%# </a>
-                  </li>
-                  <li><a class="nav-link scrollto">
-                    <%= link_to "S'inscrire", new_user_registration_path, class: "fr-link fr-fi-account-line" %>
-                    <%# </a>
-                  </li>
-            <% end %>
-          <%# </span> <i class="bi bi-chevron-down"></i></a>
-          <ul>
-            <li><a href="#">Action</a></li>
-            <li><%= link_to "Se connecter", new_user_session_path, class: "dropdown-item" %></li>
-            <%# <li><%= link_to "Se déconnecter", destroy_user_session_path, method: :delete, class: "dropdown-item" %></li>
-          <%# </ul>
-        </li> %> 
