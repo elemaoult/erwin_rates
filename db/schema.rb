@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_13_170305) do
+ActiveRecord::Schema.define(version: 2021_11_16_193953) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -83,6 +83,7 @@ ActiveRecord::Schema.define(version: 2021_11_13_170305) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["name"], name: "index_expertises_on_name"
   end
 
   create_table "freelancer_expertises", force: :cascade do |t|
@@ -92,15 +93,6 @@ ActiveRecord::Schema.define(version: 2021_11_13_170305) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["expertise_id"], name: "index_freelancer_expertises_on_expertise_id"
     t.index ["freelancer_id"], name: "index_freelancer_expertises_on_freelancer_id"
-  end
-
-  create_table "freelancer_industries", force: :cascade do |t|
-    t.bigint "industry_id", null: false
-    t.bigint "freelancer_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["freelancer_id"], name: "index_freelancer_industries_on_freelancer_id"
-    t.index ["industry_id"], name: "index_freelancer_industries_on_industry_id"
   end
 
   create_table "freelancer_technologies", force: :cascade do |t|
@@ -129,13 +121,9 @@ ActiveRecord::Schema.define(version: 2021_11_13_170305) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "daily_rate_interval"
     t.boolean "included_in_analysis", default: true
+    t.index ["daily_rate_interval"], name: "index_freelancers_on_daily_rate_interval"
+    t.index ["experience"], name: "index_freelancers_on_experience"
     t.index ["source_id"], name: "index_freelancers_on_source_id"
-  end
-
-  create_table "industries", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "reviews", force: :cascade do |t|
@@ -161,6 +149,7 @@ ActiveRecord::Schema.define(version: 2021_11_13_170305) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "group_name"
     t.boolean "inserted_in_analysis", default: true
+    t.index ["name"], name: "index_technologies_on_name"
   end
 
   create_table "users", force: :cascade do |t|
@@ -179,8 +168,6 @@ ActiveRecord::Schema.define(version: 2021_11_13_170305) do
 
   add_foreign_key "freelancer_expertises", "expertises"
   add_foreign_key "freelancer_expertises", "freelancers"
-  add_foreign_key "freelancer_industries", "freelancers"
-  add_foreign_key "freelancer_industries", "industries"
   add_foreign_key "freelancer_technologies", "freelancers"
   add_foreign_key "freelancer_technologies", "technologies"
   add_foreign_key "freelancers", "sources"
