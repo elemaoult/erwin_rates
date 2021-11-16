@@ -1,3 +1,3 @@
 class Source < ApplicationRecord
-  has_many  :freelancer, dependent: :destroy
+  has_many  :freelancers, dependent: :destroy
 end
