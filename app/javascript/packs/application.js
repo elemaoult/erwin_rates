@@ -22,9 +22,10 @@ import { initPureCounter } from '../components/pure_counter';
 import { initValidate } from '../components/validate';
 import { initWtf } from '../components/what_is_this';
 import { initAmCharts } from './amcharts';
-
+import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
+  initSelect2();
   initAos()
   initPureCounter()
   initValidate()
