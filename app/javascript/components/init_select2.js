@@ -2,13 +2,13 @@ import $ from 'jquery';
 import 'select2';
 
 const initSelect2 = () => {
-  $('Expertises').select2({
+  $('#Expertises').select2({
     placeholder: "Choisir une ou plusieurs expertises"
   });
-  $('Technologies').select2({
+  $('#Technologies').select2({
     placeholder: "Choisir une ou plusieurs spécialités"
   });
-  $('Seniority').select2({
+  $('#Seniority').select2({
     placeholder: "Choisir un niveau de séniorité"
   });
   $('.select2-location').select2({
