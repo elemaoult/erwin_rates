@@ -40,28 +40,27 @@
           <%= form_tag freelancer_expertises_data_path, id: "filter-form"  do %>
             <div class="col-lg-2 col-6 text-center">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
-              class: "form-control") %>
+              id: "Expertises", multiple: "multiple") %>
             </div>
 
             <div class="col-lg-2 col-6 text-center">
               <%= select_tag("Technologies", options_for_select(Technology.pluck(:name)), include_blank: true,
-              class: "form-control") %>
+              id: "Technologies", multiple: "multiple") %>
             </div>
 
             <div class="col-lg-2 col-6 text-center">
               <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
-              class: "form-control") %>
+              id: "Seniority") %>
             </div>
 
             <div class="col-lg-2 col-6 text-center">
-              <%= text_field_tag :location,
-                  params[:location],
-                  class: "form-control ui-autocomplete-input",
-                  placeholder: "Where?",
-                  class: "btn btn-success" %>
+              <%= select_tag("Location", options_for_select(Freelancer.pluck(:location).uniq), include_blank: true,
+              class: 'select2-location') %>
+
             </div>
             <div class="col-lg-2 col-6 text-center">
-              <%= submit_tag "become someone now!", class: "btn btn-success" %>
+              <%= select_tag("Remote", options_for_select(Freelancer.pluck(:remote).uniq), include_blank: true,
+                class: 'select2-remote') %>
             </div>
           <% end %>
       </div>
