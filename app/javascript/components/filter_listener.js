@@ -12,7 +12,7 @@ const greatListener = (chart) => {
   if (form) {
     // console.log(expertisesForm)
 
-    $("#Expertises").on('change', (event) => {
+    $(".Expertises").on('change', (event) => {
       // event.preventDefault();
 
       submitAjaxForm();
@@ -20,12 +20,12 @@ const greatListener = (chart) => {
 
     // expertisesForm.addEventListener
 
-    $("#Technologies").on('change', (event) => {
+    $(".Technologies").on('change', (event) => {
       // event.preventDefault();
       submitAjaxForm();
     });
 
-    $("#Seniority").on('change', (event) => {
+    $(".Seniority").on('change', (event) => {
       // event.preventDefault();
       submitAjaxForm();
     });
