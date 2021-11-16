@@ -97,6 +97,13 @@ class FreelancersController < ApplicationController
     hsh.each do |interval, number_of_freelancers|
       chart_data << {:daily_rate_interval => interval, :count=>number_of_freelancers }
     end
+
+    key = hsh.keys.min
+    while key < hsh.keys.max
+      chart_data << {:daily_rate_interval => key, :count => 0 } if !hsh.keys.include?(key)
+      key += 50
+    end
+
     chart_data.sort_by! { |hsh| hsh[:daily_rate_interval] }
 
     respond_to do |format|
