@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_16_193953) do
+ActiveRecord::Schema.define(version: 2021_11_16_212439) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -121,6 +121,7 @@ ActiveRecord::Schema.define(version: 2021_11_16_193953) do
     t.datetime "updated_at", precision: 6, null: false
     t.integer "daily_rate_interval"
     t.boolean "included_in_analysis", default: true
+    t.string "gender_guess"
     t.index ["daily_rate_interval"], name: "index_freelancers_on_daily_rate_interval"
     t.index ["experience"], name: "index_freelancers_on_experience"
     t.index ["source_id"], name: "index_freelancers_on_source_id"
