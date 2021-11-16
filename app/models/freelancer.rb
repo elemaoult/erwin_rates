@@ -9,10 +9,8 @@ class Freelancer < ApplicationRecord
   belongs_to :source
   
   after_save :round_50 
-  # scope :from_seed, -> { joins(:source).where('source.seed_valid = ?', false) }
 
-  private
-
+  
   def round_50
     update_column(:daily_rate_interval, daily_rate.div(50)*50)
   end
