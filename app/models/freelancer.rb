@@ -14,4 +14,5 @@ class Freelancer < ApplicationRecord
   def round_50
     update_column(:daily_rate_interval, daily_rate.div(50)*50)
   end
+
 end
