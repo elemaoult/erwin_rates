@@ -95,6 +95,15 @@ ActiveRecord::Schema.define(version: 2021_11_16_212439) do
     t.index ["freelancer_id"], name: "index_freelancer_expertises_on_freelancer_id"
   end
 
+  create_table "freelancer_industries", force: :cascade do |t|
+    t.bigint "industry_id", null: false
+    t.bigint "freelancer_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["freelancer_id"], name: "index_freelancer_industries_on_freelancer_id"
+    t.index ["industry_id"], name: "index_freelancer_industries_on_industry_id"
+  end
+
   create_table "freelancer_technologies", force: :cascade do |t|
     t.bigint "technology_id", null: false
     t.bigint "freelancer_id", null: false
@@ -125,6 +134,12 @@ ActiveRecord::Schema.define(version: 2021_11_16_212439) do
     t.index ["daily_rate_interval"], name: "index_freelancers_on_daily_rate_interval"
     t.index ["experience"], name: "index_freelancers_on_experience"
     t.index ["source_id"], name: "index_freelancers_on_source_id"
+  end
+
+  create_table "industries", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "reviews", force: :cascade do |t|
@@ -169,6 +184,8 @@ ActiveRecord::Schema.define(version: 2021_11_16_212439) do
 
   add_foreign_key "freelancer_expertises", "expertises"
   add_foreign_key "freelancer_expertises", "freelancers"
+  add_foreign_key "freelancer_industries", "freelancers"
+  add_foreign_key "freelancer_industries", "industries"
   add_foreign_key "freelancer_technologies", "freelancers"
   add_foreign_key "freelancer_technologies", "technologies"
   add_foreign_key "freelancers", "sources"

@@ -78,8 +78,8 @@ class FreelancersController < ApplicationController
     #   Get all possible params
     @all_expertises = Expertise.pluck(:name)
     @all_technologies = Technology.pluck(:name)
-    @all_experiences = ["Junior", "Intermédiaire", "Senior"]
-    @all_genders = ["Femme", "Homme", "Andy"]
+    @all_experiences = Freelancer.pluck(:experience)
+    @all_genders = Freelancer.pluck(:gender_guess)
 
     #   Get params from form
     @filter_expertise = params["Expertises"].blank? ? @all_expertises : [params["Expertises"]]
@@ -88,11 +88,10 @@ class FreelancersController < ApplicationController
     @filter_gender = params["Gender"].blank? ? @all_genders : [params["Gender"]]
   end
 
-  def freelancer_expertises_data
+  def freelancer_expertises_data  
     
-    binding.pry
-    
-    hsh = Freelancer.joins(:technologies, :expertises).where(technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }, experience: @filter_experience).group(:daily_rate_interval).count
+    big_joined_table = Freelancer.joins(:technologies, :expertises).where(experience: @filter_experience, gender_guess: @filter_gender, technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }).distinct
+    hsh = big_joined_table.group(:daily_rate_interval).count
     # [{:daily_rate_interval => "400", :count=>25},{:daily_rate_interval => "500", :count=>50}]
     # {0=>3, 150=>1, 200=>1, 300=>7, 350=>19, 400=>12, 450=>12, 500=>10, 550=>14, 600=>14, 650=>4, 700=>7, 750=>6, 800=>3, 850=>2, 900=>4}
   
