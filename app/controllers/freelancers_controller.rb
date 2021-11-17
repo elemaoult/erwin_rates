@@ -81,8 +81,8 @@ class FreelancersController < ApplicationController
       # Calculating figures on search_page
       # This is not the right resul - I do not know why
       @nb_freelancers = @big_joined_table.count
-      @avg_daily_rate = @big_joined_table.pluck(:daily_rate).sum/@nb_freelancers
-      @median_daily_rate =  @big_joined_table.pluck(:daily_rate).sort[@nb_freelancers/2]
+      @avg_daily_rate = @big_joined_table.collect(&:daily_rate).sum/@nb_freelancers
+      @median_daily_rate =  @big_joined_table.collect(&:daily_rate).sort[@nb_freelancers/2]
   end
 
 
