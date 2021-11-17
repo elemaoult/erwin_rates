@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_16_212439) do
+ActiveRecord::Schema.define(version: 2021_11_17_093146) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -124,6 +124,9 @@ ActiveRecord::Schema.define(version: 2021_11_16_212439) do
     t.string "gender_guess"
     t.index ["daily_rate_interval"], name: "index_freelancers_on_daily_rate_interval"
     t.index ["experience"], name: "index_freelancers_on_experience"
+    t.index ["gender_guess"], name: "index_freelancers_on_gender_guess"
+    t.index ["location"], name: "index_freelancers_on_location"
+    t.index ["remote"], name: "index_freelancers_on_remote"
     t.index ["source_id"], name: "index_freelancers_on_source_id"
   end
 
