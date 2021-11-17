@@ -69,7 +69,7 @@ my_array.each do |my_url|
         end
 
         # First name
-        puts element.search('.profile-card-header__full-name').text.strip
+        # puts element.search('.profile-card-header__full-name').text.strip
         first_name = element.search('.profile-card-header__full-name').text.strip.split[0]
         # Location (town)
         location = element.search('.c-tooltip_target').first.text.strip.gsub(/Localisé\(e\) à /, '')

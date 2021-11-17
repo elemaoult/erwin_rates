@@ -24,6 +24,7 @@ class Freelancer < ApplicationRecord
     gender_guess = "male" if gender_guess == "mostly_male"
     gender_guess = "female" if gender_guess == "mostly_female"
     # Translate into French
+    gender_guess = "Andy" if gender_guess == "andy"
     gender_guess = "Homme" if gender_guess == "male" 
     gender_guess = "Femme" if gender_guess == "female" 
 
