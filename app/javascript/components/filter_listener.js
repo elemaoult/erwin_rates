@@ -36,6 +36,11 @@ const greatListener = (chart) => {
       submitAjaxForm();
     });
 
+    $(".Remote").on('change', (event) => {
+      // event.preventDefault();
+      submitAjaxForm();
+    });
+
     const submitAjaxForm = () => {
       // console.log("coucou", expertisesForm)
       let formData = new FormData(form)
