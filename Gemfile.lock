@@ -107,6 +107,7 @@ GEM
     ffi (1.15.4)
     font-awesome-sass (5.15.1)
       sassc (>= 1.11)
+    gender_detector (2.0.0)
     globalid (0.5.2)
       activesupport (>= 5.0)
     haml (5.2.2)
@@ -309,6 +310,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  activesupport
   autoprefixer-rails (= 10.2.5)
   blazer
   bootsnap (>= 1.4.2)
@@ -318,6 +320,7 @@ DEPENDENCIES
   dotenv-rails
   faker
   font-awesome-sass
+  gender_detector
   jbuilder (~> 2.7)
   listen (~> 3.2)
   money-rails

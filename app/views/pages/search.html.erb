@@ -52,6 +52,11 @@
               <%= select_tag("Seniority", options_for_select(Freelancer.pluck(:experience).uniq), include_blank: true,
               class: "Seniority form-control ") %>
             </div>
+
+            <div class="col-lg-12 col-6 text-center my-3">
+              <%= select_tag("Gender", options_for_select(["Femme", "Homme"]), include_blank: true,
+              class: "Gender form-control ") %>
+            </div>
 <%# 
             <div class="col-lg-12 col-6 text-center">
               <%= select_tag("Location", options_for_select(Freelancer.pluck(:location).uniq), include_blank: true,

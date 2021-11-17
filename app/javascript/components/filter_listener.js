@@ -30,8 +30,14 @@ const greatListener = (chart) => {
       submitAjaxForm();
     });
 
+
+    $(".Gender").on('change', (event) => {
+      // event.preventDefault();
+      submitAjaxForm();
+    });
+
     const submitAjaxForm = () => {
-      console.log("coucou", expertisesForm)
+      // console.log("coucou", expertisesForm)
       let formData = new FormData(form)
       // Rails ajax corresponding to fetch
       Rails.ajax({
@@ -41,12 +47,12 @@ const greatListener = (chart) => {
         data: formData,
         success: function(data) {
           // TODO ??? => document.querySelector('.chartdiv').data = Array.from(data["result"])
-          console.log(`data from ${form.action}`, data)
+          // console.log(`data from ${form.action}`, data)
           const resultArray = Array.from(data["result"])
           chart.data = resultArray;
         },
         error: function(data) {
-          console.log(data)
+          // console.log(data)
         }
       })
     }

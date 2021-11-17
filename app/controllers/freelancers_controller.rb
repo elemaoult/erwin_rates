@@ -79,15 +79,18 @@ class FreelancersController < ApplicationController
     @all_expertises = Expertise.pluck(:name)
     @all_technologies = Technology.pluck(:name)
     @all_experiences = ["Junior", "Intermédiaire", "Senior"]
+    @all_genders = ["Femme", "Homme", "Andy"]
 
     #   Get params from form
     @filter_expertise = params["Expertises"].blank? ? @all_expertises : [params["Expertises"]]
     @filter_technology = params["Technologies"].blank? ? @all_technologies : [params["Technologies"]]
     @filter_experience = params["Seniority"].blank? ? @all_experiences : [params["Seniority"]]
+    @filter_gender = params["Gender"].blank? ? @all_genders : [params["Gender"]]
   end
 
   def freelancer_expertises_data
-    # ary = filtered_freelancers
+    
+    binding.pry
     
     hsh = Freelancer.joins(:technologies, :expertises).where(technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }, experience: @filter_experience).group(:daily_rate_interval).count
     # [{:daily_rate_interval => "400", :count=>25},{:daily_rate_interval => "500", :count=>50}]
