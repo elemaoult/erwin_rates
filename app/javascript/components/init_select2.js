@@ -4,12 +4,10 @@ import 'select2';
 const initSelect2 = () => {
   $('.Expertises').select2({
     placeholder: "Choisir une ou plusieurs expertises",
-    theme: "classic"
   });
 
   $('.Technologies').select2({
     placeholder: "Choisir une ou plusieurs spécialités",
-    theme: "classic"
   });
 
   $('.Seniority').select2({
