@@ -3,6 +3,11 @@ Rails.application.routes.draw do
   devise_for :users
   # get 'freelancer_industries/freelancer_technologies'
   # get 'freelancer_industries/freelancer_expertises'
+  match "/404", to: "errors#not_found", via: :all
+  match "/500", to: "errors#internal_server_error", via: :all
+  get '/*',    to: 'errors#not_found'
+ 
+
 
     root to: 'pages#home'
     post "freelancer_expertises_data", to: "freelancers#freelancer_expertises_data"
@@ -11,6 +16,7 @@ Rails.application.routes.draw do
     get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
     get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
     get "cgu", to: 'pages#cgu', as: 'cgu'
+    
 
     #get "gestiondescookies", to: 'pages#cookiesspecs', as: 'cookiesspecs'
 
@@ -26,6 +32,7 @@ Rails.application.routes.draw do
   resources :donations, only: [:new, :index, :show, :create] do
     resources :payments, only: :new
   end
+
 
     #root to: 'pages#users'
     #get '/users/:id',      to: 'users#show',                       as: 'user'

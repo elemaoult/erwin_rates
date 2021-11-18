@@ -18,7 +18,7 @@ class FreelancersController < ApplicationController
   end
 
   def destroy
-    @freelancer = Freelancer.find(params[:id])
+    @freelancer = Freelancer.find(params[:id]) 
     @freelancer.destroy
     redirect_to freelancers_path
   end

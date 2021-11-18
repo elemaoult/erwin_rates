@@ -45,6 +45,7 @@ gem 'stripe'
 gem 'money-rails'
 gem 'stripe_event'
 
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
