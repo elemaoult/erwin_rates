@@ -52,8 +52,11 @@ class FreelancersController < ApplicationController
 
   def freelancer_expertises_data  
     
-    big_joined_table = Freelancer.joins(:technologies, :expertises).where(experience: @filter_experience, gender_guess: @filter_gender, remote: @filter_remote, technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }).distinct
-    hsh = big_joined_table.group(:daily_rate_interval).count
+    @big_joined_table = Freelancer.joins(:technologies, :expertises).where(experience: @filter_experience, gender_guess: @filter_gender, remote: @filter_remote, included_in_analysis: true, technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }).distinct
+
+    # Creating graph
+
+    hsh = @big_joined_table.group(:daily_rate_interval).count
     # [{:daily_rate_interval => "400", :count=>25},{:daily_rate_interval => "500", :count=>50}]
     # {0=>3, 150=>1, 200=>1, 300=>7, 350=>19, 400=>12, 450=>12, 500=>10, 550=>14, 600=>14, 650=>4, 700=>7, 750=>6, 800=>3, 850=>2, 900=>4}
   
@@ -75,7 +78,13 @@ class FreelancersController < ApplicationController
       format.json { render json: { result: chart_data } }
     end
 
+      # Calculating figures on search_page
+      # This is not the right resul - I do not know why
+      @nb_freelancers = @big_joined_table.count
+      @avg_daily_rate = @big_joined_table.collect(&:daily_rate).sum/@nb_freelancers
+      @median_daily_rate =  @big_joined_table.collect(&:daily_rate).sort[@nb_freelancers/2]
   end
+
 
   # Run this command only once in heroku
   def add_daily_rate_interval_to_data

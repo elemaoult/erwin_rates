@@ -6,6 +6,8 @@ const greatListener = (chart) => {
   const expertisesForm = document.getElementById("Expertises");
   const technologiesForm = document.getElementById("Technologies");
   const seniorityForm = document.getElementById("Seniority");
+  const genderForm = document.getElementById("Gender");
+  const remoteForm = document.getElementById("Remote");
 
   // console.log(form)
 
