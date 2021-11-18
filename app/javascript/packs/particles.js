@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-console.log("Loading particles.js");
+// console.log("Loading particles.js");
 
 particlesJS('particles-js',
  {

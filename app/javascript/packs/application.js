@@ -22,15 +22,16 @@ import { initPureCounter } from '../components/pure_counter';
 import { initValidate } from '../components/validate';
 import { initWtf } from '../components/what_is_this';
 import { initAmCharts } from './amcharts';
-
+import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
+  initSelect2();
   initAos()
-  greatListener()
   initPureCounter()
   initValidate()
   initWtf()
-  initAmCharts()
+  const initializedChart = initAmCharts();
+  greatListener(initializedChart);
 });
 
 
@@ -74,11 +75,11 @@ document.addEventListener('turbolinks:load', () => {
    * Scrolls to an element with header offset
    */
  
-  let elementPos = select(el).offsetTop
-    window.scrollTo({
-      top: elementPos - offset,
-      behavior: 'smooth'
-    })
+  // let elementPos = select(el).offsetTop
+  //   window.scrollTo({
+  //     top: elementPos - offset,
+  //     behavior: 'smooth'
+  //   })
 
   /**
    * Back to top button
@@ -147,14 +148,14 @@ document.addEventListener('turbolinks:load', () => {
   /**
    * Animation on scroll
    */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+  // window.addEventListener('load', () => {
+  //   AOS.init({
+  //     duration: 1000,
+  //     easing: 'ease-in-out',
+  //     once: true,
+  //     mirror: false
+  //   })
+  // });
 
 })()
 
