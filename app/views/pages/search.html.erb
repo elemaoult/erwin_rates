@@ -8,19 +8,22 @@
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Nombre de freelancers total</a></p>
-          <span data-purecounter-start="0" data-purecounter-end=<% @nb_freelancers %> data-purecounter-duration="1" class="purecounter"></span>
+          <!--<span id="nb_freelancers" data-purecounter-start="0" data-purecounter-end="<%= @nb_freelancers %>" data-purecounter-duration="1" class="purecounter"></span> -->
+          <span id="nb_freelancers"></span>
         </div>
       </div>
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Taux Journalier Moyen</a></p>
-          <span data-purecounter-start="0" data-purecounter-end= <% @avg_daily_rate %> data-purecounter-duration="1" class="purecounter"></span>
+          <!-- <span id="avg_daily_rate" data-purecounter-start="0" data-purecounter-end="<%= @avg_daily_rate %>" data-purecounter-duration="1" class="purecounter"></span> -->
+          <span id="avg_daily_rate"></span>
         </div>
       </div>
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Taux Journalier Médian</a></p>
-          <span data-purecounter-start="0" data-purecounter-end=<% @median_daily_rate %> data-purecounter-duration="1" class="purecounter"></span>
+          <!-- <span id="median_daily_rate" data-purecounter-start="0" data-purecounter-end="<%= @median_daily_rate %>" data-purecounter-duration="1" class="purecounter"></span> -->
+          <span id="median_daily_rate"></span>
         </div>
       </div>
     </div>

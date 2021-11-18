@@ -45,6 +45,11 @@ const greatListener = (chart) => {
 
     const submitAjaxForm = () => {
       // console.log("coucou", expertisesForm)
+
+      const nbFreelancersData = document.getElementById("nb_freelancers")
+      const avgDailyRateData = document.getElementById("avg_daily_rate")
+      const medianDailyRateData = document.getElementById("median_daily_rate")
+    
       let formData = new FormData(form)
       // Rails ajax corresponding to fetch
       Rails.ajax({
@@ -57,6 +62,10 @@ const greatListener = (chart) => {
           // console.log(`data from ${form.action}`, data)
           const resultArray = Array.from(data["result"])
           chart.data = resultArray;
+          nbFreelancersData.innerText = data["values"]["nb_freelancers"]
+          avgDailyRateData.innerText = data["values"]["avg_daily_rate"]
+          medianDailyRateData.innerText = data["values"]["median_daily_rate"]
+  
         },
         error: function(data) {
           // console.log(data)
