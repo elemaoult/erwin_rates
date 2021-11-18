@@ -58,7 +58,7 @@
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Gender", options_for_select(["Femme", "Homme"]), include_blank: true,
+              <%= select_tag("Gender", options_for_select(["Femme", "Homme", ""]), include_blank: true,
               class: "Gender form-control ") %>
             </div>
 
@@ -68,7 +68,7 @@
             <%# </div> %>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel"]), include_blank: true,
+              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel", ""]), include_blank: true,
                 class: 'Remote form-control') %>
             </div>
 
