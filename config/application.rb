@@ -8,6 +8,9 @@ Bundler.require(*Rails.groups)
 
 module ErwinRates
   class Application < Rails::Application
+
+    
+    
     config.generators do |generate|
       generate.assets false
       generate.helper false
@@ -21,5 +24,10 @@ module ErwinRates
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.hosts.clear
+    
+    config.exceptions_app = self.routes 
+
+    
+    
   end
 end

@@ -4,8 +4,9 @@
   <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
   <%# <div id="particles"></div> %>
     <%= image_tag "erwin_logo.png" %> 
-    <h2>Trouvez le TJM freelance qui vous ressemble</h2>
-    <a><%= link_to "Chercher un TJM freelance", search_path, class: "btn-get-started" %></a>
+    <h2>Combien facturer son client ? Combien payer un freelance ?</h2>
+    <h2>Erwin Rates est <strong>le</strong> site pour trouver le juste prix des prestations dans la tech</h2>
+    <a><%= link_to "Lancer la recherche", search_path, class: "btn-get-started" %></a>
     <a href="#facts" class="arrow-container" data-controller="scroll-to" data-scroll-to-behavior-value="smooth">
       <div class="arrow"></div>
       <div class="arrow"></div>
@@ -19,31 +20,34 @@
 <section id="facts">
   <div class="container" data-aos="fade-up">
     <div class="section-header">
-      <h3 class="section-title">L'état du marché du freelancing</h3>
-      <p class="section-description">Le marché du freelancing explose, et les acteurs ne manquent pas :</p>
+      <h3 class="section-title">Les freelances en France</h3>
+      <p class="section-description">Le marché explose :</p>
     </div>
 
     <div class="row counters">
       <div class="col-lg-4 col-12 text-center">
-        <span data-purecounter-start="0" data-purecounter-end="930000" data-purecounter-duration="1" class="purecounter"></span>
-        <p>Nombre de freelances <br>en France</p>
+        <span data-purecounter-start="0" data-purecounter-end="49000" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Nombre de freelances <br>dans la tech en France</p>
       </div>
-      <div class="col-lg-4 col-12 text-center">
+      <%# <div class="col-lg-4 col-12 text-center">
         <span data-purecounter-start="0" data-purecounter-end="7000000" data-purecounter-duration="1" class="purecounter"></span>
         <p>Nombre de missions démarrées <br>par an</p>
-      </div>
+      </div> %>
       <div class="col-lg-4 col-12 text-center">
-        <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>
-        <p>Part des entreprises prêtes <br>à travailler avec des freelances (%)</p>
+        <span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-duration="1" class="purecounter"></span>
+        <p>Part des entreprises  de moins de 2 salariés <br>dans la tech en France (%)</p>
       </div>
     </div>
 
+    <p>Source: Syntec Numérique</p>
+
+    
     <div class="section-header">
       <br>
       <p class="section-description">Et pourtant, personne ne parvient à faire ce qui est la base d’un marché : en comprendre les prix.</p>
     </div>
 
-    <div class="row counters">
+    <%# <div class="row counters">
       <div class="col-lg-4 text-center">
         <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
         <p>Part de freelances déclarant <br>avoir du mal à définir un TJM (%)</p>
@@ -56,7 +60,7 @@
         <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
         <p>Part des acheteurs déclarant <br> cerner un TJM freelance (%)</p>
       </div>
-    </div>
+    </div> %>
   </div>
 </section>
 <!-- End Facts Section -->
@@ -67,23 +71,21 @@
     <div class="row about-container">
 
       <div class="col-lg-6 content order-lg-1 order-2">
-        <h2 class="title">Erwin Rates vous permet de trouvez le TJM idéal en analysant votre marché</h2>
+        <h2 class="title">Erwin Rates analyse le marché de la tech</h2>
         <p>
-          Nous avons à coeur de mettre à disposition de tous une transparence complète sur le marché du freelancing.
-          <br>
-          Tous les ans, nous répertorions avec nos partenaires les TJMs freelances du marché pour vous permettre de prendre des meilleures décisions.
+          Erwin Rates repère sur nos plateformes partenaires les taux journaliers moyens (TJM) observés en fonction de vos critères de recherche
         </p>
 
         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
           <div class="icon"><i class="far fa-user"></i></div>
-          <h4 class="title"><a href="">Sélectionnez une expertise</a></h4>
+          <h4 class="title"><a href="">Sélectionnez les expertises</a></h4>
           <p class="description">DevOps, UX Designer, Data Engineer...</p>
         </div>
 
         <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
           <div class="icon"><i class="fas fa-dumbbell"></i></i></div>
-          <h4 class="title"><a href="">Choisissez les technologies principales</a></h4>
-          <p class="description">Kubernetes, Docker, Terraform...</p>
+          <h4 class="title"><a href="">Choisissez les technologies</a></h4>
+          <p class="description">Kubernetes, HTML/CSS, Ruby on Rails...</p>
         </div>
 
         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
@@ -94,8 +96,8 @@
 
         <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
           <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-          <h4 class="title"><a href="">Choisissez une localisation ou la possibilité de remote</a></h4>
-          <p class="description">Paris, Nantes, Bordeaux, ...</p>
+          <h4 class="title"><a href="">Choisissez si le travail à distance est possible</a></h4>
+          <p class="description">Présentiel, Distanciel </p>
         </div>
 
       </div>
@@ -116,15 +118,14 @@
     <div class="section-header">
       <h3 class="section-title">Services</h3>
       <p class="section-description">Que vous soyez freelance, entreprise ou simplement curieux,
-      nos différents services vous permettent d'avoir une meilleure compréhension de notre marché.
-      Simple. Transparent. À jour.</p>
+      <br>nos différents services vous permettent d'avoir la meilleure information sur le marché.<br>Simple. Transparente. À jour.</p>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-6" data-aos="zoom-in">
         <div class="box">
           <div class="icon"><a href=""><i class="far fa-chart-bar"></i></a></div>
           <h4 class="title"><a href="">Erwin Search</a></h4>
-          <p class="description">Cherchez un TJM en filtrant par localisation, expertise, technologie ou séniorité</p>
+          <p class="description"><br>Cherchez le prix d'un freelance en fonction de vos critères de recherche</p>
         </div>
       </div>
 
@@ -132,14 +133,14 @@
         <div class="box">
           <div class="icon"><a href=""><i class="fas fa-th-list"></i></i></a></div>
           <h4 class="title"><a href="">Erwin Grid</a></h4>
-          <p class="description">Département achats ou RH? Téléchargez vos grilles tarifaires (globales ou filtrées)</p>
+          <p class="description">Bientôt disponible<br>Département achats ou RH? Téléchargez vos grilles tarifaires (globales ou filtrées)</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6" data-aos="zoom-in">
         <div class="box">
           <div class="icon"><a href=""><i class="fas fa-binoculars"></i></a></div>
           <h4 class="title"><a href="">Erwin Earth</a></h4>
-          <p class="description">Checkez notre outil d'observation global sur le freelancing. C'est comme Google Earth, mais du freelancing</p>
+          <p class="description">Bientôt disponible<br>Freelance ? Notre outil d'observation global vous aide à choisir vos prochaines technos</p>
         </div>
       </div>
     </div>
@@ -152,11 +153,11 @@
   <div class="container">
     <div class="row" data-aos="zoom-in">
       <div class="col-lg-9 text-center text-lg-start">
-        <h3 class="cta-title">Essayez Erwin Rates !</h3>
-        <p class="cta-text">Enfin, un moyen de prendre des décisions data-driven pour vos missions freelances.<br>PS: c'est gratuit 😉</p>
+        <h3 class="cta-title">Essayez Erwin Search !</h3>
+        <%# <p class="cta-text">Enfin, un moyen de prendre des décisions data-driven pour vos missions freelances.<br>PS: c'est gratuit 😉</p> %>
       </div>
       <div class="col-lg-3 cta-btn-container text-center">
-        <a><%= link_to "Chercher un TJM", search_path, class: "cta-btn align-middle" %></a>
+        <a><%= link_to "Lancer la recherche", search_path, class: "cta-btn align-middle" %></a>
       </div>
     </div>
 
@@ -173,7 +174,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <div class="pic"><%= image_tag "emilie_lemaoult.jpeg" %></div>
+          <div class="pic"><%= image_tag "emilie_lemaoult.jpg" %></div>
           <h4>Emilie LeMaoult</h4>
           <span>Swiss army knife</span>
           <div class="social">
@@ -185,7 +186,7 @@
 
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="200">
-          <div class="pic"><%= image_tag "cyril_aulagnon.jpeg" %></div>
+          <div class="pic"><%= image_tag "cyril_aulagnon.jpg" %></div>
           <h4>Cyril Aulagnon</h4>
           <span>Swiss army knife</span>
           <div class="social">
@@ -209,7 +210,7 @@
 
       <div class="col-lg-3 col-md-6">
         <div class="member" data-aos="fade-up" data-aos-delay="400">
-          <div class="pic"><%= image_tag "julien_dabert.jpeg" %></div>
+          <div class="pic"><%= image_tag "julien_dabert.jpg" %></div>
           <h4>Julien Dabert</h4>
           <span>Swiss army knife</span>
           <div class="social">
@@ -240,27 +241,27 @@
           <div class="col-lg-3 col-md-4">
 
             <div class="info">
-              <div>
-                <i class="fas fa-map-marker-alt"></i>
+              <%# <div> %>
+                <%# <i class="fas fa-map-marker-alt"></i>
                 <p>16 Villa Gaudelet<br>75011 Paris</p>
-              </div>
+              </div> %>
 
               <div>
                 <i class="far fa-envelope"></i>
                 <p>hello@erwin-rates.com</p>
               </div>
 
-              <div>
+              <%# <div>
                 <i class="fas fa-phone"></i>
                 <p>+33 6 77 77 77 77</p>
-              </div>
+              </div> %>
             </div>
 
             <div class="social-links">
               <a href="https://github.com/Syrryllo/erwin_rates" class="github"><i class="fab fa-github"></i></a>
-              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <%# <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
               <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> %>
               <a href="https://www.linkedin.com/company/erwin-rates/" class="linkedin"><i class="fab fa-linkedin"></i></a>
             </div>
 

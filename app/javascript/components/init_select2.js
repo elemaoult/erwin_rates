@@ -11,15 +11,18 @@ const initSelect2 = () => {
   });
 
   $('.Seniority').select2({
-    placeholder: "Choisir un niveau de séniorité"
+    placeholder: "Choisir un niveau de séniorité",
+    allowClear: true
   });
 
   $('.Gender').select2({
-    placeholder: "Choisir de filtrer par genre"
+    placeholder: "Choisir de filtrer par genre",
+    allowClear: true
   });
 
   $('.Remote').select2({
-    placeholder: "Choisir les freelance en distanciel ou en présentiel"
+    placeholder: "Choisir les freelance en distanciel ou en présentiel",
+    allowClear: true
   });
 
   // $('.select2-location').select2({

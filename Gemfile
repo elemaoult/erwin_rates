@@ -47,6 +47,7 @@ gem 'stripe_event'
 gem 'gender_detector'
 gem 'activesupport'
 
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
