@@ -13,6 +13,10 @@ const initAmCharts = () => {
   let chart = am4core.create("chartdiv", am4charts.XYChart);
   chart.scrollbarX = new am4core.Scrollbar();
 
+  const nbFreelancersData = document.getElementById("nb_freelancers")
+  const avgDailyRateData = document.getElementById("avg_daily_rate")
+  const medianDailyRateData = document.getElementById("median_daily_rate")
+
   const loadDataInGraphs = () => {
     Rails.ajax({
       url: "/freelancer_expertises_data",
@@ -22,6 +26,9 @@ const initAmCharts = () => {
         // console.log(`data from`, data)
         const resultArray = Array.from(data["result"])
         chart.data = resultArray;
+        nbFreelancersData.innerText = data["values"]["nb_freelancers"]
+        avgDailyRateData.innerText = data["values"]["avg_daily_rate"]
+        medianDailyRateData.innerText = data["values"]["median_daily_rate"]
       },
       error: function(data) {
         // console.log(data)

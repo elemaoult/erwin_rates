@@ -8,19 +8,22 @@
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Nombre de freelancers total</a></p>
-          <span data-purecounter-start="0" data-purecounter-end=<% @nb_freelancers %> data-purecounter-duration="1" class="purecounter"></span>
+          <!--<span id="nb_freelancers" data-purecounter-start="0" data-purecounter-end="<%= @nb_freelancers %>" data-purecounter-duration="1" class="purecounter"></span> -->
+          <span id="nb_freelancers"></span>
         </div>
       </div>
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Taux Journalier Moyen</a></p>
-          <span data-purecounter-start="0" data-purecounter-end= <% @avg_daily_rate %> data-purecounter-duration="1" class="purecounter"></span>
+          <!-- <span id="avg_daily_rate" data-purecounter-start="0" data-purecounter-end="<%= @avg_daily_rate %>" data-purecounter-duration="1" class="purecounter"></span> -->
+          <span id="avg_daily_rate"></span>
         </div>
       </div>
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Taux Journalier Médian</a></p>
-          <span data-purecounter-start="0" data-purecounter-end=<% @median_daily_rate %> data-purecounter-duration="1" class="purecounter"></span>
+          <!-- <span id="median_daily_rate" data-purecounter-start="0" data-purecounter-end="<%= @median_daily_rate %>" data-purecounter-duration="1" class="purecounter"></span> -->
+          <span id="median_daily_rate"></span>
         </div>
       </div>
     </div>
@@ -40,22 +43,22 @@
           <%= form_tag freelancer_expertises_data_path, id: "filter-form"  do %>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name)), include_blank: true,
-              class: "Expertises form-control", multiple: "multiple", style:"color:") %>
+              <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name).uniq.compact.sort), include_blank: true,
+              class: "Expertises form-control", multiple: "multiple") %>
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name).uniq), include_blank: true,
-              class: "Technologies form-control ", multiple: "multiple", style:"width: 100%") %>
+              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name).uniq.compact.sort), include_blank: true,
+              class: "Technologies form-control ", multiple: "multiple") %>
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Seniority", options_for_select(["Junior","Intermédiaire","Senior",""]), include_blank: true,
+              <%= select_tag("Seniority", options_for_select(["Junior","Intermédiaire","Senior"]), include_blank: true,
               class: "Seniority form-control ") %>
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Gender", options_for_select(["Femme", "Homme",""]), include_blank: true,
+              <%= select_tag("Gender", options_for_select(["Femme", "Homme"]), include_blank: true,
               class: "Gender form-control ") %>
             </div>
 
@@ -65,7 +68,7 @@
             <%# </div> %>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Remote", options_for_select(["Présentiel", "Distanciel",""]), include_blank: true,
+              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel"]), include_blank: true,
                 class: 'Remote form-control') %>
             </div>
 
