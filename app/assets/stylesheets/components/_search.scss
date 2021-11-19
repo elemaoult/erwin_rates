@@ -1,4 +1,4 @@
-li {
+.select2-results {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -9,6 +9,18 @@ li {
   padding: 2px;
 }
 
-li:hover {
-  background-color: dodgerblue;
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background: dodgerblue;
 }
+
+.select2-selection_rendered {
+  background: dodgerblue;
+}
+
+.landing-container .order-lg-2 {
+    background-color:#0756C3;
+    border: 1px
+    solid #021E50;
+    border-radius: 30px;
+}
+
