@@ -3,25 +3,27 @@ import 'select2';
 
 const initSelect2 = () => {
   $('.Expertises').select2({
-    placeholder: "Choisir une ou plusieurs expertises",
+    placeholder: "Filtrer par expertise(s)",
+    allowClear: true
   });
 
   $('.Technologies').select2({
-    placeholder: "Choisir une ou plusieurs spécialités",
+    placeholder: "Filtrer par spécialité(s)",
+    allowClear: true
   });
 
   $('.Seniority').select2({
-    placeholder: "Choisir un niveau de séniorité",
+    placeholder: "Filtrer par niveau de séniorité",
     allowClear: true
   });
 
   $('.Gender').select2({
-    placeholder: "Choisir de filtrer par genre",
+    placeholder: "Filtrer par genre",
     allowClear: true
   });
 
   $('.Remote').select2({
-    placeholder: "Choisir les freelance en distanciel ou en présentiel",
+    placeholder: "Choisir distanciel ou présentiel",
     allowClear: true
   });
 

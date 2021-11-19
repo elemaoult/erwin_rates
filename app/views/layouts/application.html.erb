@@ -5,16 +5,21 @@
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+    <link rel="icon" href="www.erwin-rates.com" type="images/erwin_favicon">
   </head>
 
   <body>
 
-    <%= render "shared/navbar" %>
+    <% unless action_name == "home" %>
+      <%= render "shared/navbar" %>
+    <% end %>
     <%= yield %>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
