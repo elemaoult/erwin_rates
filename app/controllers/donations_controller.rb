@@ -1,5 +1,5 @@
 class DonationsController < ApplicationController
-  skip_after_action :verify_authorized
+  # skip_after_action :verify_authorized
 
   def new
     @donation = Donation.new
