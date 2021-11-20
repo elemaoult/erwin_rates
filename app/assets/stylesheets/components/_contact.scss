@@ -1,3 +1,25 @@
+.submit-contact {
+  background: #2dc997;
+  border: 0;
+  padding: 10px 24px;
+  color: #F6F8FA;
+  transition: 0.4s;
+  margin: 0 auto;
+  display: block;
+  &:hover {
+    background: #51d8ad;
+  }
+}
+.form-control {
+  font-size: 0.85rem !important;
+}
+
+.php-email-form {
+  font-size: 0.7rem;
+}
+
+
+
 #contact {
     padding: 80px 0 40px 0;
     background: #021E50;

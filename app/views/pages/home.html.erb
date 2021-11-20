@@ -274,26 +274,14 @@
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
+              <%= simple_form_for :contact, url: contact_path, class: 'php-email-form' do |f| %>
+                <%= f.input :name, class: 'form-control', wrapper_html: { class: 'form-group mt-3' }, label: false, placeholder: 'Your name' %>
+                <%= f.input :email, class: 'form-control', wrapper_html: { class: 'form-group mt-3' }, label: false, placeholder: 'Your email' %>
+                <%= f.input :subject, class: 'form-control', wrapper_html: { class: 'form-group mt-3' }, label: false, placeholder: 'Subject' %>
+                <%= f.input :message, as: :text, class: 'form-control', wrapper_html: { class: 'form-group mt-3' }, label: false, placeholder: 'Message' %>
+                <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+                <%= f.submit 'Youhou', class: 'submit-contact' %>
+              <% end %>
             </div>
           </div>
 
@@ -301,3 +289,18 @@
 
       </div>
     </section><!-- End Contact Section -->
+
+
+<%# <form action=”hello@erwin-rates.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+
+
+Name:<br>
+
+
+<input type=”text” size=”19″ name=”ContactName”><br><br>
+
+
+Message:<br> <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
+
+
+</textarea><br><br> <input type=”submit” value=”Submit”> </form> %>

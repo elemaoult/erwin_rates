@@ -105,6 +105,8 @@ GEM
     faker (2.19.0)
       i18n (>= 1.6, < 2)
     ffi (1.15.4)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     font-awesome-sass (5.15.1)
       sassc (>= 1.11)
     gender_detector (2.0.0)
@@ -135,6 +137,10 @@ GEM
       activerecord
       kaminari-core (= 1.2.1)
     kaminari-core (1.2.1)
+    launchy (2.5.0)
+      addressable (~> 2.7)
+    letter_opener (1.7.0)
+      launchy (~> 2.2)
     listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -319,9 +325,11 @@ DEPENDENCIES
   devise
   dotenv-rails
   faker
+  figaro
   font-awesome-sass
   gender_detector
   jbuilder (~> 2.7)
+  letter_opener
   listen (~> 3.2)
   money-rails
   parity
