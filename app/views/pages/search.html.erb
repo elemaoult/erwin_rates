@@ -8,6 +8,7 @@
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <strong><p>Nombre de freelancers total<br>avec le même profil</a></p></strong>
+
           <!--<span id="nb_freelancers" data-purecounter-start="0" data-purecounter-end="<%= @nb_freelancers %>" data-purecounter-duration="1" class="purecounter"></span> -->
           <strong style="font-size:32px;"><span id="nb_freelancers"></span></strong>
         </div>
@@ -33,12 +34,12 @@
     <div class="col-lg-8 content order-lg-1 order-2">
       <%# <div class="col-lg-8 content order-lg-1 order-2"> %>
         <div class="">
-        <p> Nombre de Freelance</p>
+        <p> Nombre de Freelances</p>
         </div>
         <div class='chartdiv'>
           <%= javascript_pack_tag 'amcharts', 'data-turbolinks-track': 'reload' %>
         </div>
-        <p class="text-center"> Taux Journalier Moyen (TJM) en Euro (€)</p>
+        <p class="text-center"> Taux Journalier Moyen (TJM) en Euro</p>
         <%# <div class='buttons-area'>
           <a href="#" class="btn-get-started p-2 m-3 text-center">Export</a>
           <a href="#" class="btn-get-started p-2 m-3 text-center">Seems Right?</a>
