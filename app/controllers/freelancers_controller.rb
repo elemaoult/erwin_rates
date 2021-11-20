@@ -46,7 +46,7 @@ class FreelancersController < ApplicationController
     @filter_technology = params["Technologies"].blank? ? @all_technologies : [params["Technologies"]]
     @filter_experience = params["Seniority"].blank? ? @all_experiences : [params["Seniority"]]
     @filter_gender = params["Gender"].blank? ? @all_genders : [params["Gender"]]
-    @filter_remote = params["Remote"].blank? ? @all_remotes : ( [params["Remote"]] == ["Présentiel"] ? false : true )
+    @filter_remote = params["Remote"].blank? ? @all_remotes : ( [params["Remote"]] != ["Présentiel"] )
 
   end
 
@@ -64,9 +64,6 @@ class FreelancersController < ApplicationController
         name: @filter_expertise 
       }
     ).distinct
-
-    # having Freelancer.technologies.include?(@filter_technology)
-    # having Freelancer.expertises.include?(@filter_expertise)
 
     # Creating graph
 
