@@ -4,7 +4,7 @@
       <h3 class="section-title">Erwin Search</h3>
       <p class="section-description search-description">Sélectionnez le profil type de freelance</p>
     </div>
-    <div class="row-counters d-flex">
+    <div class="d-flex">
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
           <p>Nombre de freelancers total<br>avec le même profil</a></p>
@@ -21,6 +21,7 @@
       </div>
       <div class="col-lg-4 col-12 text-center">
         <div class="box p-2 mb-4">
+
           <p>Taux Journalier Médian<br>avec le même profil</a></p>
           <!-- <span id="median_daily_rate" data-purecounter-start="0" data-purecounter-end="<%= @median_daily_rate %>" data-purecounter-duration="1" class="purecounter"></span> -->
           <span id="median_daily_rate"></span>
@@ -40,6 +41,8 @@
       </div>
       <div class="col-lg-4 background order-lg-2 order-1">
         <div class='row-counters mt-3'>
+          <h3 class= "text-center">Filtrez le profil freelance recherché</h3>
+
           <%= form_tag freelancer_expertises_data_path, id: "filter-form"  do %>
 
             <div class="col-lg-12 col-6 text-center my-3">
@@ -48,7 +51,7 @@
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name).uniq.compact.sort), include_blank: true,
+              <%= select_tag("Technologies", options_for_select(Technology.where(inserted_in_analysis: true).pluck(:group_name).uniq.compact.sort), include_blank: true,
               class: "Technologies form-control ", multiple: "multiple") %>
             </div>
 
@@ -58,7 +61,7 @@
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Gender", options_for_select(["Femme", "Homme", ""]), include_blank: true,
+              <%= select_tag("Gender", options_for_select(["Femme", "Homme"]), include_blank: true,
               class: "Gender form-control ") %>
             </div>
 
@@ -68,7 +71,7 @@
             <%# </div> %>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel", ""]), include_blank: true,
+              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel"]), include_blank: true,
                 class: 'Remote form-control') %>
             </div>
 
