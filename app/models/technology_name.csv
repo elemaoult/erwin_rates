@@ -1,0 +1,3789 @@
+id,technology,tech_group,is_display
+272,.NET,.NET,1
+289,.NET CORE,.NET,1
+702,.net core,.NET,1
+873,VB.NET,.NET,1
+1213,.NET Framework,.NET,1
+1717,entity framework,.NET,1
+2094,ADO.NET,.NET,1
+2159,Framework,.NET,1
+2467,ORM-EntityFramework,.NET,1
+2481,Framework 4.0,.NET,1
+2482,Framework 4.5.2,.NET,1
+2483,.Net core 2.0,.NET,1
+2484,LINQ,.NET,1
+2485,Winform,.NET,1
+2495,.NET framework,.NET,1
+2512,Framework 7,.NET,1
+3025,3DS MAX,3DS Max,1
+3144,3DS Max,3DS Max,1
+268,Tests A/B,A/B Testing,1
+2990,A/B testing,A/B Testing,1
+3044,AB Test,A/B Testing,1
+3472,Ab Testing,A/B Testing,1
+612,AB Tasty,AB Tasty,1
+3024,Ableton Live,Ableton Live,1
+20,Accessibilité,Accessibilité,1
+27,RGAA,Accessibilité,1
+816,Accessibilité web,Accessibilité,1
+2346,accessibilité,Accessibilité,1
+2528,accessibilité web,Accessibilité,1
+311,ActionScript,ActionScript,1
+1185,ActiveCampaign,ActiveCampaign,1
+2522,ActiveMQ,ActiveMQ,1
+2425,Adalo,Adalo,1
+180,Adminer,Adminer,1
+919,Administration réseaux,Administration réseaux,1
+927,LAN,Administration réseaux,1
+928,WAN,Administration réseaux,1
+929,802.1Q,Administration réseaux,1
+930,802.1X,Administration réseaux,1
+931,wifi,Administration réseaux,1
+1314,Silex,Administration réseaux,1
+1362,Sysadmin et gestion réseaux télécom,Administration réseaux,1
+1612,Administration rÃ©seaux,Administration réseaux,1
+1664,réseau,Administration réseaux,1
+1704,Switching routing,Administration réseaux,1
+1787,Wireshark,Administration réseaux,1
+1794,Network,Administration réseaux,1
+1822,Réseau,Administration réseaux,1
+1865,Networking,Administration réseaux,1
+1945,network,Administration réseaux,1
+2299,Administration réseau,Administration réseaux,1
+2350,réseaux,Administration réseaux,1
+2694,Wireless Networking,Administration réseaux,1
+2695,Network Architecture,Administration réseaux,1
+2697,Sans fil,Administration réseaux,1
+2702,Wireless,Administration réseaux,1
+2860,Opérations réseaux informatiques,Administration réseaux,1
+3116,Conception de réseaux,Administration réseaux,1
+621,base de donnée,Administration SGBD,1
+1004,Conception bases de données,Administration SGBD,1
+1062,Database administration,Administration SGBD,1
+2308,CRUD,Administration SGBD,1
+2588,Administration de bases de données,Administration SGBD,1
+315,Administration système,Administration Système,1
+924,Active Directory,Administration Système,1
+1629,Administration systÃ¨me,Administration système,1
+1640,Administrateur systèmes,Administration système,1
+1870,active directory,Administration système,1
+1923,sysops,Administration système,1
+183,Adobe After Effects,Adobe,1
+3524,adobe after,Adobe,1
+2905,After Effects,Adobe,1
+517,Adobe Animate,Adobe,1
+1559,animate,Adobe,1
+676,Bridge,Adobe,1
+2595,Adobe bridge,Adobe,1
+1249,Adobe Campaign,Adobe,1
+2722,Adobe Character Animator,Adobe,1
+364,Adobe Creative Suite,Adobe,1
+2861,adobe creative suite,Adobe,1
+3001,adobe,Adobe,1
+3130,Affinity,Adobe,1
+3291,Adobe XD/Illustrator/PhotoShop,Adobe,1
+3545,suite adobe creative,Adobe,1
+3205,Adobe dimension,Adobe,1
+440,Adobe Dreamweaver,Adobe,1
+905,Dreamweaver,Adobe,1
+312,Adobe Flash,Adobe,1
+3522,Flash,Adobe,1
+156,Adobe InDesign,Adobe,1
+1101,InDesign,Adobe,1
+2970,adobe indesign,Adobe,1
+3036,indesign,Adobe,1
+3271,Adobe Indesign,Adobe,1
+157,Adobe Lightroom,Adobe,1
+2906,Lightroom,Adobe,1
+2862,Adobe Muse,Adobe,1
+7,Phonegap,Adobe,1
+1368,Adobe PhoneGap,Adobe,1
+365,Adobe Premiere,Adobe,1
+3364,Adobe Premiere Pro,Adobe,1
+38,Adobe Illustrator,Adobe Illustrator,1
+587,illsutrator,Adobe Illustrator,1
+1102,Illustrator,Adobe Illustrator,1
+3188,"Audiovisual Creation (Final Cut Pro, Logic Pro, Illustrator, etc.)",Adobe Illustrator,1
+3360,adobe illustrator,Adobe Illustrator,1
+98,Adobe Photoshop,Adobe Photoshop,1
+607,Photoshop CC,Adobe Photoshop,1
+626,Photoshop,Adobe Photoshop,1
+2603,psd,Adobe Photoshop,1
+2902,Édition d’image,Adobe Photoshop,1
+3390,adobe photoshop,Adobe Photoshop,1
+3599,Formation Photoshop,Adobe Photoshop,1
+155,Adobe XD,Adobe XD,1
+1494,adobe XD,Adobe XD,1
+2797,adobe xd,Adobe XD,1
+3007,adobe XD CC,Adobe XD,1
+3108,xd,Adobe XD,1
+3113,Adobe Xd,Adobe XD,1
+3340,adobe Xd,Adobe XD,1
+3382,Adobe XD CC,Adobe XD,1
+3433,Xd,Adobe XD,1
+3500,XD CC,Adobe XD,1
+1654,AEM,AEM,1
+1656,AEM 6.X,AEM,1
+2123,affinity designer,Affinity,1
+2755,Affinity Designer,Affinity,1
+2131,affinity photo,Affinity,1
+2757,Affinity Photo,Affinity,1
+1472,intelligence artificielle,AI/ML,1
+2031,Intelligence artificielle,AI/ML,1
+3226,Airtable,Airtable,1
+103,Ajax,Ajax,1
+627,AJAX,Ajax,1
+2313,ajax,Ajax,1
+1275,Akeneo,Akeneo PIM,1
+1276,PIM,Akeneo PIM,1
+2135,Algolia,Algolia,1
+2290,algolia,Algolia,1
+3,algorithmie,Algorithmie,1
+1164,mathématiques,Algorithmie,1
+1743,Mathematics,Algorithmie,1
+1826,Algorithms,Algorithmie,1
+2472,Algorithmes,Algorithmie,1
+3784,Mathématiques,Algorithmie,1
+1480,Alpine,Alpine.js,1
+68,Amazon Web Services,Amazon Web Services,1
+519,Amazon DynamoDB,Amazon Web Services,1
+915,AWS,Amazon Web Services,1
+944,AWS Lambda,Amazon Web Services,1
+946,AWS IOT,Amazon Web Services,1
+1198,AWS Fargate,Amazon Web Services,1
+1412,Amazon Web Services (AWS),Amazon Web Services,1
+1595,Web Services,Amazon Web Services,1
+1597,Amazon RDS,Amazon Web Services,1
+1598,AWS EC2,Amazon Web Services,1
+1599,AWS Glue,Amazon Web Services,1
+1600,AWS LAMBDA,Amazon Web Services,1
+1934,Amazon Redshift,Amazon Web Services,1
+1935,Lambda,Amazon Web Services,1
+1936,ECS,Amazon Web Services,1
+1937,RTB,Amazon Web Services,1
+1938,IAC,Amazon Web Services,1
+1943,awx,Amazon Web Services,1
+1961,AWS ECS,Amazon Web Services,1
+1963,AWS S3,Amazon Web Services,1
+1984,Amazon SNS,Amazon Web Services,1
+1985,Amazon Cognito,Amazon Web Services,1
+1986,Amazon API Gateway,Amazon Web Services,1
+1987,Amazon Lambda,Amazon Web Services,1
+1988,Amazon CodePipeline,Amazon Web Services,1
+1989,Amazon CodeBuild,Amazon Web Services,1
+1990,Amazon CodeDeploy,Amazon Web Services,1
+1991,Amazon Cloudformation,Amazon Web Services,1
+1992,Amazon SAM,Amazon Web Services,1
+2023,Aws,Amazon Web Services,1
+2038,AWS Cloudformation,Amazon Web Services,1
+2039,AWS Cloudfront,Amazon Web Services,1
+2040,AWS Elastic Beanstalk,Amazon Web Services,1
+2041,AWS IAM,Amazon Web Services,1
+2042,AWS Elastic Container Services,Amazon Web Services,1
+2043,AWS ACM,Amazon Web Services,1
+2173,Beanstalk,Amazon Web Services,1
+2183,Amazon Account Management,Amazon Web Services,1
+2184,Amazon Aurora,Amazon Web Services,1
+2185,Amazon EC2,Amazon Web Services,1
+2186,Amazon Network,Amazon Web Services,1
+2202,EC2,Amazon Web Services,1
+2360,Amazon S3,Amazon Web Services,1
+2415,Architecture AWS,Amazon Web Services,1
+2660,AWS CloudFront,Amazon Web Services,1
+3203,Redshift,Amazon Web Services,1
+3729,amazon web services,Amazon Web Services,1
+1770,ambari,Ambari,1
+448,Android,Android,1
+738,Kotlin,Android,1
+901,Développement pour Android,Android,1
+1183,androi,Android,1
+1562,Android SDK,Android,1
+1692,Android Studio,Android,1
+1994,UIAutomator,Android,1
+2247,Coroutines,Android,1
+2322,Android Development,Android,1
+2793,Développement Android,Android,1
+3445,android,Android,1
+213,Développeur Angular,Angular,1
+214,Angular,Angular,1
+593,Angular 2,Angular,1
+830,Angular Universal,Angular,1
+831,Angular Material,Angular,1
+1261,Angular material,Angular,1
+1726,angular,Angular,1
+2191,Angular 2+,Angular,1
+2448,Angular 4,Angular,1
+2625,NgRx,Angular,1
+46,AngularJS,AngularJS,1
+891,angularjs,AngularJS,1
+182,Animation,Animation 2D,1
+2347,Löve2d,Animation 2D,1
+3363,Animation 2D,Animation 2D,1
+3624,animation,Animation 2D,1
+2253,Animation 3D,Animation 3D,1
+540,Flash Animation,Animation Flash,1
+2718,Anime.js,Anime.js,1
+307,Ansible,Ansible,1
+1668,ansible,Ansible,1
+228,AntDesign,AntDesign,1
+2461,ant design,AntDesign,1
+2653,AOS,AOS,1
+392,Apache,Apache,1
+2401,Airflow,Apache Airflow,1
+12,Cordova,Apache Cordova,1
+647,Apache Cordova,Apache Cordova,1
+2403,Apache Druid,Apache Druid,1
+2037,Apache Flume,Apache Flume,1
+1715,Hadoop,Apache Hadoop,1
+2283,Hive,Apache Hive,1
+2035,Apache JMeter,Apache JMeter,1
+995,Apache Kafka,Apache Kafka,1
+1970,Netbeans,Apache NetBeans,1
+1735,Apache Parquet,Apache Parquet,1
+2371,Apache POI,Apache POI,1
+283,Solr,Apache Solr,1
+818,Apache Solr,Apache Solr,1
+2428,solr,Apache Solr,1
+945,Spark,Apache Spark,1
+2382,Apache Spark,Apache Spark,1
+2402,Apache Spark MLlib,Apache Spark,1
+3515,Spark AR Studio,Apache Spark,1
+2118,Apache struts,Apache Struts,1
+464,Subversion,Apache Subversion,1
+1197,Apache subversion,Apache Subversion,1
+1366,svn,Apache Subversion,1
+1625,subversion,Apache Subversion,1
+2499,SVN,Apache Subversion,1
+1766,Apache Tomcat,Apache Tomcat,1
+2520,APEX,APEX,1
+43,API,API,1
+285,Web API,API,1
+334,Strapi,API,1
+394,Api rest stateless,API,1
+561,api,API,1
+828,API Platform,API,1
+1092,opendata,API,1
+1207,APIs,API,1
+1272,ApiPlatform,API,1
+1360,Application Programming Interfaces,API,1
+1475,Api plateforme,API,1
+1511,API PLATFORM,API,1
+1647,Api Platform,API,1
+1653,api platform,API,1
+1889,Api Management,API,1
+2095,APIREST,API,1
+2140,Twitter API,API,1
+2189,twitch api,API,1
+2229,Développement d’API,API,1
+2301,Api Plateform,API,1
+2316,api maps v3,API,1
+2533,Composition API,API,1
+3698,RESTful API,API,1
+3762,Api Plateforme,API,1
+3763,OpenAPI,API,1
+3775,API Rest,API,1
+1273,Apigility,Apigility,1
+65,GraphQL,Apollo GraphQL,1
+585,graphQl,Apollo GraphQL,1
+1047,graphql,Apollo GraphQL,1
+1162,ApolloJS,Apollo GraphQL,1
+2055,apollo,Apollo GraphQL,1
+2133,Graphql,Apollo GraphQL,1
+2242,graphQL,Apollo GraphQL,1
+2293,Apollo GraphQL,Apollo GraphQL,1
+2627,Appolo,Apollo GraphQL,1
+2788,GraphQl,Apollo GraphQL,1
+176,Apollo-Server,Apollo Server,1
+446,Apollo,Apollo Server,1
+173,web app,Application Web,1
+195,application web,Application Web,1
+638,Site web adaptatif,Application Web,1
+857,Web Applications,Application Web,1
+959,Application Web,Application Web,1
+1184,Animation Web,Application Web,1
+1334,Applications web,Application Web,1
+1346,Développement d’applications Web,Application Web,1
+1347,Conception d’applications web,Application Web,1
+1658,Web services,Application Web,1
+1687,Web Service,Application Web,1
+2383,Application web,Application Web,1
+2387,Webapp,Application Web,1
+2659,applications web,Application Web,1
+2939,Web App,Application Web,1
+3232,WebApp,Application Web,1
+3423,appli,Application Web,1
+3446,saas,Application Web,1
+3556,application client,Application Web,1
+3563,App,Application Web,1
+3666,audit application,Application Web,1
+3740,Développement d’applications web,Application Web,1
+3769,Création d'applications,Application Web,1
+3362,Architecture 3D,Architecture 3D,1
+1797,ArgoCD,ArgoCD,1
+1815,Argo CD,ArgoCD,1
+1709,Artifactory,Artifactory,1
+1942,artifactory,Artifactory,1
+2915,asana,Asana,1
+1371,ASM,ASM,1
+274,ASP.NET MVC,ASP.NET,1
+276,ASP.NET,ASP.NET,1
+700,ASP.NET Core,ASP.NET,1
+701,Blazor,ASP.NET,1
+1210,ASP.NET AJAX,ASP.NET,1
+2053,ASP Core,ASP.NET,1
+2465,ASP.NET CORE MVC,ASP.NET,1
+1722,Assembleur,Assembleur,1
+792,Asterisk,Asterisk,1
+1946,asterisk,Asterisk,1
+663,Atom,Atom,1
+1622,IDE Atom,Atom,1
+144,Atomic Design,Atomic Design,1
+2914,atomic design,Atomic Design,1
+2725,Audacity,Audacity,1
+3300,Autocad,AutoCAD,1
+2507,Autodesk Fusion 360,Autodesk,1
+3204,Inventor,Autodesk,1
+1581,gradle,Automation,1
+1838,Automatisation des tests,Automation,1
+1879,Automatisation,Automation,1
+1933,Kinesys,Automation,1
+2635,Développeur Automatisation,Automation,1
+2688,Automation,Automation,1
+2691,Automate programmable,Automation,1
+2693,Automatisation des processus,Automation,1
+2704,Process Automation,Automation,1
+2909,Avocode,Avocode,1
+1029,Axios,Axios,1
+1075,Axure,Axure RP,1
+2011,SQL Azure,Azure SQL Database,1
+983,babel,Babel JS,1
+1663,Babel,Babel JS,1
+2559,Babylon.js,Babylon.js,1
+47,Backbone.js,Backbone.js,1
+1076,Balsamiq,Balsamiq,1
+662,Bash,Bash,1
+1749,bash,Bash,1
+1040,Bazel,Bazel,1
+2205,BeautifulSoup,BeautifulSoup,1
+146,BEM,BEM/OOCSS,1
+1039,Bitbucket,Bitbucket,1
+1924,bitbucket pipelines,Bitbucket,1
+1927,bitbucket,Bitbucket,1
+2045,Bitbucket Pipeline,Bitbucket,1
+350,Blender,Blender,1
+3511,blender,Blender,1
+716,Solidity,Blockchain/Crypto,1
+718,Blockchain,Blockchain/Crypto,1
+720,ethereum,Blockchain/Crypto,1
+820,Crypto,Blockchain/Crypto,1
+821,Bitcoin,Blockchain/Crypto,1
+822,Sylius,Blockchain/Crypto,1
+823,NFT,Blockchain/Crypto,1
+1094,netart,Blockchain/Crypto,1
+1194,BPMN,Blockchain/Crypto,1
+1556,Ethereum,Blockchain/Crypto,1
+1557,Expertise Blockchain,Blockchain/Crypto,1
+1885,Smart Contract,Blockchain/Crypto,1
+81,Bootstrap,Bootstrap,1
+153,Bootstrap 3,Bootstrap,1
+202,bootstrap,Bootstrap,1
+270,Bootstrap 4,Bootstrap,1
+643,Twitter Bootstrap,Bootstrap,1
+1032,React-Bootstrap,Bootstrap,1
+1399,Booststrap 4,Bootstrap,1
+2256,bootstrap 3,Bootstrap,1
+2782,Bootstrap 4 & 5,Bootstrap,1
+92,Bower,Bower,1
+382,Branding,Branding,1
+404,Brand content,Branding,1
+2922,branding,Branding,1
+2946,Corporate Identity Guideline,Branding,1
+2968,identité visuelle,Branding,1
+3032,creation de marque,Branding,1
+3052,Création d'identité visuelle,Branding,1
+3081,enseigne,Branding,1
+3096,brand,Branding,1
+3272,Brand design,Branding,1
+3278,Branding & Identity,Branding,1
+3282,Conception d’identité visuelle,Branding,1
+3283,Image de marque,Branding,1
+3374,brand identity,Branding,1
+3420,Brand Reputation,Branding,1
+3543,Marque et identité,Branding,1
+3544,Architecture de marque,Branding,1
+3557,identité d’espace,Branding,1
+3564,brand design,Branding,1
+3584,Visual Identity,Branding,1
+3612,Identité d’entreprise,Branding,1
+3614,Marque d’entreprise,Branding,1
+3633,identité d'entreprise,Branding,1
+3657,personal branding,Branding,1
+3662,Stratégie de marque,Branding,1
+1280,Brightcove,Brightcove,1
+2198,Bubble.io,Bubble.io,1
+3727,bubble.io,Bubble.io,1
+2527,BIM,Building Information Modeling,1
+3737,bulma,Bulma,1
+322,Mise en page,Bureautique,1
+592,Microsoft Powerpoint,Bureautique,1
+864,Microsoft Office,Bureautique,1
+894,Office 365,Bureautique,1
+899,Microsoft Project,Bureautique,1
+906,Microsoft Word,Bureautique,1
+908,Microsoft Excel,Bureautique,1
+909,Microsoft Outlook,Bureautique,1
+921,Microsoft Exchange,Bureautique,1
+1852,Microsoft Sharepoint,Bureautique,1
+2455,Back office,Bureautique,1
+2770,Bureautique,Bureautique,1
+2975,mise en page,Bureautique,1
+3641,Mise au format,Bureautique,1
+3713,Pack Office,Bureautique,1
+3725,Saisie de données,Bureautique,1
+859,Google,Bureautique,1
+911,Google Docs,Bureautique,1
+1674,Google Spreadsheets API,Bureautique,1
+2315,Google Sheets,Bureautique,1
+2779,google suite,Bureautique,1
+2863,Google Drive,Bureautique,1
+483,Business intelligence,Business Intelligence,1
+975,Informatique Décisionnelle,Business Intelligence,1
+1501,Dashboard,Business Intelligence,1
+1771,Informatique décisionnelle,Business Intelligence,1
+1999,SSRS,Business Intelligence,1
+2007,Crystal Reports,Business Intelligence,1
+2008,Business Intelligence,Business Intelligence,1
+2578,dashboard,Business Intelligence,1
+2680,Reporting;Création de rapports,Business Intelligence,1
+2810,rapport annuel,Business Intelligence,1
+3577,Rapport d'activité,Business Intelligence,1
+3642,Rapport annuel,Business Intelligence,1
+337,C,C / C++,1
+708,C++,C / C++,1
+1044,Parsing de données JS C/C++,C / C++,1
+1104,C / C++,C / C++,1
+1416,c++,C / C++,1
+1417,c,C / C++,1
+1707,C (langage de programmation),C / C++,1
+1721,Boost,C / C++,1
+1975,emscripten,C / C++,1
+2215,C (Programming Language),C / C++,1
+2589,Langage C,C / C++,1
+3184,"Programming Paradigms (in C++, Java, C#)",C / C++,1
+3185,"Algorithmic (C, Python, JavaScript)",C / C++,1
+271,C#,C#,1
+1071,c#,C#,1
+52,Caching,Caching,1
+1702,caddy,Caddy,1
+216,cakePHP,CakePHP,1
+2197,CakePHP,CakePHP,1
+1586,Camunda,Camunda,1
+1809,camunda,Camunda,1
+609,Canvas,Canva,1
+2856,Canva,Canva,1
+3198,CAO,CAO,1
+1398,Capacitor,Capacitor,1
+3746,Capella,Capella,1
+2427,capybara,Capybara,1
+284,Cassandra,Cassandra,1
+3749,CATIA V5,CATIA,1
+475,CEH,CEH,1
+936,centreon,Centreon,1
+1911,Ceph,Ceph,1
+957,CesiumJS,CesiumJS,1
+1049,Chakra UI,Chakra UI,1
+2530,chart.js,Chart.js,1
+175,Chatbot,Chatbots,1
+706,Bot,Chatbots,1
+801,Rasa,Chatbots,1
+3682,Chabots,Chatbots,1
+1858,Chef,Chef,1
+221,CI,CI/CD,1
+709,ci/cd,CI/CD,1
+968,Déployement,CI/CD,1
+988,Rollup,CI/CD,1
+1007,Amélioration des processus,CI/CD,1
+1008,Amélioration continue,CI/CD,1
+1055,Déploiement,CI/CD,1
+1128,CI/CD,CI/CD,1
+1131,Distribution continues,CI/CD,1
+1242,Codeship,CI/CD,1
+1587,IntÃ©gration continue,CI/CD,1
+1762,Continuous Improvement,CI/CD,1
+1806,Déploiement Continu,CI/CD,1
+1819,CI-CD,CI/CD,1
+1860,Gitlab CI/CD,CI/CD,1
+1903,System Deployment,CI/CD,1
+1976,Déploiement continue,CI/CD,1
+2028,Déploiement continu,CI/CD,1
+2359,CI / CD,CI/CD,1
+2436,Contrôle de version,CI/CD,1
+3244,roll-up,CI/CD,1
+2017,Intégration,CI/CD,1
+2608,intégration contenu,CI/CD,1
+559,intégration continue,CI/CD,1
+129,Intégration continue,CI/CD,1
+2433,Intégration continue et livraison continue (CI/CD),CI/CD,1
+3128,Cinema 4D,Cinema 4D,1
+3342,C4D,Cinema 4D,1
+1243,Circle CI,Circle CI,1
+1960,CircleCI,CircleCI,1
+1424,Cisco,Cisco,1
+1864,Cisco IOS,Cisco,1
+1867,cisco,Cisco,1
+2020,Cisco Technologies,Cisco,1
+1898,Citrix,Citrix,1
+287,Clean Code,Clean Code,1
+1143,clean architecture,Clean Code,1
+1573,CleanCode,Clean Code,1
+2539,Clean architecture,Clean Code,1
+58,SAAS,Cloud,1
+480,Serverless,Cloud,1
+521,Cloud computing,Cloud,1
+934,radius,Cloud,1
+953,Cloud Engineer,Cloud,1
+1631,Haute disponibilité,Cloud,1
+1632,Cloud native,Cloud,1
+1641,Cloud Computing,Cloud,1
+1814,Administration cloud,Cloud,1
+1824,Cloud,Cloud,1
+1913,Architecte Cloud,Cloud,1
+1918,Migration Cloud,Cloud,1
+1920,Architecture Cloud,Cloud,1
+1922,Cloud Infrastructure,Cloud,1
+2100,serverless,Cloud,1
+2178,Cloud Solution Architect,Cloud,1
+2243,Severless,Cloud,1
+2367,cloud native,Cloud,1
+1928,Pivotal Cloud Foundry,Cloud Foundry,1
+2381,Cloudera,Cloudera,1
+847,Cloudflare,Cloudflare,1
+782,Cloudinary,Cloudinary,1
+2024,CloudOps,CloudOps,1
+138,Développement CMS,CMS,1
+229,CMS,CMS,1
+389,Craft CMS,CMS,1
+467,Systèmes de gestion de contenu (CMS),CMS,1
+849,prismic,CMS,1
+881,NetlifyCMS,CMS,1
+1070,cms,CMS,1
+1268,October CMS,CMS,1
+1313,développement CMS,CMS,1
+1527,TYPO3,CMS,1
+2345,processwire,CMS,1
+2450,Wagtail,CMS,1
+2451,Wagtail CMS,CMS,1
+2763,netlifycms,CMS,1
+2765,datoCMS,CMS,1
+575,Coaching,Coaching,1
+584,Coaching individuel,Coaching,1
+1144,coach craft,Coaching,1
+2956,Personal Trainer,Coaching,1
+3078,atelier de développement,Coaching,1
+3079,facilitation,Coaching,1
+3660,Coaching de dirigeants,Coaching,1
+3661,Coaching professionnel,Coaching,1
+1635,COBOL,Cobol,1
+783,Code Igniter,Code Igniter,1
+784,Codeigniter,Code Igniter,1
+236,CoffeeScript,CoffeeScript,1
+23,Communication,Communication,1
+24,Stratégie de communication,Communication,1
+380,Communication digitale,Communication,1
+381,Communication visuelle,Communication,1
+397,Relations presse,Communication,1
+1095,Stratégie éditoriale,Communication,1
+1336,Communication marketing,Communication,1
+2397,Communication interne,Communication,1
+2720,Communication 360°,Communication,1
+2820,Qualités relationnelles,Communication,1
+2821,Sens de la communication,Communication,1
+2826,Communication print,Communication,1
+2836,communication digitale,Communication,1
+2882,Relations publiques,Communication,1
+3051,communication,Communication,1
+3083,Dossier de presse,Communication,1
+3123,Qualité relationnelle,Communication,1
+3124,sens de la communication,Communication,1
+3252,Digital communication,Communication,1
+3273,Communication RS,Communication,1
+3294,support de communication,Communication,1
+3380,brochure,Communication,1
+3533,Communication 360,Communication,1
+3566,Communication print & web,Communication,1
+2801,Objets publicitaires,Communication (Goodies),1
+321,Edition,Communication (Print),1
+323,Analyse du brief,Communication (Print),1
+324,Suivi de fabrication,Communication (Print),1
+326,Carte de visite,Communication (Print),1
+327,Packaging,Communication (Print),1
+328,Catalogue,Communication (Print),1
+329,Brochure,Communication (Print),1
+330,Affiche,Communication (Print),1
+332,Signalétique,Communication (Print),1
+353,Flyer,Communication (Print),1
+372,carte de voeux,Communication (Print),1
+374,packaging,Communication (Print),1
+1116,Magazine,Communication (Print),1
+2798,Plaquette,Communication (Print),1
+2802,Kakémono,Communication (Print),1
+2803,panneaux,Communication (Print),1
+2804,menu,Communication (Print),1
+2805,stickers,Communication (Print),1
+2806,livre,Communication (Print),1
+2808,répertoire,Communication (Print),1
+2809,calendrier,Communication (Print),1
+2829,Livre,Communication (Print),1
+2830,Papeterie,Communication (Print),1
+2843,flyer,Communication (Print),1
+2971,catalogue,Communication (Print),1
+2973,plaquette,Communication (Print),1
+2976,carte de visite,Communication (Print),1
+2977,affiche,Communication (Print),1
+3086,kakémono,Communication (Print),1
+3095,création brochure,Communication (Print),1
+3101,banner,Communication (Print),1
+3103,Bannière web,Communication (Print),1
+3106,Conseil Print,Communication (Print),1
+3474,impression,Communication (Print),1
+3542,livres,Communication (Print),1
+3613,Conception d’affiches,Communication (Print),1
+3626,affiches,Communication (Print),1
+3653,Menu - Carte - identité,Communication (Print),1
+398,Community management,Community management,1
+3336,Community Manager,Community management,1
+2334,Computer vision,Computer Vision,1
+2613,computer vision,Computer Vision,1
+450,Concrete5,Concrete5,1
+842,Atlassian Confluence,Confluence,1
+794,Consul,Consul,1
+2419,Réalisation de magazines,Content Design,1
+2745,Presse,Content Design,1
+2746,Presse Magazine,Content Design,1
+2959,Design éditorial,Content Design,1
+2979,edition,Content Design,1
+3259,Création de contenu,Content Design,1
+3391,design éditorial,Content Design,1
+3454,Content Design,Content Design,1
+3609,Conception de la mise en page des magazines,Content Design,1
+486,Contentful,Contentful,1
+2015,controlM,Control-M,1
+2877,Concepteur-rédacteur,Copywriting,1
+2878,Rédaction de discours,Copywriting,1
+2983,Copy Writing,Copywriting,1
+224,Rédaction web,Copywriting,1
+225,Conception rédaction,Copywriting,1
+2540,Copywriting,Copywriting,1
+2541,Copywriter,Copywriting,1
+2542,Préparation de copie,Copywriting,1
+2543,copywritting,Copywriting,1
+2544,copywritter,Copywriting,1
+2545,Copywriting Landing Page,Copywriting,1
+2546,Copywriters,Copywriting,1
+273,CORE,Core,1
+3372,Coreldraw,CorelDRAW,1
+2086,Couchbase,Couchbase,1
+591,craft,Craftmanship,1
+1145,craftsman,Craftmanship,1
+1574,Craftsmanship,Craftmanship,1
+1634,Software Craftsmanship,Craftmanship,1
+387,Create.js,Create.js,1
+314,CRM,CRM,1
+563,Bulma,CRM,1
+569,Sellsy,CRM,1
+678,BuddyPress,CRM,1
+1015,Gestion de la relation client (CRM),CRM,1
+1086,CiviCRM,CRM,1
+1096,ACF,CRM,1
+1408,SugarCRM,CRM,1
+1680,odoo,CRM,1
+2537,orocommerce,CRM,1
+2612,Odoo,CRM,1
+2375,Cron,CRON,1
+3704,Cron Jobs,CRON,1
+1161,CSS-in-JS,CSS-in-JS,1
+2729,CSSinJs,CSS-in-JS,1
+2411,Cucumber,Cucumber,1
+1751,CUDA tool kit (ggpu),CUDA,1
+2180,CUDA,CUDA,1
+54,Sécurité,Cybersécurité,1
+55,Security,Cybersécurité,1
+358,Cybersécurité,Cybersécurité,1
+477,sécurité informatique,Cybersécurité,1
+711,Securité informatique,Cybersécurité,1
+1232,dépiratage,Cybersécurité,1
+1233,sécurité,Cybersécurité,1
+1252,Audit de sécurité,Cybersécurité,1
+1259,Sécurité informatique,Cybersécurité,1
+1260,Sécurité réseau,Cybersécurité,1
+1363,Sécurité Informatique,Cybersécurité,1
+1409,PCI DSS,Cybersécurité,1
+1422,rtpengine,Cybersécurité,1
+1848,Iptables,Cybersécurité,1
+1861,DevSecOps,Cybersécurité,1
+1866,Cybersecurity,Cybersécurité,1
+1944,firewall,Cybersécurité,1
+1974,Chiffrement,Cybersécurité,1
+2083,Firewalls,Cybersécurité,1
+2363,sécurité des applications,Cybersécurité,1
+3150,Chiffrage,Cybersécurité,1
+3707,FortiGate,Cybersécurité,1
+469,PenTest,Cybersécurité,1
+473,Test d'intrusion,Cybersécurité,1
+219,cypress,Cypress.io,1
+301,Cypress.io,Cypress.io,1
+2325,Cypress,Cypress.io,1
+1241,d3.js,D3.js,1
+375,pictogramme,DAO,1
+1521,Dessin,DAO,1
+3312,dessin,DAO,1
+3478,dessinateur industriel,DAO,1
+3492,DAO,DAO,1
+2594,Darktable,Darktable,1
+460,Dart,Dart,1
+2796,dart,Dart,1
+2366,Dash,Dash,1
+1783,Datadog,Datadog,1
+2408,DataDog,Datadog,1
+810,Debian,Debian,1
+528,Deep Learning,Deep learning,1
+2030,Deep learning,Deep learning,1
+3750,DELMIA,DELMIA,1
+1404,Delphi,Delphi,1
+19,Design,Design,1
+37,Identité visuelle,Design,1
+239,Mobile Design,Design,1
+367,Flat Design,Design,1
+416,Design Bannières,Design,1
+549,Graphic Design,Design,1
+557,Material Design,Design,1
+679,BuddyBoss,Design,1
+997,Développement de concept,Design,1
+1142,Domain-driven design,Design,1
+1652,Domain Driven Design,Design,1
+1761,Six Sigma,Design,1
+2373,Software Design,Design,1
+2604,Refonte site,Design,1
+2605,Mettre à jour site,Design,1
+2606,Refaire site,Design,1
+2607,Rafraîchir site,Design,1
+2663,Empathic Design,Design,1
+2672,Intégration pixel perfect,Design,1
+2721,design,Design,1
+2851,design tunnel de vente,Design,1
+2883,Design graphique,Design,1
+2887,mobile design,Design,1
+2928,design tablette,Design,1
+2944,Dashboard Design,Design,1
+2951,Product Design ✓,Design,1
+2972,design bannières,Design,1
+2980,design sprint,Design,1
+2986,interaction design,Design,1
+2995,Design QA,Design,1
+2996,Design review,Design,1
+3048,Design sprint,Design,1
+3055,service design,Design,1
+3056,Design d'anticipation,Design,1
+3126,Design Sprint,Design,1
+3129,Design Tablette,Design,1
+3134,design de service,Design,1
+3165,design d'espace,Design,1
+3167,Design de service,Design,1
+3171,Multimédia Designer,Design,1
+3189,Design d'espace,Design,1
+3192,design transport,Design,1
+3199,design process,Design,1
+3201,design to cost,Design,1
+3202,design to quality,Design,1
+3221,industrial designer,Design,1
+3239,Design participatif,Design,1
+3256,print design,Design,1
+3262,set design,Design,1
+3265,Design d'application,Design,1
+3266,Design Ethique,Design,1
+3267,Design responsable,Design,1
+3302,design social,Design,1
+3303,design service,Design,1
+3304,design produit,Design,1
+3305,Co-design,Design,1
+3343,Concept Art,Design,1
+3367,codesign workshop,Design,1
+3368,mindmapping,Design,1
+3369,Double Diamant,Design,1
+3379,Service Design,Design,1
+3387,La méthode des cinq pourquoi,Design,1
+3428,Maquette Design,Design,1
+3449,design d'interface mobile,Design,1
+3456,fullstack designer,Design,1
+3463,Design inclusif,Design,1
+3481,Service design,Design,1
+3493,design mobilier,Design,1
+3506,Design global,Design,1
+3593,Design scientifique,Design,1
+3602,Visual design,Design,1
+3605,Design de concept,Design,1
+3606,Design mode,Design,1
+1750,Modélisation 3D,Design 3D,1
+3064,Rendu 3D,Design 3D,1
+3084,Illustration 3D,Design 3D,1
+3197,Sketchup,Design 3D,1
+3308,Design industriel,Design Industriel,1
+3490,design industriel,Design Industriel,1
+2911,Interactive Design,Design interactif,1
+2967,Interactive design,Design interactif,1
+3026,Design interactif,Design interactif,1
+2927,Design Application,Design Mobile,1
+2997,Android design,Design Mobile,1
+1150,design patterns,Design pattern,1
+1538,Design Pattern,Design pattern,1
+1605,Software Design Patterns,Design pattern,1
+232,Design produit,Design Produit,1
+1830,Product Design,Design Produit,1
+2845,product designer,Design Produit,1
+2907,Product design,Design Produit,1
+2926,product design,Design Produit,1
+3438,Product Designer,Design Produit,1
+3451,Product designer,Design Produit,1
+3526,stratégie design,Design Strategy,1
+3575,Design Strategy,Design Strategy,1
+552,design system,Design Systems,1
+553,style guide,Design Systems,1
+1744,Control Systems Design,Design Systems,1
+2386,Design system,Design Systems,1
+2394,system design,Design Systems,1
+2675,Design System,Design Systems,1
+2999,ZeroHeight,Design systems,1
+3120,Design systems,Design systems,1
+3216,Style guide,Design systems,1
+3251,composition de l'image,Design systems,1
+3450,System Designer,Design systems,1
+3553,design sytem,Design systems,1
+379,Design Thinking,Design Thinking,1
+2952,Atelier de Design Thinking,Design Thinking,1
+2966,Design thinking,Design Thinking,1
+3392,design thinking,Design Thinking,1
+196,refonte,Design Web,1
+198,création site internet,Design Web,1
+199,conception web,Design Web,1
+212,création de site web,Design Web,1
+310,Création de site web,Design Web,1
+436,refonte site web,Design Web,1
+667,création de site internet,Design Web,1
+875,création site web,Design Web,1
+1292,Diseño Web,Design Web,1
+1298,Création de site,Design Web,1
+1341,Conception web,Design Web,1
+1468,webmastering,Design Web,1
+1469,création de site,Design Web,1
+2641,Site internet léger,Design Web,1
+2723,Conception de site internet,Design Web,1
+2735,Création site internet,Design Web,1
+2848,Création Site Internet,Design Web,1
+3211,conception de sites web,Design Web,1
+3260,Création de site internet,Design Web,1
+3497,creation site web,Design Web,1
+3601,création de sites internet,Design Web,1
+393,Développeur Web Full-stack,Développement FullStack,1
+487,Développement FullStack,Développement FullStack,1
+520,fullstack,Développement FullStack,1
+1365,Full-Stack Development,Développement Fullstack,1
+2179,Développement Fullstack,Développement FullStack,1
+3686,Full stack,Développement FullStack,1
+3774,Développement full-stack,Développement FullStack,1
+449,iOS,Développement iOS,1
+858,iOS development,Développement iOS,1
+1548,iPhone,Développement iOS,1
+1549,iPad,Développement iOS,1
+1639,Développement iOS,Développement iOS,1
+2320,iOS Development,Développement iOS,1
+2323,UIKit,Développement iOS,1
+2935,UI kit,Développement iOS,1
+2940,UI Kit,Développement iOS,1
+3075,ui kit,Développement iOS,1
+860,Browser Plugins Development,Développement Plugin Chrome/Firefox,1
+1186,Google Chrome Extension,Développement Plugin Chrome/Firefox,1
+1785,WebExtensions,Développement Plugin Chrome/Firefox,1
+117,Développement produit,Développement produit,1
+686,Product Development,Développement produit,1
+220,dexie,Dexie,1
+2064,Dialogflow,Dialogflow,1
+1593,Digital Ocean,Digital Ocean,1
+1569,DigitalOcean,Digital Ocean,1
+320,Direction artistique,Direction Artistique,1
+2842,direction artistique,Direction Artistique,1
+3233,Creative Strategy,Direction Artistique,1
+3389,Artistic direction,Direction Artistique,1
+3444,Directeur artistique,Direction Artistique,1
+3517,Art Direction,Direction Artistique,1
+3550,directeur artistique,Direction Artistique,1
+3551,DA,Direction Artistique,1
+3588,art director,Direction Artistique,1
+535,Creative Direction,Direction Création,1
+3404,Direction de Création,Direction Création,1
+3658,direction de création,Direction Création,1
+300,Direction Technique,Direction Technique,1
+654,directeur technique,Direction Technique,1
+308,directus,Directus,1
+1130,Directus,Directus,1
+2385,Discord.js,Discord.js,1
+1109,Display,Display,1
+790,Django,Django,1
+1168,Python/Django,Django,1
+1589,Django Rest Framework,Django,1
+2462,django,Django,1
+2646,Python Django,Django,1
+69,Docker,Docker,1
+1669,docker,Docker,1
+1872,Docker Swarm,Docker,1
+1964,docker-compose,Docker,1
+2060,Docker-compose,Docker,1
+2210,Docker Products,Docker,1
+3780,Docker swarm,Docker,1
+210,Cahier des charges,Documentation Technique,1
+999,Rédaction de rapport,Documentation Technique,1
+1000,Rédaction technique,Documentation Technique,1
+1001,Cahier des charges fonctionnel,Documentation Technique,1
+1002,Spécifications,Documentation Technique,1
+1839,Documentation technique,Documentation Technique,1
+2049,Redaction de doxumentation,Documentation Technique,1
+3326,rédaction de rapports,Documentation Technique,1
+3388,Restituer un document avec propositions,Documentation Technique,1
+3673,mode d'emploi,Documentation Technique,1
+1056,Dojotoolkit,Dojo Toolkit,1
+488,Dolibarr,Dolibarr,1
+2449,DooFinder,DooFinder,1
+775,Doubleclick,Doubleclick,1
+2368,Dropwizard,Dropwizard,1
+160,Drupal,Drupal,1
+192,Drupal 7,Drupal,1
+543,Drupal development,Drupal,1
+992,Drupal 8,Drupal,1
+1112,Developpeur Drupal,Drupal,1
+1158,Drupal 6,Drupal,1
+1571,drupal,Drupal,1
+952,DynamoDB,DynamoDB,1
+197,site e-commerce,E-Commerce,1
+208,E-commerce,E-Commerce,1
+471,Site E-commerce,E-Commerce,1
+666,Site marchand,E-Commerce,1
+1311,Site e-commerce,E-Commerce,1
+1392,Développeur e-commerce,E-Commerce,1
+1495,boutique e commerce,E-Commerce,1
+1516,Site ecommerce,E-Commerce,1
+2266,Commercial,E-Commerce,1
+2478,Boutique e-commerce,E-Commerce,1
+2480,Formation e-commerce,E-Commerce,1
+2565,dropshipping,E-Commerce,1
+3280,Création site e-commerce,E-Commerce,1
+776,gatsby.js,EasyXDM,1
+779,EasyXDM,EasyXDM,1
+599,Eclipse,Eclipse,1
+87,EcmaScript 6,ECMAScript,1
+728,ES 6,ECMAScript,1
+2090,Ecmascript,ECMAScript,1
+56,Elasticsearch,Elasticsearch,1
+1277,ELK,Elasticsearch,1
+1278,Logstash,Elasticsearch,1
+1798,elasticsearch,Elasticsearch,1
+2437,ElasticSearch,Elasticsearch,1
+177,Electron,Electron.js,1
+309,electron,Electron.js,1
+1045,Electron.js,Electron.js,1
+1160,electronJs,Electron.js,1
+2422,ElectronJS,Electron.js,1
+250,Elementor,Elementor,1
+1323,Eleventy,Eleventy,1
+49,Elixir,Elixir,1
+2456,Elm,Elm,1
+3779,Emacs,Emacs,1
+140,Emailing,Emailing,1
+204,Design Email,Emailing,1
+264,Mailchimp,Emailing,1
+430,Design Newsletter,Emailing,1
+752,mailling,Emailing,1
+768,Envoi de mail/SMS,Emailing,1
+1247,Template Emailing,Emailing,1
+1248,Mailjet,Emailing,1
+1251,Litmus,Emailing,1
+1293,Sendinblue,Emailing,1
+2598,Mailpro,Emailing,1
+2835,emailing,Emailing,1
+2855,flodesk,Emailing,1
+3077,Dartagnan,Emailing,1
+3247,design email,Emailing,1
+3248,design newsletter,Emailing,1
+132,Ember.js,Ember.js,1
+265,Enfold,Enfold,1
+278,Entity Framework,Entity Framework,1
+201,Création d'entreprise,Entreprenariat,1
+162,Ergonomie,Ergonomie,1
+451,ergonome,Ergonomie,1
+2551,Ergonomie des interfaces,Ergonomie,1
+2840,ergonomie,Ergonomie,1
+3002,audit ergonomique,Ergonomie,1
+3153,Etude d'ergonomie,Ergonomie,1
+1673,Erlang,Erlang,1
+1033,eslint,ESLint,1
+1732,ETL,ETL,1
+1733,Talend,ETL,1
+606,Expo js,Expo JS,1
+717,expo,Expo JS,1
+851,Expo,Expo JS,1
+789,Ext.js,Ext JS,1
+800,Fabric.Js,Fabric.js,1
+1591,Falcon,Falcon,1
+3158,FAO,FAO,1
+1590,FastAPI,FastAPI,1
+892,fastlane,Fastlane,1
+1646,Fastlane,Fastlane,1
+2282,FFMPEG,FFmpeg,1
+2591,ffmpeg,Ffmpeg,1
+151,Figma,Figma,1
+2828,figma,Figma,1
+1270,Final Cut Pro,Final Cut Pro,1
+2988,Final cut pro,Final Cut Pro,1
+3066,Final Cut,Final Cut Pro,1
+60,Firebase,Firebase,1
+951,firestore,Firebase,1
+1483,firebase,Firebase,1
+1624,google firebase,Firebase,1
+2047,fireba,Firebase,1
+2534,Firestore,Firebase,1
+1952,Flagger,Flagger,1
+733,flask,Flask,1
+1450,Python Flask,Flask,1
+1820,Flask,Flask,1
+1825,FLASK,Flask,1
+2358,Flow,Flow,1
+2618,flow,Flow,1
+1021,flow-js,Flow JS,1
+1191,Flowable,Flowable,1
+3434,Flowmapp,FlowMapp,1
+1951,FluentBit,FluentBit,1
+1950,FluentD,FluentD,1
+248,Flutter,Flutter,1
+1572,flutter,Flutter,1
+1953,FluxCD,FluxCD,1
+1381,FME,FME,1
+4,Formation,Formation,1
+261,E-learning,Formation,1
+1180,Formation DWWM,Formation,1
+1235,Mentorat,Formation,1
+1303,Mentor,Formation,1
+1304,Mentoring,Formation,1
+3060,workshop pédagogique,Formation,1
+3061,conceptrice pédagogique,Formation,1
+3067,Teaching,Formation,1
+3208,Fablab,Formation,1
+3328,enseignement supérieur,Formation,1
+3332,pédagogie,Formation,1
+3385,Animation d'atelier,Formation,1
+3461,animation d'atelier,Formation,1
+3470,remote workshop,Formation,1
+205,Foundation,Foundation,1
+293,foundation,Foundation,1
+747,Foundation 5,Foundation,1
+1423,FreeSWITCH,FreeSWITCH,1
+2581,From Scratch,From Scratch,1
+938,from scratch,From Scratch,1
+672,Game design,Gaming,1
+1446,Godot,Gaming,1
+1688,Jeu Vidéo,Gaming,1
+826,passerelle,Gateway,1
+1426,BGP,Gateway,1
+2413,Gatling,Gatling,1
+70,GatsbyJS,GatsbyJS,1
+121,gatsby,GatsbyJS,1
+243,GatsbyJs,GatsbyJS,1
+442,Gatsby,GatsbyJS,1
+1504,Gatsby.js,GatsbyJS,1
+1231,Genesis,Genesis,1
+558,SIG,Géocoding,1
+556,OpenLayers,Géocoding,1
+767,Géolocalisation,Géocoding,1
+1345,Produits ArcGIS,Géocoding,1
+1375,Géomatique,Géocoding,1
+1380,ArcGIS,Géocoding,1
+1383,GIS,Géocoding,1
+1374,Cartographie,Géocoding,1
+1384,Géographie,Géocoding,1
+1287,Geoserver,Géocoding,1
+2954,gephi,Gephi,1
+114,Gestion de projet web,Gestion de Projet,1
+118,Gestion de projet,Gestion de projet,1
+191,Gestion de projet technique,Gestion de projet,1
+527,ERP,Gestion de projet,1
+564,Planning stratégique,Gestion de projet,1
+646,Redmine,Gestion de projet,1
+758,Gestion du temps,Gestion de projet,1
+759,Réponse à appel d'offre,Gestion de projet,1
+760,Spécifications fonctionnelles,Gestion de projet,1
+771,5S,Gestion de projet,1
+903,Gestion de projet logiciel,Gestion de projet,1
+1003,Gestion des budgets,Gestion de projet,1
+1337,Planification de projets,Gestion de projet,1
+1350,Outils de collaboration,Gestion de projet,1
+2022,Supervision,Gestion de projet,1
+2416,trello,Gestion de projet,1
+2504,Coordination de projet,Gestion de projet,1
+2572,etude de besoin,Gestion de projet,1
+2573,gestion de projet,Gestion de projet,1
+2648,Responsables de projet,Gestion de projet,1
+2766,Gestion de projets,Gestion de projet,1
+2870,Gestion de la production,Gestion de projet,1
+3004,cadrage projet,Gestion de projet,1
+3018,budget,Gestion de projet,1
+3019,experience map,Gestion de projet,1
+3136,Cadrage projets / besoins,Gestion de projet,1
+3289,Gestion de projet numérique,Gestion de projet,1
+3311,cahier des charges,Gestion de projet,1
+3468,visual thinking,Gestion de projet,1
+3486,Project Coordination,Gestion de projet,1
+3501,Product roadmap,Gestion de projet,1
+3716,Gantt,Gestion de projet,1
+2931,GIF,GIF making,1
+1087,GIMP,GIMP,1
+1542,Gimp,GIMP,1
+439,Git-SVN,Git,1
+88,Git,Git,1
+1025,Git-Flow,Git,1
+1046,git,Git,1
+1930,Gitflow,Git,1
+1954,GitOps,Git,1
+2044,GIT,Git,1
+116,GitHub,Github,1
+691,Github,Github,1
+723,github actions,Github,1
+829,Github actions,Github,1
+890,github,Github,1
+1662,Githu,Github,1
+1878,Github Actions,Github,1
+304,Gitlab,Gitlab,1
+814,Gitlab-CI,Gitlab,1
+986,Gitlab CI,Gitlab,1
+1037,GitLab,Gitlab,1
+1481,GitLab Runner,Gitlab,1
+1670,gitlab,Gitlab,1
+1693,GitLab CI/CD,Gitlab,1
+1847,gitlab-ci,Gitlab,1
+1925,gitlab ci,Gitlab,1
+1980,gitlabci,Gitlab,1
+1522,gmao,GMAO,1
+438,Linux,GNU/Linux,1
+611,UNIX,GNU/Linux,1
+926,CentOS,GNU/Linux,1
+1035,KDE,GNU/Linux,1
+1209,Unix,GNU/Linux,1
+1335,Administration système Linux,GNU/Linux,1
+1343,Serveur Linux,GNU/Linux,1
+1544,Archlinux,GNU/Linux,1
+1615,Linux System Administration,GNU/Linux,1
+1649,linux,GNU/Linux,1
+1786,Arch Linux,GNU/Linux,1
+1801,Système d’opération,GNU/Linux,1
+1941,centos,GNU/Linux,1
+2025,Centos,GNU/Linux,1
+2099,opendistro,GNU/Linux,1
+2101,unix,GNU/Linux,1
+2244,FreeBSD,GNU/Linux,1
+2446,GDB,GNU/Linux,1
+2447,Buildroot,GNU/Linux,1
+3187,"System (Unix, ShellScript, AppleScript, PowerShell)",GNU/Linux,1
+3771,LInux,GNU/Linux,1
+1808,Redhat,GNU/Linux,1
+1843,Red Hat Linux,GNU/Linux,1
+1893,Red Hat,GNU/Linux,1
+1940,redhat,GNU/Linux,1
+1969,RedHat,GNU/Linux,1
+2026,RHEL,GNU/Linux,1
+570,GO,Golang,1
+1696,Go,Golang,1
+1203,Golang,Golang,1
+2297,golang,Golang,1
+161,AMP,Google AMP,1
+2739,Google AMP,Google AMP,1
+122,Google Analytics,Google Analytics,1
+884,Analytics,Google Analytics,1
+910,Outils Google pour les webmasters,Google Analytics,1
+2370,Google Analytics API,Google Analytics,1
+1464,Google API,Google API,1
+1078,Google App Engine,Google App Engine,1
+2319,apps script,Google Apps Script,1
+2577,BigQuery,Google Cloud Platform,1
+522,Google cloud,Google Cloud Platform,1
+844,Google Cloud Run,Google Cloud Platform,1
+947,Google function,Google Cloud Platform,1
+1463,Google Cloud Platform,Google Cloud Platform,1
+1638,PubSub,Google Cloud Platform,1
+1643,Google Cloud Platform (GCP),Google Cloud Platform,1
+1823,gcp,Google Cloud Platform,1
+2029,GCP,Google Cloud Platform,1
+2748,Google Data Studio,Google Data Studio,1
+3014,data studio,Google Data Studio,1
+866,Google Maps,Google Maps,1
+1065,google maps,Google Maps,1
+1465,Google Maps API,Google Maps,1
+509,Google My Business,Google My Business,1
+267,Google Optimize,Google Optimize,1
+247,Google Search Console,Google Search Console,1
+1487,google search console,Google Search Console,1
+912,Google Shopping,Google Shopping,1
+240,Google Tag Manager,Google Tag Manager,1
+3496,google web designer,Google Web Designer,1
+3513,Google Web Designer,Google Web Designer,1
+1982,Gradle,Gradle,1
+1283,Grafana,Grafana,1
+1701,grafana,Grafana,1
+21,print,Graphisme,1
+22,Graphisme,Graphisme,1
+108,Charte graphique,Graphisme,1
+158,Illustration,Graphisme,1
+319,Graphisme print,Graphisme,1
+371,graphiste web,Graphisme,1
+534,Icônes,Graphisme,1
+1126,Print,Graphisme,1
+1327,création graphique,Graphisme,1
+2831,Pictogrammes,Graphisme,1
+2841,Overlay Twitch,Graphisme,1
+2846,visuelle identität,Graphisme,1
+2857,Illustration vectorielle,Graphisme,1
+2937,Minimaliste,Graphisme,1
+2969,graphisme,Graphisme,1
+2974,illustration,Graphisme,1
+3034,poster,Graphisme,1
+3059,Facilitation graphique,Graphisme,1
+3087,graphisme print,Graphisme,1
+3114,graphiste,Graphisme,1
+3131,icônes,Graphisme,1
+3246,charte graphique,Graphisme,1
+3249,Conception visuelle,Graphisme,1
+3250,Arts visuels,Graphisme,1
+3254,Graphic,Graphisme,1
+3255,Print graphic,Graphisme,1
+3264,charte,Graphisme,1
+3279,Graphiste,Graphisme,1
+3317,Chartre graphique,Graphisme,1
+3339,Dessin Digital,Graphisme,1
+3351,icons,Graphisme,1
+3365,Bande dessinée,Graphisme,1
+3381,Illustration numérique,Graphisme,1
+3395,Graphiques,Graphisme,1
+3540,Pictogramme,Graphisme,1
+3552,identité graphique,Graphisme,1
+3555,chartes graphiques,Graphisme,1
+3581,Bannières,Graphisme,1
+3618,Graphisme digital,Graphisme,1
+3625,illustration vectorielle,Graphisme,1
+346,Graphisme 3D,Graphisme 3D,1
+1959,Graphite,Graphite,1
+1084,Grav,Grav,1
+1512,Gravitee.io,Gravitee.io,1
+1907,Graylog,Graylog,1
+133,Groovy,Groovy,1
+119,Growth hacking,Growth hacking,1
+1454,lean,Growth hacking,1
+1579,Why how what,Growth hacking,1
+1760,Lean Manufacturing,Growth hacking,1
+2088,Lean,Growth hacking,1
+2089,Lean six sigma,Growth hacking,1
+2747,Conversion Rate Optimisation (CRO),Growth hacking,1
+2987,Product strategy,Growth hacking,1
+3170,Tunnel de ventes,Growth hacking,1
+3669,business caneva,Growth hacking,1
+3712,Lead Generation,Growth hacking,1
+3719,SMART goals,Growth hacking,1
+2139,gRPC,gRPC,1
+2228,grpc,gRPC,1
+31,Grunt,Grunt,1
+385,gsap,GSAP,1
+390,GSAP,GSAP,1
+982,Greensock,GSAP,1
+2443,Gstreamer,Gstreamer,1
+32,Gulp,Gulp.js,1
+340,gulp,Gulp.js,1
+636,Gulp.js,Gulp.js,1
+2104,Gurobi,Gurobi,1
+777,Capistrano,HAML,1
+780,HAML,HAML,1
+1081,Handlebars,Handlebars,1
+795,HaProxy,HaProxy,1
+2054,Haskell,Haskell,1
+602,Esbuild,Hasura,1
+603,Hasura,Hasura,1
+727,hasura,Hasura,1
+2339,Haxe,Haxe,1
+1768,HBase,HBase,1
+452,HeadlessCms,Headless CMS,1
+1315,headless cms,Headless CMS,1
+1675,Headless CMS,Headless CMS,1
+658,Plesk,Hébergement Web,1
+743,ovh,Hébergement Web,1
+872,Hébergement Web,Hébergement Web,1
+1492,OVH,Hébergement Web,1
+1575,Domaine,Hébergement Web,1
+1576,Hébergement,Hébergement Web,1
+1792,Gandi,Hébergement Web,1
+1803,Scaleway,Hébergement Web,1
+1804,Ovh,Hébergement Web,1
+2269,Redirection de domaine,Hébergement Web,1
+2393,squarespace,Hébergement Web,1
+2610,hébergement web,Hébergement Web,1
+2655,Hébergement web,Hébergement Web,1
+3699,NameCheap,Hébergement Web,1
+722,Helm,Helm,1
+2859,Réparation informatique,Helpdesk,1
+64,Heroku,Heroku,1
+3773,heroku,Heroku,1
+2107,Métaheurstique,Heuristique,1
+3228,Audit heuristique,Heuristique,1
+3320,heuristiques,Heuristique,1
+3324,évaluations heuristiques,Heuristique,1
+734,Hibernate,Hibernate,1
+2190,hibernate,Hibernate,1
+1403,Hipay,Hipay,1
+2380,Hortonworks,Hortonworks,1
+3414,Hotjar,Hotjar,1
+3421,hotjar,Hotjar,1
+2669,SCSS/SASS,HTML/CSS,1
+13,HTML5,HTML/CSS,1
+30,SASS,HTML/CSS,1
+33,SCSS,HTML/CSS,1
+35,CSS3,HTML/CSS,1
+134,CSS,HTML/CSS,1
+145,HTML,HTML/CSS,1
+147,ITCSS,HTML/CSS,1
+166,html,HTML/CSS,1
+168,scss,HTML/CSS,1
+171,html5/css3,HTML/CSS,1
+172,sass,HTML/CSS,1
+234,HTML 5,HTML/CSS,1
+253,html5,HTML/CSS,1
+254,css3,HTML/CSS,1
+291,css,HTML/CSS,1
+338,tailwindcss,HTML/CSS,1
+349,Tailwind.css,HTML/CSS,1
+388,Bannières HTML5,HTML/CSS,1
+420,Phaser,HTML/CSS,1
+453,Scss,HTML/CSS,1
+468,Feuilles de Style en cascade (CSS),HTML/CSS,1
+516,Animations HTML5,HTML/CSS,1
+533,flexbox,HTML/CSS,1
+546,Advanced CSS,HTML/CSS,1
+613,Knacss,HTML/CSS,1
+624,integrateur HTML,HTML/CSS,1
+641,Feuilles de style en cascade (CSS),HTML/CSS,1
+697,Semantic HTML,HTML/CSS,1
+699,Cascading Style Sheets (CSS),HTML/CSS,1
+853,CSS Modules,HTML/CSS,1
+962,HTML/CSS,HTML/CSS,1
+1212,XHTML,HTML/CSS,1
+1456,Styled Components,HTML/CSS,1
+1477,Html,HTML/CSS,1
+1478,Css,HTML/CSS,1
+1488,HTML/CSS/JS,HTML/CSS,1
+1533,front - HTML5 - css3 -Javascript - PHP MySQL,HTML/CSS,1
+1665,HTML/XML,HTML/CSS,1
+1666,HTML + CSS,HTML/CSS,1
+2209,HTML CSS,HTML/CSS,1
+2330,Html2PDF,HTML/CSS,1
+2341,HTLM5,HTML/CSS,1
+2466,framework Css Materialize,HTML/CSS,1
+2622,HTML5/CSS3,HTML/CSS,1
+2658,PSD to html,HTML/CSS,1
+2768,PSD to HTML,HTML/CSS,1
+2777,Intégration HTML 5,HTML/CSS,1
+3269,layout,HTML/CSS,1
+3290,HTML/CSS/JavaScript,HTML/CSS,1
+3344,Tailwind css,HTML/CSS,1
+3579,HTML & CSS,HTML/CSS,1
+3639,front,HTML/CSS,1
+3723,Transitions CSS,HTML/CSS,1
+3759,HTML5 CSS3,HTML/CSS,1
+1066,Hubspot,Hubspot,1
+1309,Modules Hubspot,Hubspot,1
+447,Hyperapp,Hyperapp,1
+1030,i18next,i18next,1
+1114,Auth0,IAM,1
+1307,OAuth,IAM,1
+1859,OpenID Connect,IAM,1
+644,Visual Studio,IDE,1
+889,visual studio code,IDE,1
+1564,Visual Studio Code,IDE,1
+1661,Vscode,IDE,1
+1883,Xcode,IDE,1
+2275,VSCode,IDE,1
+2586,VS Code,IDE,1
+2587,Sublime Text,IDE,1
+131,IntelliJ,IDE,1
+281,Microsoft Visual Studio,IDE,1
+3731,vscode,IDE,1
+576,Idéation,Idéation,1
+2837,idéation,Idéation,1
+3003,animation atelier user,Idéation,1
+3006,workshop,Idéation,1
+3054,Brainstorming,Idéation,1
+3057,atelier d'idéation,Idéation,1
+3193,idéation créativité,Idéation,1
+3222,Creative Problem Solving,Idéation,1
+3229,Facilitation,Idéation,1
+3316,ideation workshop,Idéation,1
+3345,Ideation facilitator,Idéation,1
+3425,Atelier conception,Idéation,1
+3435,Atelier d'idéation,Idéation,1
+3537,Ateliers d'idéation,Idéation,1
+3558,Skechnoting,Idéation,1
+3574,Facilitator,Idéation,1
+3656,Big idea,Idéation,1
+3665,Atelier de créativité,Idéation,1
+2526,ifcopenshell,IfcOpenShell,1
+1523,Impression 3D,Impression 3D,1
+2200,Inertia,Inertia.js,1
+187,infogérance,Infogérance,1
+1437,Infographie,Infographie,1
+2978,infographie,Infographie,1
+3504,Infographiste,Infographie,1
+355,Chef de Projet Infrastructure,Infrastructure,1
+1841,Infrastructure,Infrastructure,1
+854,Software Engineering,Ingénierie logicielle,1
+1005,Conception de logiciels,Ingénierie logicielle,1
+1430,Architecte logiciel,Ingénierie logicielle,1
+1793,Site Reliability Engineering,Ingénierie logicielle,1
+1805,SRE,Ingénierie logicielle,1
+2182,Ingénieur Logiciel,Ingénierie logicielle,1
+2582,SOFTWARE ENGINEERING,Ingénierie logicielle,1
+3069,Gamification,Ingénierie pédagogique,1
+418,Serious Game,Ingénierie pédagogique,1
+785,Ingénieur pédagogique,Ingénierie pédagogique,1
+1373,Pédagogie,Ingénierie pédagogique,1
+1431,Ingénieur système,Ingénierie système,1
+1745,Systems Engineering,Ingénierie système,1
+3748,System engineering,Ingénierie système,1
+3758,Ingénierie système,Ingénierie système,1
+766,Ingres,Ingres,1
+1088,Inkscape,Inkscape,1
+141,Intégration emailing,Intégration Emailing,1
+142,Intégration newsletter,Intégration Emailing,1
+294,Intégration emails,Intégration Emailing,1
+444,Intégration Mail,Intégration Emailing,1
+1245,Intégration Emailing,Intégration Emailing,1
+2657,intégration emailing,Intégration Emailing,1
+1297,integrateur web,Intégration Web,1
+551,intégration web,Intégration Web,1
+17,Intégration web,Intégration Web,1
+506,Intégrateur Web,Intégration Web,1
+680,Web integration,Intégration Web,1
+1507,Intégrateur web,Intégration Web,1
+2260,Intégration Web,Intégration Web,1
+3776,Integration Web Sass,Intégration Web,1
+1395,Integromat,Integromat,1
+3127,Interaction Design,Interaction Design,1
+3235,Interaction design,Interaction Design,1
+3536,Design d'interaction,Interaction Design,1
+3554,interaction designer,Interaction Design,1
+277,IIS,Internet Information Services,1
+159,Invision,InVision App,1
+2847,invision,InVision App,1
+2916,Invision Studio,InVision App,1
+2984,InVision,InVision App,1
+3220,Invision studio,InVision App,1
+2752,Expert Inwink,Inwink,1
+26,Ionic,Ionic,1
+1100,Ionic Framework,Ionic,1
+1208,ionic framework,Ionic,1
+1369,Framework Ionic,Ionic,1
+1461,ionic,Ionic,1
+798,Internet des objets,IoT,1
+1050,Arduino,IoT,1
+1199,Logiciel embarqué,IoT,1
+1444,IoT,IoT,1
+1561,Objets connectés,IoT,1
+1740,Embedded Software Programming,IoT,1
+2145,Sigfox,IoT,1
+2634,Bluetooth Low Energy,IoT,1
+1949,Istio,Istio,1
+2759,iView,iView,1
+778,Ubuntu,JADE,1
+781,JADE,JADE,1
+124,JAMstack,JAMstack,1
+341,JAMStack,JAMStack,1
+454,Jamstack,JAMStack,1
+2631,jamstack,JAMStack,1
+1057,Jasmine,Jasmine,1
+1684,AssertJ,Java,1
+336,Java,Java,1
+1051,JEE,Java,1
+1434,Thymeleaf,Java,1
+1541,Javacard,Java,1
+1601,J2EE Web Services,Java,1
+1608,Java Message Service (JMS),Java,1
+1609,Java natif,Java,1
+1633,Java EE,Java,1
+1657,Java 8,Java,1
+1853,PRA,Java,1
+2014,java,Java,1
+2119,Java Enterprise Edition,Java,1
+2248,Rx Java,Java,1
+2500,java11,Java,1
+2624,PrimeNG,Java,1
+1602,J2EE Application Development,Java,1
+2497,Java Android,Java,1
+648,JSP,Java,1
+1169,JavaFX,Java,1
+1611,JavaFx,Java,1
+8,JavaScript,JavaScript,1
+135,ES6,JavaScript,1
+297,javascript,JavaScript,1
+298,nativescript,JavaScript,1
+352,javascript/Jquery,JavaScript,1
+865,JavaScript Libraries,JavaScript,1
+981,Browserify,JavaScript,1
+984,es6,JavaScript,1
+1052,JavaServer Faces,JavaScript,1
+1113,JS (ES6),JavaScript,1
+1133,TweenMax,JavaScript,1
+1269,pug.js,JavaScript,1
+1370,Bibliothèques JavaScript,JavaScript,1
+1414,RxJS,JavaScript,1
+1455,Es6,JavaScript,1
+1531,vanilla,JavaScript,1
+1532,Natif,JavaScript,1
+1536,Js Canvas,JavaScript,1
+1537,Js PeerConnection,JavaScript,1
+1566,Alpine.js,JavaScript,1
+1592,Express.js,JavaScript,1
+1683,Javascript,JavaScript,1
+1685,Vite.js,JavaScript,1
+1699,ExpressJS,JavaScript,1
+1978,JS,JavaScript,1
+1995,Espresso,JavaScript,1
+2181,HelmetJS,JavaScript,1
+2261,alpineJs,JavaScript,1
+2331,Nativescript,JavaScript,1
+2353,js,JavaScript,1
+2361,PhaserJS,JavaScript,1
+2377,Cylon.js,JavaScript,1
+2384,PDF.js,JavaScript,1
+2388,FramerJS,JavaScript,1
+2392,Erdjs,JavaScript,1
+2615,ES2015+,JavaScript,1
+2740,MERN stack,JavaScript,1
+3182,"Web Development (Node, React, PHP)",JavaScript,1
+3722,DOM,JavaScript,1
+550,Jekyll,Jekyll,1
+1085,Octopress,Jekyll,1
+2764,jekyll,Jekyll,1
+305,Jenkins,Jenkins,1
+1655,Jenk,Jenkins,1
+1671,jenkins,Jenkins,1
+2098,CI/CD Jenkins,Jenkins,1
+218,jest,Jest,1
+1027,Jest,Jest,1
+1650,JHipster,JHipster,1
+1827,Jhipster,JHipster,1
+215,Atlassian JIRA,Jira,1
+1206,JIRA,Jira,1
+2084,atlassian jira,Jira,1
+95,Joomla,Joomla,1
+1125,Seblod,Joomla,1
+2652,joomla,Joomla,1
+1659,JBoss EAP,Joss,1
+731,JPA,JPA,1
+91,jQuery,jQuery,1
+296,jquery,jQuery,1
+628,jQuery UI,jQuery,1
+832,jQuery 3,jQuery,1
+1330,JQuery,jQuery,1
+2474,Jquery,jQuery,1
+209,JSON,JSON,1
+2240,json,JSON,1
+458,JWT et Mongoose,JSON Web Token,1
+841,JWT,JSON Web Token,1
+1802,jwt,JSON Web Token,1
+3697,JWT Token,JSON Web Token,1
+1425,Juniper,Juniper,1
+735,JUnit,JUnit,1
+2108,Jupyter,Jupyter,1
+2171,jupyter,Jupyter,1
+1493,Kaban,Kaban,1
+262,Kanban,Kanban,1
+2087,kanban,Kanban,1
+2418,Kanplan,Kanplan,1
+833,KendoUI,KendoUI,1
+1776,Keras,Keras,1
+2291,keras,Keras,1
+1205,Keycloak,Keycloak,1
+3065,KeyShot,KeyShot,1
+3137,Rendering (Keyshot),KeyShot,1
+3145,Keyshot,KeyShot,1
+3163,keyshot,KeyShot,1
+838,Kiamo,Kiamo,1
+796,Kibana,Kibana,1
+1914,FinOps,kill,0
+1637,Akeneo PIM,kill,0
+3586,Ingénieur Produit,kill,0
+3429,Pixel perfect,kill,0
+1019,Kaggle Master,kill,0
+1378,Analyse des données,kill,0
+3318,architecture d'intérieur,kill,0
+1063,Architecture SI,kill,0
+2644,Système d'information,kill,0
+2839,architecture de l'information,kill,0
+2963,information architecture,kill,0
+3119,Architecture de l'information,kill,0
+3173,Systèmes d'information,kill,0
+3175,Information Systems Architecture,kill,0
+303,Architecture web,kill,0
+3017,arborescence,kill,0
+3076,site map,kill,0
+3432,Arborescence,kill,0
+3744,Modélisation des architectures,kill,0
+1020,Voice Analysis,kill,0
+2068,Voice Assistant,kill,0
+2071,alexa,kill,0
+948,Big Data,kill,0
+1931,Bigadata,kill,0
+3684,Big data,kill,0
+260,Blog,kill,0
+2255,blog,kill,0
+409,Reporting,kill,0
+505,Rédacteur Web,kill,0
+2676,Conduite du changement,kill,0
+3091,CRO,kill,0
+481,CTO,kill,0
+3174,DSI,kill,0
+429,Analyse de données,kill,0
+2224,Data analysis,kill,0
+616,Data Engineer,kill,0
+2400,Data Engineering,kill,0
+974,Collecte de données,kill,0
+3176,Data Management,kill,0
+3180,"Data Management (ETL, API Management on Azure and GCP)",kill,0
+3181,"Database design and management (SQL, PL/SQL, T-SQL)",kill,0
+883,Data mining,kill,0
+2169,data mining,kill,0
+617,Data science,kill,0
+1310,éco-conception,kill,0
+2637,écoconception web,kill,0
+2640,Ecoconception des services numériques,kill,0
+3274,Éco-conception,kill,0
+3310,Eco-conception,kill,0
+3585,Développement durable,kill,0
+3668,éco-design,kill,0
+2314,photovoltaïque,kill,0
+1253,Ethical Hacking,kill,0
+3689,Hacking éthique,kill,0
+3370,Ethnographie,kill,0
+1217,Evénementiel,kill,0
+2873,Planification d’évènements,kill,0
+2874,Évènements d'entreprise,kill,0
+2875,Événements en direct,kill,0
+3580,Animation commerciale,kill,0
+3600,salon professionnel,kill,0
+3617,Showreel,kill,0
+127,Front,kill,0
+67,Fullstack,kill,0
+1471,Innovation,kill,0
+2570,innovation,kill,0
+3157,Innovations technologiques,kill,0
+3384,Accompagner l'innovation des entreprises,kill,0
+3482,Innovation produit,kill,0
+3679,Nouvelles technologies,kill,0
+2807,Journalisme,kill,0
+3530,Pré-presse,kill,0
+3531,Presse professionnelle,kill,0
+1,Développement Front-End,kill,0
+11,multimédia,kill,0
+14,Développement Back-End,kill,0
+29,Start-up,kill,0
+44,Scalability,kill,0
+57,Développement web,kill,0
+71,Russe,kill,0
+72,Anglais,kill,0
+73,Secourisme,kill,0
+74,Internet,kill,0
+115,web,kill,0
+152,Audit,kill,0
+184,developpeur front end,kill,0
+193,Conseil,kill,0
+231,principle,kill,0
+237,Conception,kill,0
+242,Intégrateur,kill,0
+244,fron,kill,0
+249,développement web,kill,0
+255,développement front-end,kill,0
+263,Trello,kill,0
+269,développement back-end,kill,0
+286,DevOps,kill,0
+342,Hugo,kill,0
+343,front-end developer,kill,0
+344,Développement,kill,0
+348,Creative code,kill,0
+359,Back-End,kill,0
+361,Développeur Back-End,kill,0
+373,invitation,kill,0
+383,Créative,kill,0
+405,Mode,kill,0
+406,Médias,kill,0
+411,Footwear,kill,0
+412,Sporting Goods,kill,0
+417,Jeux vidéos,kill,0
+426,Site internet,kill,0
+428,Webmastering,kill,0
+463,Programmation web,kill,0
+466,Web Development,kill,0
+470,Web,kill,0
+485,eco,kill,0
+491,web services,kill,0
+492,Michelson,kill,0
+494,developp,kill,0
+495,Developpeur Frontend,kill,0
+496,Développeur Web,kill,0
+501,Webmaster,kill,0
+503,Développeur Informatique,kill,0
+504,Développeur,kill,0
+512,consultant analytics,kill,0
+514,Extranet,kill,0
+515,intranet,kill,0
+532,Media queries,kill,0
+536,Website Development,kill,0
+545,Editing,kill,0
+554,components library,kill,0
+565,Code review,kill,0
+583,transforma,kill,0
+604,Questionnement,kill,0
+605,Écoute active,kill,0
+608,Stylus,kill,0
+614,Créatif,kill,0
+615,Traduction Espagnol Français,kill,0
+623,integrateur,kill,0
+625,SVG,kill,0
+632,Travail d’équipe,kill,0
+633,Leadership,kill,0
+639,Développement front-end,kill,0
+640,développement front,kill,0
+645,W3C,kill,0
+651,Luxe,kill,0
+652,creative technologist,kill,0
+655,Automobile,kill,0
+656,liquid responsive,kill,0
+668,Veille concurrentielle,kill,0
+671,table tactile,kill,0
+674,Consultant digital,kill,0
+685,Usability,kill,0
+688,Front-end Development,kill,0
+689,Software Development,kill,0
+690,Piano,kill,0
+692,English,kill,0
+693,Spanish,kill,0
+694,German,kill,0
+695,Catalan,kill,0
+696,Cross-browser Compatibility,kill,0
+710,product owner,kill,0
+712,MVVM,kill,0
+725,Event-driven architecture,kill,0
+726,Architecture distribuée,kill,0
+744,Tech Lead,kill,0
+750,écran,kill,0
+751,interaction,kill,0
+761,Recette fonctionnelle,kill,0
+762,abonnement,kill,0
+763,service de suivi,kill,0
+769,ISO 9001,kill,0
+819,DEFI,kill,0
+824,Cocorico,kill,0
+825,Script,kill,0
+827,migration,kill,0
+855,Computer Science,kill,0
+861,Front-end Engineering,kill,0
+863,Front-end,kill,0
+869,Sprites,kill,0
+870,Cross browser,kill,0
+877,Etude de besoin,kill,0
+880,HUGO,kill,0
+886,Scripting,kill,0
+893,Applications,kill,0
+895,Site web,kill,0
+898,Recrutement,kill,0
+902,Vente,kill,0
+918,...,kill,0
+933,aaa,kill,0
+941,Banque,kill,0
+942,assurances,kill,0
+943,culture,kill,0
+964,Science,kill,0
+965,Simulation,kill,0
+966,calcul,kill,0
+967,Architecture métier,kill,0
+970,Widget,kill,0
+976,Développeur Web Front-end,kill,0
+1006,Systèmes d’information,kill,0
+1009,Gestion de la relation avec les partenaires,kill,0
+1053,Traduction Français Arabe,kill,0
+1060,istanbul,kill,0
+1064,maintenance,kill,0
+1068,Français,kill,0
+1079,Paris,kill,0
+1106,Développement site web,kill,0
+1111,Service client,kill,0
+1117,Urbanisme SI,kill,0
+1118,Webdev,kill,0
+1119,WINDEV,kill,0
+1134,Montage,kill,0
+1137,extranet,kill,0
+1139,hexagonal architecture,kill,0
+1140,tech lead,kill,0
+1141,architecte technique,kill,0
+1149,audit de code,kill,0
+1155,multithreading,kill,0
+1163,reactive,kill,0
+1174,Back-end,kill,0
+1177,PDO,kill,0
+1178,Analyse des besoins,kill,0
+1181,Maintenance applicative,kill,0
+1187,Isotope,kill,0
+1188,Masonry,kill,0
+1189,Spécifications techniques,kill,0
+1190,Recette technique,kill,0
+1195,Polymer,kill,0
+1237,Interpersonal Skill,kill,0
+1239,Enzyme,kill,0
+1240,Chai,kill,0
+1254,Stratégie SI,kill,0
+1255,informatique,kill,0
+1262,numérique,kill,0
+1264,Internationalisation,kill,0
+1281,Développeur back end,kill,0
+1284,Developpeur,kill,0
+1294,Intercom,kill,0
+1296,automatisation,kill,0
+1308,Advisory Board,kill,0
+1317,site statique,kill,0
+1318,webmaster,kill,0
+1320,statique,kill,0
+1321,site événementiel,kill,0
+1322,snipcart,kill,0
+1324,Migration,kill,0
+1325,Support,kill,0
+1326,Maintenance,kill,0
+1328,Plugin,kill,0
+1329,Thème,kill,0
+1331,webdev,kill,0
+1332,Front office et back office,kill,0
+1333,Planification des ressources d’entreprise (ERP),kill,0
+1338,Front Office,kill,0
+1342,Informatique,kill,0
+1344,Logiciel d’entreprise,kill,0
+1352,Portails intranet,kill,0
+1353,Stratégie intranet,kill,0
+1354,Intranet,kill,0
+1357,Coding Experience,kill,0
+1358,Web Engineering,kill,0
+1359,Front-end Coding,kill,0
+1376,Analyse spatial,kill,0
+1377,Développement Web,kill,0
+1379,Statistiques,kill,0
+1385,Développement de logiciels,kill,0
+1390,Développeur web,kill,0
+1391,Développeur site,kill,0
+1410,Enterprise Architecture,kill,0
+1411,Start-ups,kill,0
+1428,Telco,kill,0
+1432,Ingénieur,kill,0
+1435,site internet,kill,0
+1447,Traduction Français Espagnol,kill,0
+1449,Pelican,kill,0
+1467,Themosis,kill,0
+1482,WhereBy,kill,0
+1484,Lead Developer,kill,0
+1489,Moteur de recherche,kill,0
+1490,Gestion des stocks,kill,0
+1502,Time Series,kill,0
+1503,Chimie,kill,0
+1505,China Business Advisor,kill,0
+1506,Chinois,kill,0
+1515,site,kill,0
+1517,Refonte,kill,0
+1525,sdk,kill,0
+1526,gestion des temps,kill,0
+1528,template,kill,0
+1529,Application,kill,0
+1540,Atmel AVR,kill,0
+1545,Yew,kill,0
+1550,Négociation,kill,0
+1553,Avant vente,kill,0
+1554,Prospective,kill,0
+1577,Culture,kill,0
+1582,TPE,kill,0
+1583,PME,kill,0
+1596,DÃ©veloppement Back-End,kill,0
+1604,Web 2.0,kill,0
+1617,DÃ©veloppement web back-end,kill,0
+1618,DÃ©veloppement de logiciels,kill,0
+1627,DÃ©veloppement web,kill,0
+1628,DÃ©veloppement Front-End,kill,0
+1630,Architecture logicielle,kill,0
+1644,Vapor,kill,0
+1645,Logiciels Apple,kill,0
+1672,Drip,kill,0
+1678,Configurateur,kill,0
+1689,readytohelp,kill,0
+1706,Programmation,kill,0
+1710,Nexus,kill,0
+1719,Intel 8086,kill,0
+1723,STL17,kill,0
+1724,PortAudio,kill,0
+1725,STL14,kill,0
+1727,STL20,kill,0
+1741,Electrical Engineering,kill,0
+1742,Simulations,kill,0
+1747,Navigation Systems,kill,0
+1748,Guidance Navigation & Control,kill,0
+1753,Aerospace,kill,0
+1754,Aircraft,kill,0
+1755,Aeronautics,kill,0
+1756,Aviation,kill,0
+1757,Aircraft Maintenance,kill,0
+1758,Avionics,kill,0
+1759,Airworthiness,kill,0
+1763,Airlines,kill,0
+1764,Aéronautique,kill,0
+1765,Maintenance avions,kill,0
+1778,caffe,kill,0
+1780,ITIL,kill,0
+1790,anonymization,kill,0
+1807,Sauvegarde,kill,0
+1811,IAAS,kill,0
+1812,Low-code,kill,0
+1816,Triton inference server,kill,0
+1821,PAAS,kill,0
+1829,automation,kill,0
+1833,Audit de code,kill,0
+1835,Troubleshooting applicatif,kill,0
+1840,Technologies de l’information,kill,0
+1845,Sens de l’organisation,kill,0
+1846,Relations humaines,kill,0
+1854,Télétravail,kill,0
+1855,Externalisation,kill,0
+1857,Backup,kill,0
+1862,Clair,kill,0
+1894,Microsoft,kill,0
+1904,Software Installation,kill,0
+1909,ISO 27001,kill,0
+1915,Résilience,kill,0
+1926,backup,kill,0
+1932,athena,kill,0
+1939,devops,kill,0
+1967,Flux,kill,0
+2027,Microservice,kill,0
+2061,Composer,kill,0
+2062,prospection,kill,0
+2063,vente,kill,0
+2073,Finance,kill,0
+2074,Allemand,kill,0
+2075,Portugais,kill,0
+2078,Flex,kill,0
+2079,Yacc,kill,0
+2082,Ganeti,kill,0
+2085,GWT,kill,0
+2091,Xdebug,kill,0
+2092,Extreme Programming,kill,0
+2093,Expert Technique,kill,0
+2097,ADFI,kill,0
+2102,Recherche Operationelle,kill,0
+2103,Cplex,kill,0
+2105,Optimisation Combinatoire,kill,0
+2106,Optimisation Multicritère,kill,0
+2113,Italien,kill,0
+2114,Tornado,kill,0
+2115,Appium,kill,0
+2116,OSGI,kill,0
+2117,JMS,kill,0
+2121,Services web,kill,0
+2125,Planification stratégique,kill,0
+2126,Architecture,kill,0
+2129,Développement web back-end,kill,0
+2132,liquid,kill,0
+2136,Plastic SCM,kill,0
+2137,Flatbuffers,kill,0
+2138,Protocol Buffers,kill,0
+2143,XCTest,kill,0
+2144,XCUITest,kill,0
+2146,OCPP,kill,0
+2147,Mobilité électrique,kill,0
+2148,Smart Grids,kill,0
+2149,Behaviour Driven Development,kill,0
+2150,IEC 63119,kill,0
+2151,IEC 61851,kill,0
+2152,ISO 15118,kill,0
+2154,Electrotechnique,kill,0
+2155,Linky,kill,0
+2156,plugin,kill,0
+2157,Finance de marché,kill,0
+2177,Relecture,kill,0
+2193,boo,kill,0
+2195,scr,kill,0
+2206,Facilitation de processus,kill,0
+2208,Développement de logiciel,kill,0
+2213,DRY,kill,0
+2214,Engineering,kill,0
+2217,Back-End Web Development,kill,0
+2218,Chef de projets Industriels,kill,0
+2221,CNN,kill,0
+2233,site web,kill,0
+2234,Translation English-French,kill,0
+2235,Translation French-English,kill,0
+2285,Banque de detail,kill,0
+2288,DDD,kill,0
+2289,CQRS,kill,0
+2294,Autonome,kill,0
+2295,Force de proposition,kill,0
+2300,Technologies Web,kill,0
+2304,Grand public,kill,0
+2310,Shapefile,kill,0
+2311,playwright,kill,0
+2312,Ingénieur énergie,kill,0
+2317,Traduction Anglais Français,kill,0
+2318,Traduction Français Anglais,kill,0
+2338,cross-plateforme,kill,0
+2349,système,kill,0
+2351,programmation,kill,0
+2364,Bas niveau,kill,0
+2389,Framer,kill,0
+2390,Template,kill,0
+2391,web3,kill,0
+2406,assurance,kill,0
+2407,Incident Management,kill,0
+2423,onsen ui,kill,0
+2434,French,kill,0
+2435,Espagnol,kill,0
+2440,Mindmeister,kill,0
+2454,Hexagonal Architecture,kill,0
+2457,Programmation informatique,kill,0
+2471,Blade,kill,0
+2473,Lumen,kill,0
+2487,MEF,kill,0
+2498,Developpement Logiciel,kill,0
+2503,Services de santé,kill,0
+2508,Mastercam,kill,0
+2509,Tour (machine-outil),kill,0
+2510,Fraisage,kill,0
+2514,actif-web,kill,0
+2518,Polyvalence,kill,0
+2519,Autonomie,kill,0
+2523,MyBatis,kill,0
+2524,Apple Watch,kill,0
+2525,Apple TV,kill,0
+2549,Standards du web,kill,0
+2552,Solana,kill,0
+2553,AppPlatform,kill,0
+2554,Metaplex,kill,0
+2555,Candy Machine,kill,0
+2556,Fair Launch Protocol,kill,0
+2558,Web3,kill,0
+2560,Service Fabric,kill,0
+2561,nunit,kill,0
+2562,Specflow,kill,0
+2563,Nlog,kill,0
+2569,Santé,kill,0
+2576,Rédaction,kill,0
+2579,Développement Web Back-End,kill,0
+2585,Cycle en V,kill,0
+2590,backend,kill,0
+2596,Camt,kill,0
+2597,Capture one,kill,0
+2599,Multimédia,kill,0
+2600,Créativité,kill,0
+2601,Développeur back-end,kill,0
+2602,Plateforme web,kill,0
+2609,transcription audio,kill,0
+2611,Japonais,kill,0
+2628,loopback,kill,0
+2629,Développement créatif,kill,0
+2630,site administrable,kill,0
+2632,Codeur,kill,0
+2633,Dispositifs médicaux,kill,0
+2636,Développeur front-end,kill,0
+2642,Contexte associatif,kill,0
+2645,Recherche opérationnelle,kill,0
+2647,Langages de programmation,kill,0
+2649,Maintenance informatique,kill,0
+2650,Passion,kill,0
+2664,Excellence opérationnelle,kill,0
+2666,Électronique,kill,0
+2677,Architecture d'entreprise,kill,0
+2678,The Open Group Architecture Framework,kill,0
+2681,Développement web Front-End,kill,0
+2689,Technical Product Sales,kill,0
+2690,Génie électrique,kill,0
+2692,Industrial Ethernet,kill,0
+2696,PLC,kill,0
+2698,Contrôle industriel,kill,0
+2699,Ingénierie,kill,0
+2700,Troubleshooting,kill,0
+2701,Allen-Bradley,kill,0
+2703,SCADA,kill,0
+2705,Control Logic,kill,0
+2706,Système de contrôle et d'acquisition de données,kill,0
+2707,Conception systèmes de contrôle,kill,0
+2708,Instrumentation,kill,0
+2709,Process Control,kill,0
+2710,Industrial Control,kill,0
+2711,Allen Bradley,kill,0
+2712,New Business Development,kill,0
+2728,provider,kill,0
+2737,Site Internet,kill,0
+2743,Relay,kill,0
+2756,Siteweb,kill,0
+2758,Recherche,kill,0
+2760,Aide à la définition des besoins,kill,0
+2762,static,kill,0
+2769,Correction,kill,0
+2771,Engagement,kill,0
+2772,adaptation,kill,0
+2773,autonome,kill,0
+2774,bagisto,kill,0
+2776,e,kill,0
+2784,Sitecore,kill,0
+2790,BtoB,kill,0
+2795,Matériel informatique,kill,0
+2799,couleur,kill,0
+2815,Principle,kill,0
+2816,Sens de l’observation,kill,0
+2817,Réactivité,kill,0
+2818,Rigueur,kill,0
+2819,Force de propositions,kill,0
+2853,portfolio,kill,0
+2854,Site Web,kill,0
+2858,Connaissances en informatique,kill,0
+2864,Art,kill,0
+2866,Arts du spectacle,kill,0
+2872,Esprit critique,kill,0
+2881,Administration artistes et répertoire (A&R),kill,0
+2884,Histoire de l'art,kill,0
+2885,Musées,kill,0
+2904,Styliste-modeliste,kill,0
+2908,Exécution,kill,0
+2932,Rigoureux,kill,0
+2933,Innovant,kill,0
+2934,Ouvert,kill,0
+2955,Traduction,kill,0
+2958,Économie,kill,0
+2960,Traduction français/anglais,kill,0
+2991,Card sorting,kill,0
+2993,Abstract,kill,0
+3009,réactivité,kill,0
+3010,autonomie,kill,0
+3011,prise d'initiative,kill,0
+3012,polyvalente,kill,0
+3013,organisation,kill,0
+3016,veille créative,kill,0
+3023,HETIC,kill,0
+3027,HT,kill,0
+3040,Distant modéré,kill,0
+3041,Distant non modéré,kill,0
+3043,Tri de carte,kill,0
+3071,Micro-intéractions,kill,0
+3072,Coréen,kill,0
+3074,key visual,kill,0
+3099,rouen,kill,0
+3100,normandie,kill,0
+3104,Urgences,kill,0
+3105,Deadline serrée,kill,0
+3118,inde,kill,0
+3122,Sens de l'observation,kill,0
+3135,exe,kill,0
+3138,Etude formelle,kill,0
+3139,Matériaux,kill,0
+3140,Industrialisation,kill,0
+3141,Procédés de fabrication,kill,0
+3146,Concept,kill,0
+3147,Cycle de vie du produit,kill,0
+3148,Etude fonctionelle,kill,0
+3149,Normes européennes,kill,0
+3151,Création de gamme,kill,0
+3152,Brevets,kill,0
+3155,Mobilier,kill,0
+3156,alimentaire,kill,0
+3159,CNC,kill,0
+3160,Retouches,kill,0
+3161,Traitement de surface,kill,0
+3162,Usinage,kill,0
+3172,Prépresse,kill,0
+3179,IT Ethics,kill,0
+3190,Perspectiviste,kill,0
+3191,ko,kill,0
+3195,Alias Auto Studio,kill,0
+3196,Vred render,kill,0
+3200,modelage numérique,kill,0
+3210,travail du bois,kill,0
+3213,abstract,kill,0
+3224,Création site web,kill,0
+3225,Empathie,kill,0
+3240,Collaboration,kill,0
+3241,Ecoute active,kill,0
+3242,Présentation,kill,0
+3243,empathie,kill,0
+3261,Orthographe,kill,0
+3277,Maîtrise des bonnes pratiques web,kill,0
+3296,Diagramme d'affinité,kill,0
+3322,sciences humaines,kill,0
+3323,scenarios,kill,0
+3327,ingénierie de la recherche,kill,0
+3331,gender studies,kill,0
+3333,humanités numériques,kill,0
+3338,Écriture créative,kill,0
+3350,minimalisme,kill,0
+3353,enthousiaste,kill,0
+3354,à l'écoute,kill,0
+3355,Optimiste,kill,0
+3356,Motivée,kill,0
+3357,fiable,kill,0
+3358,gestion d'équipe,kill,0
+3359,simplification visuelle,kill,0
+3361,concept art,kill,0
+3375,Organisation,kill,0
+3376,Adaptabilité,kill,0
+3377,Responable,kill,0
+3386,Faire de la veille,kill,0
+3398,Niveau élevé de précision,kill,0
+3399,mascotte,kill,0
+3400,peinture,kill,0
+3403,Logiciel,kill,0
+3406,Invitation,kill,0
+3407,PLV,kill,0
+3408,Beauté,kill,0
+3409,Vins,kill,0
+3410,Spiritueux,kill,0
+3411,Hotellerie,kill,0
+3412,restauration,kill,0
+3413,Exposition,kill,0
+3417,Membersack,kill,0
+3427,Recherche et analyse,kill,0
+3431,Zoning,kill,0
+3437,Product map,kill,0
+3458,sites internet,kill,0
+3469,Remote,kill,0
+3471,Cinéma,kill,0
+3491,Mise en plan,kill,0
+3499,Accompagnement,kill,0
+3505,Slideshow,kill,0
+3508,installation interactive,kill,0
+3509,définition de problème,kill,0
+3518,Brochures,kill,0
+3519,Film,kill,0
+3528,IHM,kill,0
+3529,BtoC,kill,0
+3534,Conception fonctionnelle,kill,0
+3538,Intelligence collective,kill,0
+3541,KEY VISUAL,kill,0
+3548,passionné,kill,0
+3561,PDF intéractif,kill,0
+3567,exécution,kill,0
+3571,B2C,kill,0
+3573,Application métier,kill,0
+3587,Indutrialisation,kill,0
+3592,retail,kill,0
+3596,Cadrage fonctionnel,kill,0
+3603,A remplir plus tard,kill,0
+3604,petite papeterie,kill,0
+3607,Édition,kill,0
+3608,Édition de sites Web,kill,0
+3627,motif,kill,0
+3630,Arabe,kill,0
+3634,identité,kill,0
+3636,voix off,kill,0
+3637,banking,kill,0
+3638,product,kill,0
+3643,Réalisateur,kill,0
+3644,Publicis,kill,0
+3647,Marronnier,kill,0
+3654,Restaurant,kill,0
+3655,Cuisine food,kill,0
+3663,fusion 360,kill,0
+3674,patronage,kill,0
+3675,Textile,kill,0
+3676,mise en plan,kill,0
+3677,suivi de pré-industrialisation Asie,kill,0
+3678,broderie Numerique,kill,0
+3685,Hébreu,kill,0
+3687,Web developer,kill,0
+3688,Back end developer,kill,0
+3691,kratos,kill,0
+3694,Qualité,kill,0
+3695,Bonne pratique,kill,0
+3696,Devise,kill,0
+3705,Postmark,kill,0
+3720,Sprint,kill,0
+3734,Méthode hybride,kill,0
+3735,Méthode cascade,kill,0
+3736,materialize,kill,0
+3742,MBSE,kill,0
+3743,Modélisation de processus,kill,0
+3753,Analyse fonctionnelle,kill,0
+3754,Gestion des exigences,kill,0
+3760,Traduction Portugais Français,kill,0
+3761,Traduction Français Portugais,kill,0
+3765,ma,kill,0
+3767,Service orienté client,kill,0
+3768,Esprit d’équipe,kill,0
+3787,Back-End development,kill,0
+724,Microservices,kill,0
+1979,microservices,kill,0
+2279,Micro services,kill,0
+2727,Architecture Microservices,kill,0
+586,muse,kill,0
+275,MVC,kill,0
+1555,Proof of Concept,kill,0
+2128,Architecture MVC,kill,0
+2241,mvc,kill,0
+572,MVP,kill,0
+888,Parse,kill,0
+2303,Transmedia,kill,0
+2575,pitch deck,kill,0
+2683,Parler en public,kill,0
+2827,Storytelling,kill,0
+2938,Storytelling Design,kill,0
+3062,story board,kill,0
+3473,Story,kill,0
+3502,Pitch Deck,kill,0
+3527,Pitch,kill,0
+3578,Data Storytelling,kill,0
+3721,User story,kill,0
+3419,cgu,kill,0
+3164,Scénographie,kill,0
+661,slack,kill,0
+843,Slack,kill,0
+3053,sociologie,kill,0
+2665,Supply chain,kill,0
+1295,Typeform,kill,0
+3693,typeorm,kill,0
+1921,Middleware : IBM MQ Websphere,kill,0
+2344,kirby CMS,Kirby CMS,0
+2438,kirby,Kirby CMS,1
+2717,Kirby,Kirby CMS,1
+3467,kirby cms,Kirby CMS,1
+571,Kubernetes,Kubernetes,1
+1863,kubernetes,Kubernetes,1
+1968,EFK,Kubernetes,1
+1948,Kustomize,Kustomize,1
+2245,Labview,LabVIEW,1
+1093,LAMP,LAMP,1
+123,Site vitrine,Landing Page,1
+139,Landing page,Landing Page,1
+259,Optimisation On-Page,Landing Page,1
+1470,landing page,Landing Page,1
+1530,one page,Landing Page,1
+2852,site vitrine,Landing Page,1
+2945,Site Vitrine,Landing Page,1
+3281,Création site vitrine,Landing Page,1
+3532,Landing Page,Landing Page,1
+61,Laravel,Laravel,1
+1462,Laravel 8,Laravel,1
+1567,Laravel 7,Laravel,1
+1568,Laravel 6,Laravel,1
+2230,Laravel Nova,Laravel,1
+2259,livewire,Laravel,1
+2548,Eloquent ORM,Laravel,1
+1124,laravel,Lavarel,1
+2464,LDAP,LDAP,1
+1286,Leaflet,Leaflet,1
+1407,Lean management,Lean Management,1
+120,Lean startup,Lean Management,1
+3708,LEMP,LEMP,1
+3514,Lens Studio,Lens Studio,1
+987,Lerna,Lerna,1
+89,LESS,Less,1
+637,less,Less,1
+868,Less / Sass,Less,1
+2501,Liquibase,Liquibase,1
+3186,"Expert Systems (knowledge management, Lisp)",Lisp,1
+3777,Lisp,LISP,1
+1460,Livewire,Livewire,1
+2376,Load Balancing,Load Balancing,1
+1905,Logic Pro X,Logic Pro X,1
+36,Design logo,Logotype,1
+2825,Logo,Logotype,1
+2895,Animation de logo,Logotype,1
+3031,logo,Logotype,1
+3097,logo entreprise,Logotype,1
+3098,logo mpe,Logotype,1
+3245,design logo,Logotype,1
+3286,Conception de logo professionnel,Logotype,1
+3366,logo-design,Logotype,1
+3396,Conception de logo,Logotype,1
+3415,Logotype,Logotype,1
+3591,logotype,Logotype,1
+2404,Loopback,Loopback,1
+1200,Lua,Lua,1
+3756,M2Doc,M2Doc,1
+529,Machine learning,Machine learning,1
+1558,WOA,Machine Learning,1
+1713,Auto-apprentissage,Machine Learning,1
+2048,Traitement d'image,Machine Learning,1
+2110,Apprentissage automatique,Machine Learning,1
+2168,machine learning,Machine Learning,1
+2335,Apprentissage par renforcement,Machine Learning,1
+2336,Reinforcment learning,Machine Learning,1
+659,Mac OS,MacOS,1
+817,MacOs,MacOS,1
+971,MacOS,MacOS,1
+2584,Mac OS X,MacOS,1
+739,Magento,Magento,1
+993,magento 2,Magento,1
+2130,MailChimp,MailChimp,1
+978,makefile,MakeFile,1
+1966,Make,MakeFile,1
+2076,qmake,MakeFile,1
+2077,CMake,MakeFile,1
+2731,MampPro,MampPro,1
+3733,mamp,MampPro,1
+75,APM,Management,1
+339,Product management,Management,1
+524,Management d'équipe,Management,1
+631,Management,Management,1
+756,coordination inter-métier,Management,1
+757,coordination inter-équipes,Management,1
+996,Change Management,Management,1
+1010,Leadership d’équipe,Management,1
+1011,Gestion d’équipe,Management,1
+1012,Développement organisationnel,Management,1
+1613,Management d'Ã©quipe,Management,1
+2018,Gestion d'équipe,Management,1
+2019,Project Management,Management,1
+2505,Relations avec les employés,Management,1
+2679,Lean Management,Management,1
+2879,Direction par objectifs,Management,1
+2880,Art management,Management,1
+2994,Workshop managment,Management,1
+3005,cohésion d'équipe,Management,1
+1406,Mantis,Mantis,1
+2568,MapBox,MapBox,1
+3702,Mapbox & geocoding,MapBox,1
+1413,MariaDB,MariaDB,1
+34,Formation Réseaux Sociaux,Marketing Digital,1
+59,Marketplace,Marketing Digital,1
+186,Marketing,Marketing Digital,1
+317,Facebook Marketing,Marketing Digital,1
+401,Marketing de contenu,Marketing Digital,1
+402,Etude marketing,Marketing Digital,1
+403,Instagram Marketing,Marketing Digital,1
+427,Webmarketing,Marketing Digital,1
+431,Stratégie webmarketing,Marketing Digital,1
+432,Email marketing,Marketing Digital,1
+490,Mautic,Marketing Digital,1
+525,Transformation digitale,Marketing Digital,1
+539,Digital Strategy,Marketing Digital,1
+542,Digital Marketing,Marketing Digital,1
+577,Business development,Marketing Digital,1
+578,Business plan,Marketing Digital,1
+580,Business analysis,Marketing Digital,1
+581,Business model,Marketing Digital,1
+673,Bornes interactives,Marketing Digital,1
+897,Stratégie de positionnement,Marketing Digital,1
+963,Business,Marketing Digital,1
+998,Vision stratégique,Marketing Digital,1
+1013,Stratégie,Marketing Digital,1
+1014,Initiatives stratégiques,Marketing Digital,1
+1016,Stratégie IT,Marketing Digital,1
+1017,Stratégie Digitale,Marketing Digital,1
+1069,Inbound marketing,Marketing Digital,1
+1108,Formation webmarketing,Marketing Digital,1
+1159,LinkedIn Marketing,Marketing Digital,1
+1246,Salesforce Marketing Cloud,Marketing Digital,1
+1290,Marketing Automation,Marketing Digital,1
+1496,Acquisition trafic,Marketing Digital,1
+1497,Fidélisation,Marketing Digital,1
+1578,Stratégie commerciale,Marketing Digital,1
+1677,Marketing automation,Marketing Digital,1
+2223,Marketing sportif,Marketing Digital,1
+2225,Marketing digital,Marketing Digital,1
+2305,Sensibilité marketing,Marketing Digital,1
+2342,Mobile marketing,Marketing Digital,1
+2453,agence web,Marketing Digital,1
+2479,Boutique en ligne,Marketing Digital,1
+2521,consultant marketing,Marketing Digital,1
+2571,transformation digitale,Marketing Digital,1
+2574,stratégie d'entreprise,Marketing Digital,1
+2713,Processus de vente,Marketing Digital,1
+2714,Vente de solutions,Marketing Digital,1
+2715,Solution Selling,Marketing Digital,1
+2716,Business Development,Marketing Digital,1
+2749,Twitter Marketing,Marketing Digital,1
+2750,Marketing direct,Marketing Digital,1
+2751,Marketing Conversationnel,Marketing Digital,1
+2785,Merchandising,Marketing Digital,1
+2786,Content marketing,Marketing Digital,1
+2813,Benchmark,Marketing Digital,1
+2833,Partenariats,Marketing Digital,1
+2834,Etude de marché,Marketing Digital,1
+2865,Marketing événementiel,Marketing Digital,1
+2876,Stratégie de marketing d’événements,Marketing Digital,1
+3008,Digital,Marketing Digital,1
+3033,goodies,Marketing Digital,1
+3117,Stratégie marketing Web,Marketing Digital,1
+3337,Marketing sur les réseaux sociaux,Marketing Digital,1
+3453,Lead,Marketing Digital,1
+3455,Content Strategy,Marketing Digital,1
+3520,Online Marketing,Marketing Digital,1
+3595,Stratégie Marketing,Marketing Digital,1
+3611,Stratégie marketing,Marketing Digital,1
+3615,Conseil digital,Marketing Digital,1
+3709,Email Marketing,Marketing Digital,1
+3710,Affiliate Marketing,Marketing Digital,1
+3711,Web Marketing,Marketing Digital,1
+3728,maketplace,Marketing Digital,1
+3770,E-com,Marketing Digital,1
+601,Marketo,Marketo,1
+600,Web Performance,Marketo,1
+3000,Marvelapp,Marvel App,1
+3085,marvel,Marvel App,1
+3383,Marvel,Marvel App,1
+3683,Marvel App,Marvel App,1
+2459,Material-ui,Material-UI,1
+2614,Material-UI,Material-UI,1
+1127,Materialize,Materialize,1
+1738,Matlab,Matlab,1
+1746,Simulink,Matlab,1
+1703,matomo,Matomo,1
+597,Maven,Maven,1
+2052,maven,Maven,1
+3576,Maya,Maya,1
+1279,Memcached,Memcached,1
+2046,Merise,Merise,1
+2445,Meson,Meson,1
+925,zimbra,Messaging,1
+1421,Kamailio,Messaging,1
+1716,rabbitmq,Messaging,1
+1791,postfix,Messaging,1
+1874,Message Queue,Messaging,1
+1877,Messaging,Messaging,1
+2354,Metasploit,Metasploit,1
+462,Meteor.js,Meteor.js,1
+107,Scrum,Méthode Agile/Scrum,1
+130,Agilité,Méthode Agile/Scrum,1
+150,Méthode agile,Méthode Agile/Scrum,1
+465,Méthodes agiles,Méthode Agile/Scrum,1
+687,Agile Methodologies,Méthode Agile/Scrum,1
+698,Agile Web Development,Méthode Agile/Scrum,1
+770,Agile Scrum,Méthode Agile/Scrum,1
+772,Kaizen,Méthode Agile/Scrum,1
+867,Développement web agile,Méthode Agile/Scrum,1
+1214,Agile Project Management,Méthode Agile/Scrum,1
+1257,Gestion de projet Agile,Méthode Agile/Scrum,1
+1349,Développement rapide d’applications,Méthode Agile/Scrum,1
+1438,Coach Agile,Méthode Agile/Scrum,1
+1473,méthode agile,Méthode Agile/Scrum,1
+1551,Agile,Méthode Agile/Scrum,1
+1552,Gestion de projet agile,Méthode Agile/Scrum,1
+1585,MÃ©thode agile,Méthode Agile/Scrum,1
+1779,scrum,Méthode Agile/Scrum,1
+1891,SAFe,Méthode Agile/Scrum,1
+2194,agil,Méthode Agile/Scrum,1
+2417,Scrumban,Méthode Agile/Scrum,1
+2452,Développeur agile,Méthode Agile/Scrum,1
+3347,Scrum Master,Méthode Agile/Scrum,1
+3348,agile,Méthode Agile/Scrum,1
+3717,Daily Scrum,Méthode Agile/Scrum,1
+707,Azure DevOps,Microsoft Azure,1
+774,Microsoft Azure,Microsoft Azure,1
+1800,microsoft azure,Microsoft Azure,1
+1880,service fabric,Microsoft Azure,1
+1881,Azure Fonctions,Microsoft Azure,1
+1929,azure aks,Microsoft Azure,1
+1997,Azure Data Factory,Microsoft Azure,1
+1998,Azure Data Lake Analytics,Microsoft Azure,1
+2000,Azure Data Analytics,Microsoft Azure,1
+2009,Microsoft Azure Machine Learning,Microsoft Azure,1
+2010,Azure Data Lake,Microsoft Azure,1
+2012,Cosmos DB,Microsoft Azure,1
+2962,axure,Microsoft Azure,1
+2096,DYNAMICS 365,Microsoft Dynamics,1
+484,Microsoft Power BI,Microsoft Power BI,1
+1439,Power BI,Microsoft Power BI,1
+2006,PowerBI,Microsoft Power BI,1
+482,SQL Server,Microsoft SQL Server,1
+1105,Microsoft SQL Server,Microsoft SQL Server,1
+1535,ms sql,Microsoft SQL Server,1
+2003,SQL Server Integration Services (SSIS),Microsoft SQL Server,1
+2004,SQL Server Reporting Services (SSRS),Microsoft SQL Server,1
+2176,sql server,Microsoft SQL Server,1
+2278,Microsoft Server,Microsoft SQL Server,1
+3257,Miro,Miro,1
+1676,Mixpanel,Mixpanel,1
+445,MJML,MJML,1
+745,mjml,MJML,1
+2399,MLOps,MLOps,1
+940,AMOA,MOA,1
+1305,MOA,MOA,1
+111,Développement Mobile,Mobile,1
+126,Mobile,Mobile,1
+143,Mobile first,Mobile,1
+165,mobile intelligence,Mobile,1
+200,Tablette,Mobile,1
+354,Application Mobile,Mobile,1
+526,Systèmes embarqués,Mobile,1
+588,mobilefriendly,Mobile,1
+594,application,Mobile,1
+595,mobile,Mobile,1
+748,Smartphone,Mobile,1
+749,multi-touch,Mobile,1
+1179,Appli mobile,Mobile,1
+1256,Appareils mobiles,Mobile,1
+1616,windev mobile,Mobile,1
+2424,application mobile hybride,Mobile,1
+2792,Développement d’applications mobiles,Mobile,1
+2889,mobile first,Mobile,1
+3183,"Mobile development (Kotlin, Electron)",Mobile,1
+3231,Mobile Conception,Mobile,1
+3440,Smartphones,Mobile,1
+3441,Tablets,Mobile,1
+3442,Mobile Devices,Mobile,1
+3443,Applications mobiles,Mobile,1
+3549,application tablette,Mobile,1
+3583,Mobile Applications,Mobile,1
+3598,tablette,Mobile,1
+3783,Mobile web,Mobile,1
+3510,Mobile design,Mobile Design,1
+217,mobx,MobX,1
+1028,Mobx,MobX,1
+1238,Mocha,Mocha,1
+1993,Mockito,Mockito,1
+958,3D,Modélisation 3D,1
+1524,creality,Modélisation 3D,1
+3217,3D modeling,Modélisation 3D,1
+3218,3D rendering,Modélisation 3D,1
+3489,modelisation 3D,Modélisation 3D,1
+3628,Octane Render,Modélisation 3D,1
+973,Modélisation,Modélisation Data,1
+1388,Modélisation des données,Modélisation Data,1
+1306,MOE,MOE,1
+1038,Moment.js,Moment.js,1
+51,MongoDB,MongoDB,1
+1452,MangoDB,MongoDB,1
+1916,mongodb,MongoDB,1
+2517,Mongodb,MongoDB,1
+211,Mongoose OS,Mongoose OS,1
+2734,mongoose,Mongoose OS,1
+935,prtg,Monitoring,1
+1700,monitoring,Monitoring,1
+1795,Monitoring,Monitoring,1
+1836,Monitoring system,Monitoring,1
+1901,Papertrail,Monitoring,1
+1902,Pingdom,Monitoring,1
+1962,Error monitoring,Monitoring,1
+2287,Event sourcing,Monitoring,1
+366,Montage son,Montage son,1
+368,Vidéo,Montage vidéo,1
+370,Montage vidéo,Montage vidéo,1
+1215,Davinci Resolve,Montage Vidéo,1
+2775,Retouche vidéo,Montage vidéo,1
+2893,montage video,Montage vidéo,1
+2923,launch movie,Montage vidéo,1
+3610,Vidéos musicales,Montage vidéo,1
+3623,vidéo institutionnelle,Montage vidéo,1
+3169,Moodboard,Moodboard,1
+3659,mood board,Moodboard,1
+3462,moodle,Moodle,1
+3718,MoSCoW,MoSCoW,1
+318,Motion design,Motion Design,1
+3484,Motion Design,Motion Design,1
+3559,motion,Motion Design,1
+3565,motion design,Motion Design,1
+3621,motion designer,Motion Design,1
+3109,Motion designer,Motion Design,1
+2372,Multithreading,Multithreading,1
+537,Music,Music Design,1
+2867,Musique,Music Design,1
+2869,Production musicale,Music Design,1
+3073,musique,Music Design,1
+3483,Music Production,Music Design,1
+97,MySQL,MySQL,1
+704,Mysql,MySQL,1
+1176,Msqli,MySQL,1
+1400,mysql,MySQL,1
+3732,mysqlworkbench,MySQL,1
+3782,MySQL Workbench,MySQL,1
+1769,nagios,Nagios,1
+1813,Nagios,Nagios,1
+1018,NLP,Natural Language Processing,1
+721,Neo4j,Neo4j,1
+1263,Nestjs,Nest.js,1
+1832,NestJS,Nest.js,1
+2277,Nest.js,Nest.js,1
+567,NestJs,NestJS,1
+714,nestjs,NestJS,1
+2515,nestJs,NestJS,1
+1660,Netify,Netlify,1
+125,Netlify,Netlify,1
+1123,netlify,Netlify,1
+2246,Reactor-Netty,Netty,1
+2249,Netty,Netty,1
+76,New Relic,New Relic,1
+1955,NewRelic,New Relic,1
+80,Next.js,Next.js,1
+110,intégration Nextjs,Next.js,1
+848,nextjs,Next.js,1
+2265,NextJS,Next.js,1
+2409,NextJs,Next.js,1
+2458,Next.Js,Next.js,1
+2724,next.js,Next.js,1
+3739,Nextjs,Next.js,1
+1539,NFC,NFC,1
+391,Nginx,NGINX,1
+1718,nginx,NGINX,1
+1895,NGINX,NGINX,1
+2661,Nginx/Apache,NGINX,1
+2355,Nmap,Nmap,1
+555,no code,NoCode,1
+746,Statamic,NoCode,1
+753,Bubble,NoCode,1
+754,nocode,NoCode,1
+876,No code,NoCode,1
+9,Node.js,Node.js,1
+181,Express,Node.js,1
+991,express,Node.js,1
+1479,node.js,Node.js,1
+2050,Node,Node.js,1
+2165,Koa,Node.js,1
+2258,node,Node.js,1
+2741,PM2,Node.js,1
+3714,fastify,Node.js,1
+493,noSQL,NoSQL,1
+1772,NoSQL,NoSQL,1
+2036,nosql,NoSQL,1
+105,NPM,NPM,1
+295,npm,NPM,1
+2172,Numpy,Numpy,1
+174,Nuxt.js,Nuxt.js,1
+2298,nuxtjs,Nuxt.js,1
+2405,Nuxt.JS,Nuxt.js,1
+2662,nuxt.js,Nuxt.js,1
+16,NW.js,NW.js,1
+3692,oathkeeper,Oathkeeper,1
+461,Objective-C,Objective-C,1
+2538,OCaml,OCaml,1
+63,Ocaml,OCaml,1
+2222,OCR,OCR,1
+1834,Open Policy Agent,Open Policy Agent,1
+2356,Open-Vas,Open-Vas,1
+3778,OpenBSD,OpenBSD,1
+2281,OpenCL,OpenCL,1
+1697,OpenCV,OpenCV,1
+2219,Computer Vision,OpenCV,1
+2220,OpenCv,OpenCV,1
+961,OpenGL,OpenGL,1
+2685,GLSL,OpenGL,1
+1192,Openshift,OpenShift,1
+1584,openshift,OpenShift,1
+1588,OpenShift,OpenShift,1
+1089,opensource,OpenSource,1
+2639,Opensource,OpenSource,1
+1560,Openstack,Openstack,1
+2567,OpenStreetMaps,OpenStreetMaps,1
+6,optimisation,Optimisation Performances,1
+256,Optimisation performances,Optimisation Performances,1
+562,Performances Web,Optimisation Performances,1
+1132,Performances,Optimisation Performances,1
+1167,Optimisation Off-Page,Optimisation Performances,1
+1234,Performance web,Optimisation Performances,1
+2175,optimisation (mathématiques),Optimisation Performances,1
+2673,Optimisation des performances,Optimisation Performances,1
+2783,Optimisation vitesse,Optimisation Performances,1
+3690,Optimisation,Optimisation Performances,1
+2164,Toad for Oracle,Oracle,1
+705,Oracle,Oracle,1
+1534,oracle,Oracle,1
+1919,Oralce Cloud,Oracle,1
+1387,Oracle Database,Oracle,1
+1250,Oracle Eloqua,Oracle,1
+230,Origami Studio,Origami Studio,1
+472,OSCP,OSCP,1
+476,OWASP,OWASP,1
+1091,P5js,P5.js,1
+1136,p5.js,P5.js,1
+3030,P5JS,P5.js,1
+1810,packer,Packer,1
+1730,Pandas,Pandas,1
+2170,pandas,Pandas,1
+325,PAO,PAO,1
+222,parcel,Parcel,1
+2033,Performance,Performances Web,1
+136,Web performance,Performances Web,1
+137,Audit WebPerf,Performances Web,1
+878,Perl,Perl,1
+3299,Persona,Persona,1
+3321,personas,Persona,1
+3426,Personae,Persona,1
+1695,Pfsense,pfSense,1
+1896,pfSense,pfSense,1
+1910,pfsense,pfSense,1
+1339,PGI,PGI,1
+3416,Phantombuster,Phantombuster,1
+610,Phaser.JS,Phaser JS,1
+2264,Phoenix,Phoenix,1
+246,Retouche photo,Photographie,1
+396,Photographie,Photographie,1
+715,prisma,Photographie,1
+2163,Photographie automobile,Photographie,1
+2252,Montage photo,Photographie,1
+2420,Photographie événementielle,Photographie,1
+2892,Prise de vue photo et video,Photographie,1
+2897,Photographie numérique,Photographie,1
+2898,Photographie de portraits,Photographie,1
+2899,Photographie commerciale,Photographie,1
+2900,Photographie artistique,Photographie,1
+2901,Photographie de mode,Photographie,1
+3020,Packshot,Photographie,1
+3263,Portrait,Photographie,1
+3349,photomontage,Photographie,1
+62,PHP,PHP,1
+252,php,PHP,1
+437,Laravel 5,PHP,1
+630,CodeIgniter,PHP,1
+786,PHP 5,PHP,1
+802,Smarty,PHP,1
+806,eZ Platform,PHP,1
+807,eZ Publish,PHP,1
+808,Ez-Platform,PHP,1
+813,ezpublish,PHP,1
+834,PHP 7,PHP,1
+913,Zend Framework,PHP,1
+914,Doctrine,PHP,1
+989,PHP7,PHP,1
+1022,PHPUnit,PHP,1
+1024,Phinx,PHP,1
+1026,composer,PHP,1
+1175,PHP 5/7,PHP,1
+1196,Phalcon,PHP,1
+1230,Yii,PHP,1
+1348,Applications PHP,PHP,1
+1355,Frameworks PHP,PHP,1
+1364,php 7,PHP,1
+1396,Développeur PHP,PHP,1
+1402,doctrine,PHP,1
+1508,EZ Platform,PHP,1
+1623,curl,PHP,1
+1626,php curl,PHP,1
+1875,ReactPHP,PHP,1
+1876,PHP FPM,PHP,1
+2196,php5,PHP,1
+2284,PHP 7.4,PHP,1
+2329,PhpExcel,PHP,1
+2333,yii2,PHP,1
+2730,Php,PHP,1
+3597,php7,PHP,1
+3724,Fuelphp,PHP,1
+660,PhpStorm,PHP Storm,1
+1172,phpstorm,PHP Storm,1
+189,phpMyAdmin,PhpMyAdmin,1
+812,PhpMyAdmin,PhpMyAdmin,1
+1401,Pimcore,Pimcore,1
+650,Pixel Perfect,Pixel Perfect,1
+2719,Pixi.js,Pixi.js,1
+351,Pixijs,PixiJS,1
+384,pixi.js,PixiJS,1
+414,PixiJS,PixiJS,1
+937,pki,PKI,1
+2080,PKI,PKI,1
+803,PL/SQL,PL/SQL,1
+1498,Play framework,Play Framework,1
+474,POO,POO,1
+148,PostCSS,PostCSS,1
+251,POSTCSS,PostCSS,1
+238,PostgreSQL,PostgreSQL,1
+1151,postgresql,PostgreSQL,1
+1474,Postgres,PostgreSQL,1
+1620,bdd Postgres,PostgreSQL,1
+2109,Postman,Postman,1
+2733,postman,Postman,1
+2369,Powergrid,Powergrid,1
+2953,Presentations,Powerpoint/Prezi/Slide/Keynote,1
+907,PowerPoint,Powerpoint/Prezi/Slide/Keynote,1
+1436,prezi,Powerpoint/Prezi/Slide/Keynote,1
+2378,Microsoft PowerPoint,Powerpoint/Prezi/Slide/Keynote,1
+2917,Présentations Prezi,Powerpoint/Prezi/Slide/Keynote,1
+3102,google slide,Powerpoint/Prezi/Slide/Keynote,1
+3475,slide,Powerpoint/Prezi/Slide/Keynote,1
+3503,Keynote,Powerpoint/Prezi/Slide/Keynote,1
+3516,Google slide,Powerpoint/Prezi/Slide/Keynote,1
+3590,Power Point,Powerpoint/Prezi/Slide/Keynote,1
+3640,Google Slides,Powerpoint/Prezi/Slide/Keynote,1
+3645,Google Slide,Powerpoint/Prezi/Slide/Keynote,1
+840,prebid.js,Prebid.js,1
+94,Prestashop,Prestashop,1
+499,Intégrateur Prestashop,Prestashop,1
+502,Développeur Prestashop,Prestashop,1
+2271,Référencement Prestashop,Prestashop,1
+2667,migration prestashop,Prestashop,1
+2668,Intégration design prestashop,Prestashop,1
+1917,Prisma,Prisma,1
+167,Prismic,Prismic,1
+2686,Processing,Processing.js,1
+2684,Procreate,Procreate,1
+2832,procreate,Procreate,1
+2910,Production,Production,1
+3058,Co-conception,Production,1
+3535,co-conception,Production,1
+369,Réalisation vidéo,Production audiovisuelle,1
+653,interactive video,Production audiovisuelle,1
+1115,Reportage,Production audiovisuelle,1
+1216,Film d'entreprise,Production audiovisuelle,1
+1218,Étalonnage,Production audiovisuelle,1
+1219,Clips,Production audiovisuelle,1
+1220,Tournage,Production audiovisuelle,1
+1221,Captation,Production audiovisuelle,1
+1222,Audiovisuel,Production audiovisuelle,1
+1223,Cadreur,Production audiovisuelle,1
+1224,Post production,Production audiovisuelle,1
+2868,Production vidéo,Production Audiovisuelle,1
+2871,Production audiovisuelle,Production Audiovisuelle,1
+2894,Création de teaser,Production Audiovisuelle,1
+3035,video,Production Audiovisuelle,1
+3523,Production digitale,Production audiovisuelle,1
+950,Functional programming,Programmation fonctionnelle,1
+1148,functional programming,Programmation fonctionnelle,1
+904,Programmation orientée objet,Programmation Orientée Objet,1
+1156,oop,Programmation Orientée Objet,1
+1451,poo,Programmation Orientée Objet,1
+1466,Poo,Programmation Orientée Objet,1
+2127,Programmation orientée objet (POO),Programmation Orientée Objet,1
+2211,Object-Oriented Programming (OOP),Programmation Orientée Objet,1
+2237,OOP,Programmation Orientée Objet,1
+2352,programmation orientée objet,Programmation Orientée Objet,1
+2398,Programmation Orientee Objet,Programmation Orientée Objet,1
+2432,Programmation orientée objet (OOP),Programmation Orientée Objet,1
+3757,Doors,Programmation Orientée Objet,1
+313,PWA,Progressive web app,1
+566,progressive web app,Progressive web app,1
+994,Progressive Web Application,Progressive web app,1
+1397,Progressive Web App,Progressive web app,1
+1513,Progressive Web Apps,Progressive web app,1
+2532,pwa,Progressive web app,1
+3706,Progressive Web Application (PWA),Progressive web app,1
+1500,Prometheus,Prometheus,1
+3070,Protopie,ProtoPie,1
+3335,protopie,ProtoPie,1
+2439,Maquettage,Prototypage,1
+2687,maquettes,Prototypage,1
+2753,Maquette UI,Prototypage,1
+2811,Maquettes HD,Prototypage,1
+2844,wireframing,Prototypage,1
+2936,Prototypage,Prototypage,1
+3021,proto,Prototypage,1
+3082,Maquette web,Prototypage,1
+3209,Prototypage rapide,Prototypage,1
+3215,Mock up,Prototypage,1
+3223,prototypage,Prototypage,1
+3313,maquette,Prototypage,1
+3315,maquettage,Prototypage,1
+3352,Mockup,Prototypage,1
+3373,prototype interactif,Prototypage,1
+3393,prototype,Prototypage,1
+3394,maquette interactive,Prototypage,1
+3436,mockup,Prototypage,1
+3447,Proto,Prototypage,1
+3480,Fast prototyping,Prototypage,1
+3487,Noodl,Prototypage,1
+3498,prototyping,Prototypage,1
+3672,croquis,Prototypage,1
+169,Wireframing,Prototypage,1
+233,Prototype,Prototypage,1
+879,PUG,Pug,1
+2654,Pug,Pug,1
+1781,Pulumi,Pulumi,1
+793,Puppet,Puppet,1
+1837,puppet,Puppet,1
+882,Puppeteer,Puppeteer,1
+2309,puppeteer,Puppeteer,1
+2153,Pycharm,PyCharm,1
+1736,pyspark,PySpark,1
+48,Python,Python,1
+1705,Python (langage de programmation),Python,1
+1752,python,Python,1
+2212,Python (Programming Language),Python,1
+3764,py,Python,1
+2065,Pytorch,Pytorch,1
+206,Qualité web,QA Testing,1
+1135,qualité web,QA Testing,1
+2791,Maîtrise de la qualité en projet Web,QA Testing,1
+3341,vocabulaire qualité web,QA Testing,1
+3738,Maîtrise de la qualité web,QA Testing,1
+1817,QA,QA Testing,1
+2292,QA Testing,QA Testing,1
+1734,Qlik,Qlik,1
+955,Qt,Qt QML,1
+960,QML,Qt QML,1
+2066,QT,Qt QML,1
+1651,Quarkus,Quarkus,1
+3629,QuarkXPress,QuarkXPress,1
+1289,quasar,Quasar.js,1
+1570,Quasar Framework,Quasar.js,1
+2231,Quasar,Quasar.js,1
+2531,Quasar.js,Quasar.js,1
+1648,R,R,1
+1774,Langage R,R,1
+1775,Rstudio,R,1
+1080,RabbitMQ,RabbitMQ,1
+1906,Rancher,Rancher,1
+1372,Raspberry,Raspberry,1
+1972,Raspberry Pi,Raspberry,1
+2616,Reach Router,Reach Router,1
+2617,React Hooks,React Hooks,1
+96,React Router,React Router,1
+41,React.js,React.js,1
+45,React Native,React.js,1
+83,intégrateur reactjs,React.js,1
+620,Fullstack react,React.js,1
+657,react native,React.js,1
+1031,React hooks,React.js,1
+1147,react-native,React.js,1
+1394,react.js,React.js,1
+1729,React,React.js,1
+2463,Ui Kitten,React.js,1
+2592,react,React.js,1
+2619,Formik,React.js,1
+2651,React-Native,React.js,1
+3715,material ui,React.js,1
+1728,Reactor,Reactor,1
+3284,Réalité augmentée,Réalité Virtuelle/Augmentée,1
+415,Réalité virtuelle,Réalité Virtuelle/Augmentée,1
+421,Oculus rift,Réalité Virtuelle/Augmentée,1
+422,HTC Vive,Réalité Virtuelle/Augmentée,1
+423,webXR,Réalité Virtuelle/Augmentée,1
+424,webVR,Réalité Virtuelle/Augmentée,1
+425,Oculus Quest,Réalité Virtuelle/Augmentée,1
+3572,vuforia,Réalité Virtuelle/Augmentée,1
+3635,Réalité Augmentée,Réalité Virtuelle/Augmentée,1
+2226,Realm,Realm,1
+2395,Documentation,Rédaction Technique,1
+50,Redis,Redis,1
+1393,redis,Redis,1
+85,redux,Redux.js,1
+1285,Redux,Redux.js,1
+2307,Redux-form,Redux.js,1
+2564,Redux.js,Redux.js,1
+3397,Suivi des clients,Relation Client,1
+3755,Reqtify,Reqtify,1
+399,Réseaux sociaux,Réseaux Sociaux,1
+547,Digital Media,Réseaux Sociaux,1
+548,Social Media,Réseaux Sociaux,1
+664,Facebook,Réseaux Sociaux,1
+665,Instagram,Réseaux Sociaux,1
+1073,wechat,Réseaux Sociaux,1
+1074,facebook instant games,Réseaux Sociaux,1
+2057,LinkedIn,Réseaux Sociaux,1
+2158,Messenger,Réseaux Sociaux,1
+2744,Pinterest,Réseaux Sociaux,1
+3107,Posts réseaux sociaux,Réseaux Sociaux,1
+3115,socia,Réseaux Sociaux,1
+3285,Filtres Instagram,Réseaux Sociaux,1
+3620,story instagram,Réseaux Sociaux,1
+3646,création de Reels,Réseaux Sociaux,1
+3648,Tik tok Instagram Facebook snapchat,Réseaux Sociaux,1
+79,Intégration Responsive,Responsive Design,1
+90,Responsive design,Responsive Design,1
+194,responsive,Responsive Design,1
+530,Responsive,Responsive Design,1
+590,responsive design,Responsive Design,1
+670,full responsive,Responsive Design,1
+681,Responsive integration,Responsive Design,1
+682,Responsive Design,Responsive Design,1
+2529,responsive fluide,Responsive Design,1
+2850,reponsive design,Responsive Design,1
+203,intégration responsive,Responsive Integration,1
+531,Intégration Web Responsive Design,Responsive Integration,1
+86,REST,REST API,1
+560,rest,REST API,1
+917,API REST,REST API,1
+1229,REST API,REST API,1
+1614,Rest,REST API,1
+2494,Services Web RESTful,REST API,1
+2621,Services web RESTful,REST API,1
+2674,Retro-engineering,Retro-engineering,1
+949,RGPD,RGPD,1
+1784,Privacy,RGPD,1
+3700,Cookies RGPD,RGPD,1
+3747,Rhapsody,Rhapsody,1
+3063,Rhinoceros,Rhino3D,1
+3143,Rhino3D,Rhino3D,1
+3194,Rhinocéros 3D,Rhino3D,1
+3206,Rhinoceros 3D,Rhino3D,1
+3207,Rhino,Rhino3D,1
+3301,rhinoceros 3D,Rhino3D,1
+3488,rhinoceros 3d,Rhino3D,1
+3494,Rhino 3D,Rhino3D,1
+2056,Ebios RM,Risk Management,1
+2059,Risk Management,Risk Management,1
+2365,Analyse de risques,Risk Management,1
+1737,ROS,Robotique,1
+1739,Robotics,Robotique,1
+3751,Robotique,Robotique,1
+3752,Robotic Process Automation,Robotique,1
+2778,Routage,Routing/Switching,1
+1157,Rspec,Rspec,1
+2426,rspec,RSpec,1
+1996,RTSP,RTSP,1
+42,Ruby,Ruby,1
+2263,ruby,Ruby,1
+40,Ruby on Rails,Ruby on Rails,1
+459,Rust,Rust,1
+1546,Actix Web,Rust,1
+1440,Sage,Sage,1
+1441,Sage X3,Sage,1
+1442,sage 100,Sage,1
+2580,Sails.js,Sails.js,1
+1067,Salesforce,Salesforce,1
+1312,pardot,Salesforce,1
+1679,CPQ,Salesforce,1
+2238,Salesforce Commerce Cloud,Salesforce,1
+2239,ISML,Salesforce,1
+1850,Saltstack,SaltStack,1
+1900,Samba,Samba,1
+2670,Sanity,Sanity,1
+2343,SAP,SAP,1
+2412,hybris,SAP,1
+2430,SAP CRM,SAP,1
+2431,SAP développement,SAP,1
+1266,SAP Customer experience,SAP,1
+1267,Hybris,SAP,1
+1146,Scala,Scala,1
+791,Scikit-learn,Scikit-learn,1
+1731,sklearn,Scikit-learn,1
+2166,scikit-learn,Scikit-Learn,1
+2340,Scilab,Scilab,1
+885,Scrapping,Scraping,1
+1201,Web Scraping,Scraping,1
+1681,Scraping,Scraping,1
+1788,web scraping,Scraping,1
+1849,scraping,Scraping,1
+1851,scrapping,Scraping,1
+2134,Web scraping,Scraping,1
+2167,webscrapping,Scraping,1
+2203,Scrapy,Scraping,1
+2204,Data scraping,Scraping,1
+2348,Webscraping,Scraping,1
+836,AdTech,SEA/SEM,1
+1107,Consultant SEA,SEA/SEM,1
+1110,SEA,SEA/SEM,1
+190,Google AdWords,SEA/SEM,1
+835,Google AdSense,SEA/SEM,1
+837,One Adserver,SEA/SEM,1
+862,Google Ads,SEA/SEM,1
+1165,Génération de leads,SEA/SEM,1
+1300,facebook ads,SEA/SEM,1
+1301,Formation AdWords,SEA/SEM,1
+2566,Publicité au CPC,SEA/SEM,1
+2800,Publicité,SEA/SEM,1
+2924,Creative Ads,SEA/SEM,1
+2925,Ads,SEA/SEM,1
+3418,Facebook business,SEA/SEM,1
+3521,Online Advertising,SEA/SEM,1
+3582,Publicité en ligne,SEA/SEM,1
+3619,Social Ads,SEA/SEM,1
+3622,Publicité Instagram,SEA/SEM,1
+3649,Facebook Ads,SEA/SEM,1
+3650,Instagram Ads,SEA/SEM,1
+3651,Youtube Ads,SEA/SEM,1
+3652,Spotify Ads,SEA/SEM,1
+3781,Bing Ads,SEA/SEM,1
+1166,SEM,SEA/SEM,1
+598,selenium,Selenium,1
+1058,Selenium,Selenium,1
+2058,Sélenium,Selenium,1
+489,Selligent,Selligent,1
+2780,selligent,Selligent,1
+788,Semantic UI,Semantic-UI,1
+2460,Semantic-ui,Semantic-UI,1
+1098,Sentry,Sentry,1
+5,webperf,SEO,1
+106,SEO,SEO,1
+258,Audit SEO,SEO,1
+400,Netlinking SEO,SEO,1
+407,Keywords,SEO,1
+408,Mots-clés,SEO,1
+410,référencement naturel,SEO,1
+500,Rédaction SEO,SEO,1
+507,Référenceur Local,SEO,1
+513,Plan de Taggage,SEO,1
+523,SEO technique,SEO,1
+815,Optimisation des moteurs de recherche (SEO),SEO,1
+887,Conversion Rate Optimization,SEO,1
+896,Formation SEO,SEO,1
+1202,Crawling,SEO,1
+1340,Optimisation pour les moteurs de recherche (SEO),SEO,1
+1351,Optimisation de référencement,SEO,1
+1789,web crawling,SEO,1
+2124,référencement,SEO,1
+2511,Consultant SEO,SEO,1
+2536,Réferencement Google,SEO,1
+2593,Stratégie SEO,SEO,1
+2738,natural referencing,SEO,1
+2781,Optimisation SEO,SEO,1
+3093,optimisation conversion,SEO,1
+3258,Traffic Management,SEO,1
+3297,Backlinks,SEO,1
+3298,Référencement naturel,SEO,1
+2262,Sequelize,Sequelize,1
+1457,Server side rendering,Serveurs,1
+1594,Vultr,Serveurs,1
+188,serveur,Serveurs,1
+972,Serveur,Serveurs,1
+2623,Nx,Serveurs,1
+3730,Programmation serveur,Serveurs,1
+1720,SFML,SFML,1
+2216,Database Design,SGBD,1
+629,Base de données,SGBD,1
+764,Base de données relationnelle,SGBD,1
+765,database,SGBD,1
+1152,ateliers BDD,SGBD,1
+1288,PostGIS,SGBD,1
+1382,SGBD,SGBD,1
+1419,IBM Db2,SGBD,1
+1667,BDD,SGBD,1
+1712,InfluxDB,SGBD,1
+1773,bases de données,SGBD,1
+1844,Bases de données,SGBD,1
+2280,ClickHouse,SGBD,1
+2286,dbeaver,SGBD,1
+2583,DATABASE AND SQL,SGBD,1
+3477,Shapr3D,Shapr3D,1
+1691,Shell / Unix,Shell,1
+1708,Shell,Shell,1
+2013,shell,Shell,1
+2207,Script Shell,Shell,1
+66,Shopify,Shopify,1
+1485,shopify,Shopify,1
+2476,Développement Shopify,Shopify,1
+2477,Expert Shopify,Shopify,1
+3703,Sidekiq,Sidekiq,1
+1420,SIP,SIP,1
+154,Sketch,Sketch,1
+457,Maitrise du logiciel Sketch,Sketch,1
+2732,sketch,Sketch,1
+1023,slim-php,Slim Framework,1
+2306,Slim Framework,Slim Framework,1
+2547,Slim micro framework,Slim Framework,1
+3766,slim framework,Slim Framework,1
+1193,SOA,SOA,1
+1686,Service-Oriented Architecture,SOA,1
+1271,SOAP,SOAP,1
+1606,SoapUI,SOAP,1
+1636,soap,SOAP,1
+178,Websocket,Socket,1
+179,SocketIo,Socket,1
+846,socket.io,Socket,1
+1443,Socket.io,Socket,1
+1491,Socket,Socket,1
+1153,SOLID principles,SolidWorks,1
+2486,Principle SOLID,SolidWorks,1
+2506,SOLIDWORKS,SolidWorks,1
+3142,SolidWorks,SolidWorks,1
+3309,solidworks,SolidWorks,1
+1258,Sonar,Sonar,1
+730,Sonarqube,SonarQube,1
+1510,SonarQube (Code Quality),SonarQube,1
+1887,sonarQube,SonarQube,1
+1973,SonarQube,SonarQube,1
+1082,Audio numérique,Sound Design,1
+1090,Sound design,Sound Design,1
+3154,Audio,Sound Design,1
+3485,Sound Design,Sound Design,1
+1957,Spinnaker,Spinnaker,1
+568,Spip,Spip,1
+1890,Splunk,Splunk,1
+596,Spring,Spring Framework,1
+729,Spring boot,Spring Framework,1
+732,Spring Batch,Spring Framework,1
+736,Spring MVC,Spring Framework,1
+737,Spring Security,Spring Framework,1
+1154,spring-boot,Spring Framework,1
+1386,Framework Spring,Spring Framework,1
+1565,spring security,Spring Framework,1
+1580,spring-mvc,Spring Framework,1
+1690,spring mv,Spring Framework,1
+1888,Spring Data,Spring Framework,1
+1981,spring MV,Spring Framework,1
+2051,spring boot,Spring Framework,1
+2067,Boot,Spring Framework,1
+2122,Modèle MVC de Spring,Spring Framework,1
+2469,Springboot,Spring Framework,1
+2488,spring,Spring Framework,1
+109,SQL,SQL,1
+479,SQL Injection,SQL,1
+1621,bdd sql,SQL,1
+1828,SQLAlchemy,SQL,1
+2001,U-Sql,SQL,1
+2254,sql,SQL,1
+804,SQLite,SQLite,1
+1121,sqlite,SQLite,1
+1983,SqlLight,SQLite,1
+1319,Squarespace,Squarespace,1
+2357,ssh,SSH,1
+1072,SSL,SSL,1
+1204,SSO,SSO,1
+2502,Stimulus,Stimulus.js,1
+170,storybook,Storyboarding,1
+518,Storyboard,Storyboarding,1
+544,Storyboarding,Storyboarding,1
+852,Storybook,Storyboarding,1
+28,Stratégie d'entreprise,Stratégie d'entreprise,1
+1129,Supabase,Supabase,1
+386,Svelte,Svelte JS,1
+2787,SvelteJs,Svelte JS,1
+2069,Swagger,Swagger.io,1
+2188,swagger,Swagger.io,1
+53,Swift,Swift/SwiftUI,1
+1642,SwiftUI,Swift/SwiftUI,1
+1884,SwiftNIO,Swift/SwiftUI,1
+2227,swiftui,Swift/SwiftUI,1
+2321,Swift (Programming Language),Swift/SwiftUI,1
+2643,swift backend,Swift/SwiftUI,1
+1610,Swing,Swing,1
+78,intégrateur Symfony,Symfony,1
+102,Symfony,Symfony,1
+241,Symfony 2,Symfony,1
+316,Symfony 4,Symfony,1
+356,Symfony 5,Symfony,1
+360,Symfony 3 & 4,Symfony,1
+441,symfony 4,Symfony,1
+618,Php Symfony,Symfony,1
+619,Symfony 3,Symfony,1
+990,symfony,Symfony,1
+1282,Développeur Symfony,Symfony,1
+1509,Symfony Insight (Code Quality),Symfony,1
+1619,framework symfony,Symfony,1
+2201,Symfony 1.4,Symfony,1
+2374,symfony 5,Symfony,1
+2441,Framework Symfony,Symfony,1
+3726,Symfony5,Symfony,1
+3745,Sysml,SysML,1
+2327,Intégration PayPal,Systèmes de paiement,1
+2742,Paypal API,Systèmes de paiement,1
+333,Stripe,Systèmes de paiement,1
+434,Stripe Connect,Systèmes de paiement,1
+850,stripe,Systèmes de paiement,1
+1367,E-paiements,Systèmes de paiement,1
+1459,paiement,Systèmes de paiement,1
+2160,Stripe connect,Systèmes de paiement,1
+2161,Stripe billing,Systèmes de paiement,1
+2162,Stripe checkout,Systèmes de paiement,1
+2257,stripe connect,Systèmes de paiement,1
+2328,Alma (paiement en plusieurs fois),Systèmes de paiement,1
+1405,Tag Commander,Tag Commander,1
+82,Tailwindcss,TailwindCSS,1
+245,TailwindCSS,TailwindCSS,1
+292,tailwind,TailwindCSS,1
+335,Tailwind,TailwindCSS,1
+787,Tailwind CSS,TailwindCSS,1
+3741,tailwindCSS,TailwindCSS,1
+3788,Tailwinds,TailwindCSS,1
+2491,IP,TCP/IP,1
+809,Suite des protocoles Internet (TCP/IP),TCP/IP,1
+1120,MQTT,TCP/IP,1
+1908,TCP/IP,TCP/IP,1
+2081,VPN IPSec,TCP/IP,1
+2302,HttpConcept,TCP/IP,1
+1427,Telecoms,Télécom/VOIP,1
+1429,openSIPS,Télécom/VOIP,1
+1433,voip,Télécom/VOIP,1
+2490,Telecommunications,Télécom/VOIP,1
+2492,VoIP,Télécom/VOIP,1
+719,TensorFlow,TensorFlow,1
+1777,tensorflow,TensorFlow,1
+2032,Tensorflow,TensorFlow,1
+2070,Tensor,TensorFlow,1
+77,Terraform,Terraform,1
+3038,Testapic,Testapic,1
+302,TestCafé,TestCafé,1
+2362,TestFlight,TestFlight,1
+128,tests,Testing,1
+299,Tests End-to-End,Testing,1
+395,TDD,Testing,1
+443,Bug Bounty,Testing,1
+980,saucelabs,Testing,1
+1036,Snapshot testing,Testing,1
+1054,User Testing,Testing,1
+1059,Browserstack,Testing,1
+1061,Crossbrowsertesting,Testing,1
+1453,Quality center,Testing,1
+1476,Behat,Testing,1
+1607,Test unitaire,Testing,1
+1818,Automation Testing,Testing,1
+1831,Unit Test,Testing,1
+2034,Performance Testing,Testing,1
+2141,Unit Testing,Testing,1
+2142,UI Testing,Testing,1
+2396,E2E test,Testing,1
+2429,Test automatisé,Testing,1
+2468,TestUnitaire,Testing,1
+2470,Junit,Testing,1
+2516,Test Automatisés,Testing,1
+2794,Testing,Testing,1
+2965,usability testing,Testing,1
+3049,Protocole de test,Testing,1
+3314,user testing,Testing,1
+3346,Usability testing,Testing,1
+2174,Text mining,Text mining,1
+282,TFS,TFS,1
+345,three.js,Three.js,1
+2620,Three.js,Three.js,1
+1971,EBX,TIBCO EBX,1
+1796,Traefik,Traefik,1
+1170,Transact-SQL,Transact-SQL,1
+2002,Transact-SQL (T-SQL),Transact-SQL,1
+979,travis-ci,Travis,1
+1244,Travis,Travis,1
+1958,Trivi,Trivi,1
+3512,Tumult Hype,Tumult Hype,1
+93,Twig,Twig,1
+362,twig,Twig,1
+839,Twilio,Twilio,1
+2187,TypeORM,TypeORM,1
+10,Typescript,Typescript,1
+642,TypeScript,Typescript,1
+1415,typescript,Typescript,1
+331,Typographie,Typographie,1
+871,Webfonts,Typographie,1
+2891,Animation typographique,Typographie,1
+2919,Lettrage,Typographie,1
+2920,Lettering,Typographie,1
+2921,Calligraphie,Typographie,1
+3015,lettering,Typographie,1
+3080,typographie,Typographie,1
+3253,Typography,Typographie,1
+932,ucopia,UCOPIA,1
+357,UI / UX design,UI/UX,1
+363,UI/UX Design,UI/UX,1
+376,UI/UX,UI/UX,1
+589,ui/ux,UI/UX,1
+649,UX/UI,UI/UX,1
+669,Design UX/UI,UI/UX,1
+2736,UX / UI,UI/UX,1
+2822,UI/UX designer,UI/UX,1
+2823,ui/ux design,UI/UX,1
+2941,UI / UX Flow,UI/UX,1
+2947,User Centered Design (UCD),UI/UX,1
+2948,ux/ui,UI/UX,1
+2957,Ux/Ui,UI/UX,1
+2961,ux ui,UI/UX,1
+2964,user-centered design,UI/UX,1
+2985,ux/ui design,UI/UX,1
+3110,UI UX Designer,UI/UX,1
+3125,UX/UI Design,UI/UX,1
+3230,Ux Designer User Interface Design,UI/UX,1
+3234,Human-centered design,UI/UX,1
+3270,UI UX,UI/UX,1
+3422,Ui/UX,UI/UX,1
+3439,UX / UI Design,UI/UX,1
+3452,UI/UX design,UI/UX,1
+3457,ux/ui designer,UI/UX,1
+3459,Conception fonctionnelle centrée utilisateur,UI/UX,1
+3495,UI / UX,UI/UX,1
+3507,Human Centered Design,UI/UX,1
+3539,user centric,UI/UX,1
+3569,Ux/UI,UI/UX,1
+3594,UX /UI Design,UI/UX,1
+2496,Uikit,UIKit,1
+900,UML,UML,1
+1122,Unity,Unity,1
+2789,unity,Unity,1
+413,Unity3D,Unity3D,1
+435,Unity 3D,Unity3D,1
+1361,Unreal Engine 4,Unreal Engine,1
+1445,unreal engine,Unreal Engine,1
+1543,Unreal Engine,Unreal Engine,1
+100,User Experience Design,User Experience,1
+227,UX Sprints,User Experience,1
+378,UX Design,User Experience,1
+582,user ex,User Experience,1
+634,Expérience utilisateur,User Experience,1
+683,UX,User Experience,1
+755,UX Writing,User Experience,1
+856,User Experience,User Experience,1
+2550,Expérience utilisateur (UX),User Experience,1
+2671,ux designer,User Experience,1
+2726,Workflow,User Experience,1
+2812,Personas,User Experience,1
+2814,Parcours utilisateur,User Experience,1
+2838,parcours utilisateur,User Experience,1
+2888,ux design,User Experience,1
+2896,ux,User Experience,1
+2903,Design d’expérience utilisateur (UED),User Experience,1
+2929,user journey,User Experience,1
+2930,persona,User Experience,1
+2942,Customer Experience,User Experience,1
+2943,Interaction Design (IXD),User Experience,1
+2950,User Experience Design ✓,User Experience,1
+2981,Design d'expérience,User Experience,1
+2982,UX writing,User Experience,1
+2992,User interviews,User Experience,1
+2998,UX writting,User Experience,1
+3029,Interactions homme-machine,User Experience,1
+3039,Customer Journey,User Experience,1
+3045,Attrakdiff,User Experience,1
+3046,Méthodologies UX,User Experience,1
+3047,UX Strategy,User Experience,1
+3068,Lean UX,User Experience,1
+3088,audit ux,User Experience,1
+3112,UX Designer,User Experience,1
+3121,Parcours utilisateurs,User Experience,1
+3166,User Experience (UX),User Experience,1
+3178,"UX Design (Design Thinking, Human Centered Design, etc.)",User Experience,1
+3214,lean ux,User Experience,1
+3219,User flow,User Experience,1
+3227,Parcours des utilisateurs,User Experience,1
+3236,User Flow,User Experience,1
+3237,Wireflow,User Experience,1
+3238,usability,User Experience,1
+3268,user flow,User Experience,1
+3275,Analyse de l'usage,User Experience,1
+3276,Analyse du besoin,User Experience,1
+3288,Design d'expérience utilsiateur,User Experience,1
+3295,User Surveys,User Experience,1
+3325,parcours utilisateurs,User Experience,1
+3334,UiPath,User Experience,1
+3402,Expert UX,User Experience,1
+3424,Audit Ux,User Experience,1
+3448,User tes,User Experience,1
+3479,UX DESIGN,User Experience,1
+3525,UX conversationnel,User Experience,1
+3546,Dévelopement de concept,User Experience,1
+3547,UX design,User Experience,1
+3570,Stratégie UX,User Experience,1
+3664,scenario utilisateur,User Experience,1
+3680,Parcours client,User Experience,1
+3681,Conversational UX,User Experience,1
+101,User Interface Design,User Interface,1
+635,Design d’interface utilisateur,User Interface,1
+1048,UI Semantic,User Interface,1
+2656,UI Design,User Interface,1
+2754,Audit UX,User Interface,1
+2886,user interface design,User Interface,1
+2890,ui,User Interface,1
+2918,Design d'interface,User Interface,1
+2949,User Interface Design ✓,User Interface,1
+3022,SemantIc UI,User Interface,1
+3111,UI Designer,User Interface,1
+3132,ui designer,User Interface,1
+3133,ui design,User Interface,1
+3168,User Interface (UI),User Interface,1
+3177,"UI Design (Atomic Design, prototyping, Sketch, XD, Figma)",User Interface,1
+3287,Design d'interface utilisateur,User Interface,1
+3292,UI,User Interface,1
+3293,ui web design,User Interface,1
+3401,UI webdesign,User Interface,1
+3430,System Ui,User Interface,1
+3460,designer d'interfaces,User Interface,1
+3560,UI design,User Interface,1
+3772,Material UI,User Interface,1
+226,User Research,User Research,1
+2912,recherche utilisateur,User Research,1
+2989,User interview,User Research,1
+3037,Entretien utilisateur,User Research,1
+3042,Interview,User Research,1
+3050,Guide d'entretien,User Research,1
+3089,ux research,User Research,1
+3090,entretien utilisateur,User Research,1
+3306,user research,User Research,1
+3307,Recherche utilisateur,User Research,1
+3329,recherche utilisateurs,User Research,1
+3330,entretiens utilisateurs,User Research,1
+3378,UX Research,User Research,1
+3405,user researcher,User Research,1
+3562,Recherches utilisateur,User Research,1
+3568,UX research,User Research,1
+3670,interview utilisateurs,User Research,1
+3671,questionnaires utilisateur,User Research,1
+1173,Vagrant,Vagrant,1
+2,vanilla js,Vanilla JS,1
+2475,vanillajs,Vanilla JS,1
+1274,Varnish,Varnish,1
+1782,Vault,Vault,1
+1103,VBA,VBA,1
+1211,VBScript,VBA,1
+2111,Visual Basic pour Applications (VBA),VBA,1
+1856,Veeam,Veeam,1
+164,veeva,Veeva,1
+1956,Veracode,Veracode,1
+2326,Vercel,Vercel,1
+985,Verdaccio,Verdaccio,1
+2379,Vertica,Vertica,1
+1097,bedrock,Video Streaming,1
+1236,Vim,VIM,1
+2274,VIM,VIM,1
+797,KVM,Virtualisation,1
+922,Virtualisation,Virtualisation,1
+923,VMWARE,Virtualisation,1
+1694,Proxmox,Virtualisation,1
+1767,VirtualBox,Virtualisation,1
+1842,VMware,Virtualisation,1
+1871,VM,Virtualisation,1
+1873,Podman,Virtualisation,1
+1886,VmWare,Virtualisation,1
+1897,VMWare,Virtualisation,1
+2021,VMware ESX,Virtualisation,1
+2442,LXC,Virtualisation,1
+2444,LXD,Virtualisation,1
+1714,VTOM,Visual TOM,1
+805,Data visualisation,Visualisation,1
+3476,dataviz,Visualisation,1
+1977,VMware vSphere,VMware vSphere,1
+419,VR,VR,1
+15,Vue.js,Vue.js,1
+84,intégrateur Vuejs,Vue.js,1
+306,gridsome,Vue.js,1
+511,vuex,Vue.js,1
+573,vue.js,Vue.js,1
+622,vuejs,Vue.js,1
+773,Vue js,Vue.js,1
+954,VueJS,Vue.js,1
+956,QuasarJS,Vue.js,1
+1077,Vue,Vue.js,1
+1265,Vuex,Vue.js,1
+1418,vuetify,Vue.js,1
+1682,Vuejs,Vue.js,1
+2192,vue,Vue.js,1
+2232,VueX,Vue.js,1
+2324,Gridsome,Vue.js,1
+2535,Vue3,Vue.js,1
+2626,vue router,Vue.js,1
+2332,Vuetify,Vuetify,1
+280,WCF,WCF,1
+185,Web analytics,WebAnalytics,1
+3092,audit webanalytics,WebAnalytics,1
+3094,heatmaps,WebAnalytics,1
+3667,Audit de site web,WebAnalytics,1
+1547,WebAssembly,WebAssembly,1
+99,Webdesign,Webdesign,1
+377,UI Web Design,Webdesign,1
+538,Web Design,Webdesign,1
+579,webdesigner,Webdesign,1
+684,Responsive Web Design,Webdesign,1
+742,responsive web design,Webdesign,1
+1099,Web design,Webdesign,1
+1514,webdesign,Webdesign,1
+3028,Design web,Webdesign,1
+3464,web designer,Webdesign,1
+3616,Web Designer,Webdesign,1
+223,Webflow,Webflow,1
+574,webflow,Webflow,1
+2410,Weblfow,Webflow,1
+3631,Expert Webflow,Webflow,1
+3632,développeur Webflow,Webflow,1
+3785,WEBFLOW,Webflow,1
+347,WebGL,WebGL,1
+149,webpack,Webpack,1
+235,Webpack,Webpack,1
+455,WebPack,Webpack,1
+2337,Webpack Encore,Webpack,1
+845,WebRTC,WebRTC,1
+1138,WEBRTC,WebRTC,1
+1882,webRTC,WebRTC,1
+2276,WebStorm,WebStorm,1
+1799,JBoss Application Server,WildFly,1
+2016,jboss,WildFly,1
+2272,Jboss,WildFly,1
+811,Microsoft Windows,Windows,1
+969,windows,Windows,1
+1171,Windows,Windows,1
+2296,Windows 10,Windows,1
+2493,Windows applications,Windows,1
+288,Powershell,Windows PowerShell,1
+1869,powershell,Windows PowerShell,1
+1892,PowerShell,Windows PowerShell,1
+2005,Windows PowerShell,Windows PowerShell,1
+703,Windows Presentation Foundation,Windows Presentation Foundation,1
+2120,Développement WPF,Windows Presentation Foundation,1
+920,Windows Server,Windows Server,1
+1868,windows server,Windows Server,1
+1711,winston,Winstonjs,1
+1316,WIX,Wix,1
+2267,Création Wix,Wix,1
+2268,Maintenance Wix,Wix,1
+2270,Référencement WIX,Wix,1
+2513,Wix,Wix,1
+2824,wixsite,Wix,1
+3465,wix,Wix,1
+3466,corvid,Wix,1
+112,WooCommerce,WooCommerce,1
+874,woocommerce,WooCommerce,1
+1448,Wordpress Woocommerce,WooCommerce,1
+1520,Woocommerce,WooCommerce,1
+18,Wordpress,Wordpress,1
+25,Formation Wordpress,Wordpress,1
+39,elementor,Wordpress,1
+113,Plugin Wordpress,Wordpress,1
+207,Thèmes WordPress,Wordpress,1
+257,Advanced Custom Fields (ACF),Wordpress,1
+266,Divi,Wordpress,1
+290,site wordpress,Wordpress,1
+433,divi,Wordpress,1
+456,WP,Wordpress,1
+497,WordPress,Wordpress,1
+498,Développeur WordPress,Wordpress,1
+508,WordPress SEO,Wordpress,1
+510,buddypress,Wordpress,1
+541,Wordpress development,Wordpress,1
+675,DIVI,Wordpress,1
+677,Visual Composer,Wordpress,1
+741,Thème WordPress,Wordpress,1
+1041,développement back-end wordpress,Wordpress,1
+1042,Développement front-end wordpress,Wordpress,1
+1043,Maintenance site wordpress,Wordpress,1
+1083,gutenberg,Wordpress,1
+1182,Advanced features WP,Wordpress,1
+1225,Site wordpress,Wordpress,1
+1226,Développement wordpress,Wordpress,1
+1227,Maintenance WordPress,Wordpress,1
+1228,développeur wordpress,Wordpress,1
+1299,WP Bakery,Wordpress,1
+1302,Divi WordPress,Wordpress,1
+1356,Theme Wordpress,Wordpress,1
+1389,Expert Wordpress,Wordpress,1
+1458,Theming,Wordpress,1
+1486,plugin wordpress,Wordpress,1
+1518,CREATION DE THEME WORDPRESS,Wordpress,1
+1519,Thème sur mesure,Wordpress,1
+2250,wordpress,Wordpress,1
+2414,Spécialiste Wordpress,Wordpress,1
+2638,Thème personnalisé,Wordpress,1
+2761,mise à jour wordpress,Wordpress,1
+2767,Conception pour WordPress,Wordpress,1
+2849,Thème DIVI,Wordpress,1
+3212,semplice,Wordpress,1
+3319,Semplice - Wordpress Theme,Wordpress,1
+3589,Intégration wordpress,Wordpress,1
+3371,Wrike,Wrike,1
+3701,WYSIWYG,WYSIWYG,1
+1563,Xamarin,Xamarin,1
+713,Xaml,XAML,1
+2489,XAML,XAML,1
+1499,Xano,Xano,1
+1899,Xen,Xen,1
+2072,XLDeploy,XLDeploy,1
+279,XML,XML,1
+977,princexml,XML,1
+1603,XML Schema,XML,1
+2112,Xml,XML,1
+916,XMLRPC,XML,1
+478,XSS,XSS,1
+1965,Yaml,YAML,1
+104,yarn,Yarn,1
+2236,Yarn,Yarn,1
+2682,Yeoman,Yeoman,1
+1912,Zabbix,Zabbix,1
+1291,Zapier,Zapier,1
+2199,zapier,Zapier,1
+3786,Zappier,Zapier,1
+2251,Zbrush,Zbrush,1
+740,Zend 2,Zend,1
+799,Zend,Zend,1
+163,Zeplin,Zeplin,1
+939,zeplin,Zeplin,1
+2913,zepplin,Zeplin,1
+1698,ZeroMQ,ZeroMQ,1
+2421,ZFS,zfs,1
+1947,zigbee,Zigbee,1
+2557,Zoho CRM,Zoho CRM,1
+1034,Zsh,zsh,1
+2273,zsh,zsh,1
