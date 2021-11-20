@@ -1,6 +1,6 @@
 class ReviewsController < ApplicationController
 
-  skip_after_action :verify_authorized
+  # skip_after_action :verify_authorized
 
   def new
     @user = User.find(params[:user_id])
