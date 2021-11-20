@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # get 'freelancer_industries/freelancer_expertises'
   match "/404", to: "errors#not_found", via: :all
   match "/500", to: "errors#internal_server_error", via: :all
-  get '/*',    to: 'errors#not_found'
+  
  
 
 
@@ -16,6 +16,7 @@ Rails.application.routes.draw do
     get "confidentialite", to: 'pages#persospecs', as: 'persospecs'
     get "mentionslegales", to: 'pages#legalspecs', as: 'legalspecs'
     get "cgu", to: 'pages#cgu', as: 'cgu'
+    post "contact_form", to: 'pages#contact_form', as: 'contact'
     
 
     #get "gestiondescookies", to: 'pages#cookiesspecs', as: 'cookiesspecs'

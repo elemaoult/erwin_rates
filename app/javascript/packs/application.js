@@ -2,7 +2,6 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-
 require("particles.js")
 
 // External imports
@@ -11,6 +10,8 @@ import 'glightbox';
 
 import { initAos } from '../components/aos';
 import { greatListener } from '../components/filter_listener';
+import { search } from '../components/search';
+
 
 // import { Application } from "stimulus"
 // import ScrollTo from "stimulus-scroll-to"
@@ -19,17 +20,17 @@ import { greatListener } from '../components/filter_listener';
 // application.register("scroll-to", ScrollTo)
 
 import { initPureCounter } from '../components/pure_counter';
-import { initValidate } from '../components/validate';
+// import { initValidate } from '../components/validate';
 import { initWtf } from '../components/what_is_this';
 import { initAmCharts } from './amcharts';
 import { initSelect2 } from '../components/init_select2';
 
 document.addEventListener('turbolinks:load', () => {
   initSelect2();
-  initAos()
-  initPureCounter()
-  initValidate()
-  initWtf()
+  initAos();
+  initPureCounter();
+  // initValidate();
+  initWtf();
   const initializedChart = initAmCharts();
   greatListener(initializedChart);
 });
