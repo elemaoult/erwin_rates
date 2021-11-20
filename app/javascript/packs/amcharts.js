@@ -48,9 +48,9 @@ const initAmCharts = () => {
   categoryAxis.renderer.labels.template.rotation = 270;
   categoryAxis.tooltip.disabled = true;
   categoryAxis.renderer.minHeight = 110;
-
   let valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
   valueAxis.renderer.minWidth = 50;
+ 
 
   // Create series
   let series = chart.series.push(new am4charts.ColumnSeries());
@@ -65,6 +65,7 @@ const initAmCharts = () => {
   series.columns.template.column.cornerRadiusTopLeft = 10;
   series.columns.template.column.cornerRadiusTopRight = 10;
   series.columns.template.column.fillOpacity = 0.8;
+
 
   // on hover, make corner radiuses bigger
   let hoverState = series.columns.template.column.states.create("hover");
