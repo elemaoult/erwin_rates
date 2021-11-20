@@ -28,11 +28,21 @@ class PagesController < ApplicationController
     result = ActiveRecord::Base.connection.execute(query)
     @result = result.values.map{|res| {expertise: res[1], count: res[0]}}
 
-    puts "\n\n\n\n\n\n#{@result}\n\n\n\n\n\n"
     respond_to do |format|
       format.all {render json: {result: @result}}
     end
     
+  end
+
+  def contact_form
+    contact_infos = {
+      name: params[:contact][:name], 
+      email: params[:contact][:email],
+      subject: params[:contact][:subject],
+      message: params[:contact][:message]
+    }
+    ContactMailer.notify(contact_infos).deliver_now
+    redirect_to root_path
   end
 
 end
