@@ -51,7 +51,7 @@
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Technologies", options_for_select(Technology.pluck(:name).uniq.compact.sort), include_blank: true,
+              <%= select_tag("Technologies", options_for_select(Technology.where(inserted_in_analysis: true).pluck(:group_name).uniq.compact.sort), include_blank: true,
               class: "Technologies form-control ", multiple: "multiple") %>
             </div>
 
@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Gender", options_for_select(["Femme", "Homme", ""]), include_blank: true,
+              <%= select_tag("Gender", options_for_select(["Femme", "Homme"]), include_blank: true,
               class: "Gender form-control ") %>
             </div>
 
@@ -71,12 +71,39 @@
             <%# </div> %>
 
             <div class="col-lg-12 col-6 text-center my-3">
-              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel", ""]), include_blank: true,
+              <%= select_tag("Remote", options_for_select(["Distanciel", "Présentiel"]), include_blank: true,
                 class: 'Remote form-control') %>
             </div>
 
           <% end %>
+        </div>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <a href="#"><span>👋</span></a>
+      <div class="form">
+        <form>
+          <div class="form-group">
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Envoyez-nous vos retours sur des bugs, idées, suggestions!"
+              autofocus
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-sm btn-block">
+            Envoyer
+          </button>
+        </form>
+      </div>
+      <div class="thanks">
+        Message bien reçu! Merci 💖 !
       </div>
     </div>
   </div>
 </section>
+          
+        

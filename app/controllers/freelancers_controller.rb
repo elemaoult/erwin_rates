@@ -52,7 +52,7 @@ class FreelancersController < ApplicationController
 
   def freelancer_expertises_data  
     
-    @big_joined_table = Freelancer.joins(:technologies, :expertises).where(experience: @filter_experience, gender_guess: @filter_gender, remote: @filter_remote, included_in_analysis: true, technologies:{name: @filter_technology }, expertises: {name: @filter_expertise }).distinct
+    @big_joined_table = Freelancer.joins(:technologies, :expertises).where(experience: @filter_experience, gender_guess: @filter_gender, remote: @filter_remote, included_in_analysis: true, technologies:{group_name: @filter_technology }, expertises: {name: @filter_expertise }).distinct
 
     # Creating graph
 
