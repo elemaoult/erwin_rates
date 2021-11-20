@@ -4,9 +4,12 @@
   <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
   <%# <div id="particles"></div> %>
     <%= image_tag "erwin_logo.png" %> 
+    <br>
     <h2>Combien facturer son client ? Combien payer un freelance ?</h2>
-    <h2>Erwin Rates est <strong>le</strong> site pour trouver le juste prix des prestations dans la tech</h2>
+    <h2>Erwin Rates est le site pour trouver le juste prix des prestations dans la tech</h2>
     <a><%= link_to "Lancer la recherche", search_path, class: "btn-get-started" %></a>
+    <br>
+    <br>
     <a href="#facts" class="arrow-container" data-controller="scroll-to" data-scroll-to-behavior-value="smooth">
       <div class="arrow"></div>
       <div class="arrow"></div>
@@ -21,11 +24,12 @@
   <div class="container" data-aos="fade-up">
     <div class="section-header">
       <h3 class="section-title">Les freelances en France</h3>
-      <p class="section-description">Le marché explose :</p>
+      <br>
+      <p class="section-description">Le marché du freelancing explose:</p>
     </div>
 
     <div class="row counters">
-      <div class="col-lg-4 col-12 text-center">
+      <div class="col-lg-6 col-12 text-center">
         <span data-purecounter-start="0" data-purecounter-end="49000" data-purecounter-duration="1" class="purecounter"></span>
         <p>Nombre de freelances <br>dans la tech en France</p>
       </div>
@@ -33,18 +37,18 @@
         <span data-purecounter-start="0" data-purecounter-end="7000000" data-purecounter-duration="1" class="purecounter"></span>
         <p>Nombre de missions démarrées <br>par an</p>
       </div> %>
-      <div class="col-lg-4 col-12 text-center">
+      <div class="col-lg-6 col-12 text-center">
         <span data-purecounter-start="0" data-purecounter-end="46" data-purecounter-duration="1" class="purecounter"></span>
         <p>Part des entreprises  de moins de 2 salariés <br>dans la tech en France (%)</p>
       </div>
     </div>
 
-    <p>Source: Syntec Numérique</p>
+    <%# <p>Source: Syntec Numérique</p> %>
 
     
     <div class="section-header">
       <br>
-      <p class="section-description">Et pourtant, personne ne parvient à faire ce qui est la base d’un marché : en comprendre les prix.</p>
+      <p class="section-description">Et pourtant, personne ne parvient à faire ce qui est la base d’un marché:<br> en comprendre les prix.</p>
     </div>
 
     <%# <div class="row counters">
@@ -124,7 +128,7 @@
       <div class="col-lg-4 col-md-6" data-aos="zoom-in">
         <div class="box">
           <div class="icon"><a href=""><i class="far fa-chart-bar"></i></a></div>
-          <h4 class="title"><a href="">Erwin Search</a></h4>
+          <h4 class="title"><a><%= link_to "Erwin Search", search_path %></a></h4>
           <p class="description"><br>Cherchez le prix d'un freelance en fonction de vos critères de recherche</p>
         </div>
       </div>
@@ -133,14 +137,14 @@
         <div class="box">
           <div class="icon"><a href=""><i class="fas fa-th-list"></i></i></a></div>
           <h4 class="title"><a href="">Erwin Grid</a></h4>
-          <p class="description">Bientôt disponible<br>Département achats ou RH? Téléchargez vos grilles tarifaires (globales ou filtrées)</p>
+          <p class="description"><i>(Bientôt disponible)</i><br>Département achats ou RH? Téléchargez vos grilles tarifaires (globales ou filtrées)</p>
         </div>
       </div>
       <div class="col-lg-4 col-md-6" data-aos="zoom-in">
         <div class="box">
           <div class="icon"><a href=""><i class="fas fa-binoculars"></i></a></div>
           <h4 class="title"><a href="">Erwin Earth</a></h4>
-          <p class="description">Bientôt disponible<br>Freelance ? Notre outil d'observation global vous aide à choisir vos prochaines technos</p>
+          <p class="description"><i>(Bientôt disponible)</i><br>Freelance? Notre outil d'observation global vous aide à choisir vos prochaines technos</p>
         </div>
       </div>
     </div>
@@ -153,6 +157,7 @@
   <div class="container">
     <div class="row" data-aos="zoom-in">
       <div class="col-lg-9 text-center text-lg-start">
+      <br>
         <h3 class="cta-title">Essayez Erwin Search !</h3>
         <%# <p class="cta-text">Enfin, un moyen de prendre des décisions data-driven pour vos missions freelances.<br>PS: c'est gratuit 😉</p> %>
       </div>
@@ -259,10 +264,10 @@
 
             <div class="social-links">
               <a href="https://github.com/Syrryllo/erwin_rates" class="github"><i class="fab fa-github"></i></a>
-              <%# <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> %>
               <a href="https://www.linkedin.com/company/erwin-rates/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+              <%# <%# <a href="#" class="instagram"><i class="fab fa-instagram"></i></a> %>
+              <a href="https://acqer.fr/" class="acqer"><i class="fas fa-house-user"></i></a>
+              <a href="https://www.beopenit.com/" class="beopenit"><i class="fas fa-server"></i></a>
             </div>
 
           </div>

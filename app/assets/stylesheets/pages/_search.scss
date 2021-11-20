@@ -68,4 +68,16 @@
   text-align: center;
   font-family: "Poppins", sans-serif !important;
   color: rgba(246, 248, 250, 0.3);
+
+// Un-thought:
+.select2-selection__rendered {
+  line-height: 31px !important;
+}
+
+.select2-container .select2-selection--single {
+  height: 35px !important;
+}
+
+.select2-selection__arrow {
+  height: 34px !important;
 }
