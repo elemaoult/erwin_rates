@@ -47,12 +47,12 @@
 
             <div class="col-lg-12 col-6 text-center my-3">
               <%= select_tag("Expertises", options_for_select(Expertise.pluck(:name).uniq.compact.sort), include_blank: true,
-              class: "Expertises form-control", multiple: "multiple") %>
+              class: "Expertises form-control") %>
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">
               <%= select_tag("Technologies", options_for_select(Technology.where(inserted_in_analysis: true).pluck(:group_name).uniq.compact.sort), include_blank: true,
-              class: "Technologies form-control ", multiple: "multiple") %>
+              class: "Technologies form-control ") %>
             </div>
 
             <div class="col-lg-12 col-6 text-center my-3">

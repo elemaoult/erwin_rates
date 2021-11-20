@@ -46,13 +46,24 @@ class FreelancersController < ApplicationController
     @filter_technology = params["Technologies"].blank? ? @all_technologies : [params["Technologies"]]
     @filter_experience = params["Seniority"].blank? ? @all_experiences : [params["Seniority"]]
     @filter_gender = params["Gender"].blank? ? @all_genders : [params["Gender"]]
-    @filter_remote = params["Remote"].blank? ? @all_remotes : ( [params["Remote"]] == ["Présentiel"] ? false : true )
+    @filter_remote = params["Remote"].blank? ? @all_remotes : ( [params["Remote"]] != ["Présentiel"] )
 
   end
 
   def freelancer_expertises_data  
     
-    @big_joined_table = Freelancer.joins(:technologies, :expertises).where(experience: @filter_experience, gender_guess: @filter_gender, remote: @filter_remote, included_in_analysis: true, technologies:{group_name: @filter_technology }, expertises: {name: @filter_expertise }).distinct
+    @big_joined_table = Freelancer.joins(:technologies, :expertises).where(
+      experience: @filter_experience, 
+      gender_guess: @filter_gender, 
+      remote: @filter_remote, 
+      included_in_analysis: true, 
+      technologies: {
+        group_name: @filter_technology
+      }, 
+      expertises: {
+        name: @filter_expertise 
+      }
+    ).distinct
 
     # Creating graph
 
